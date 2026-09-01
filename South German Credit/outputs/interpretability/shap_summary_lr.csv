@@ -1,0 +1,21 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+laufkont,Checking account status,0.6070077191255939,-0.05017777555360364,-1.0,negative,800,200,log-odds (linear model raw output),1
+moral,Credit history,0.3606158415637309,-0.030492883747418372,-1.0,negative,800,200,log-odds (linear model raw output),2
+sparkont,Savings,0.2903722365378053,-0.0106052679524399,-1.0,negative,800,200,log-odds (linear model raw output),3
+laufzeit,Credit duration (months),0.28049713022003536,-0.017740268509773786,1.0,positive,800,200,log-odds (linear model raw output),4
+verw,Purpose,0.18969402289155599,0.026345823884635626,,category-dependent,800,200,log-odds (linear model raw output),5
+rate,Instalment rate (% of income),0.16066862373920873,0.012944940927969375,0.9999999999999999,positive,800,200,log-odds (linear model raw output),6
+beszeit,Employment duration,0.14841232498567433,-0.00839557468866051,-1.0,negative,800,200,log-odds (linear model raw output),7
+verm,Most valuable property,0.1478936928545379,0.0001970339633020757,1.0,positive,800,200,log-odds (linear model raw output),8
+famges,Personal status and sex,0.14701788223493545,-0.005086824558658829,,category-dependent,800,200,log-odds (linear model raw output),9
+bishkred,Number of credits at this bank,0.11408521115845044,0.004908256794284702,1.0,positive,800,200,log-odds (linear model raw output),10
+telef,Telephone registered,0.10018448496459065,-0.013091219549000443,-1.0,negative,800,200,log-odds (linear model raw output),11
+hoehe,Credit amount (DM),0.07462334445416038,-0.0051355116112372515,1.0,positive,800,200,log-odds (linear model raw output),12
+wohn,Housing,0.06471099695484883,-0.007187386969664185,,category-dependent,800,200,log-odds (linear model raw output),13
+beruf,Job quality,0.062093374121064804,0.006954975481129951,1.0,positive,800,200,log-odds (linear model raw output),14
+weitkred,Other instalment plans,0.05475935237073227,0.005215009981591777,,category-dependent,800,200,log-odds (linear model raw output),15
+buerge,Other debtors or guarantor,0.027438277273034953,0.006744702517971998,,category-dependent,800,200,log-odds (linear model raw output),16
+alter,Age (years),0.022855088993885487,-0.005617244510745399,-1.0,negative,800,200,log-odds (linear model raw output),17
+wohnzeit,Time at present residence,0.019268201515702018,0.0033884848215502074,-1.0,negative,800,200,log-odds (linear model raw output),18
+gastarb,Foreign worker,0.01826076708378288,0.0003017311150658081,-1.0,negative,800,200,log-odds (linear model raw output),19
+pers,Three or more dependants,0.000943601833445951,-0.00016009134805629376,0.9999999999999998,positive,800,200,log-odds (linear model raw output),20

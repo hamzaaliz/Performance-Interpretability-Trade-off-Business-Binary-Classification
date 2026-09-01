@@ -1,0 +1,12 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+status,Account inactive,0.13036252533048395,-0.0030004755220562236,0.7674418138964645,positive,2000,200,raw class-1 probability output,1
+complains,Complaint registered,0.06386374521493912,0.01692798091650009,0.4671931865892662,positive,2000,200,raw class-1 probability output,2
+distinct_called_numbers,Distinct called numbers,0.04378829124759884,-0.0003657298499718294,0.40445237347016544,positive,2000,200,raw class-1 probability output,3
+subscription_length,Subscription length (months),0.03128971461270005,0.0073719613840803515,0.512760059595618,positive,2000,200,raw class-1 probability output,4
+seconds_of_use,Seconds of use,0.017592293306589128,-0.002354944816827774,-0.7316308605331403,negative,2000,200,raw class-1 probability output,5
+age_group,Age band,0.0,0.0,,category-dependent,2000,200,raw class-1 probability output,6
+call_failure,Call failures,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,7
+charge_amount,Charge amount band,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,8
+frequency_of_sms,Number of text messages,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,9
+frequency_of_use,Number of calls,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,10
+tariff_plan,Contractual plan,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,11

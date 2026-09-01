@@ -1,0 +1,15 @@
+feature,display_name,importance,rank,aggregation
+encoded-term-only,Complaint registered,3.8455042993258366,1,No variable-level native aggregate
+encoded-term-only,Age band = Band 1,2.5996677112391633,2,No variable-level native aggregate
+encoded-term-only,Age band = Band 5,2.473910132936255,3,No variable-level native aggregate
+encoded-term-only,Number of calls,1.6923327290301056,4,No variable-level native aggregate
+encoded-term-only,Number of text messages,1.5893827874250064,5,No variable-level native aggregate
+encoded-term-only,Account inactive,1.0078092506148961,6,No variable-level native aggregate
+encoded-term-only,Call failures,0.7683231499408465,7,No variable-level native aggregate
+encoded-term-only,Contractual plan,0.7635178105143604,8,No variable-level native aggregate
+encoded-term-only,Charge amount band,0.32288963156788403,9,No variable-level native aggregate
+encoded-term-only,Distinct called numbers,0.2196903264806926,10,No variable-level native aggregate
+encoded-term-only,Subscription length (months),0.2030130564055707,11,No variable-level native aggregate
+encoded-term-only,Mean call duration (seconds),0.03620864192035175,12,No variable-level native aggregate
+encoded-term-only,Age band = Band 2,0.034780119081593494,13,No variable-level native aggregate
+encoded-term-only,Age band = Band 4,0.01718085655908671,14,No variable-level native aggregate

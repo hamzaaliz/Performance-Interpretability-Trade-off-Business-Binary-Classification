@@ -1,0 +1,12 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+frequency_of_use,Number of calls,1.4655484340002283,-0.05567964894115174,-0.8203566692322392,negative,2000,200,raw margin (log-odds),1
+status,Account inactive,1.422885154774727,-0.033635472473094376,0.7519895681420419,positive,2000,200,raw margin (log-odds),2
+call_failure,Call failures,1.3239805824175164,0.21663985589712248,0.9656793786801728,positive,2000,200,raw margin (log-odds),3
+subscription_length,Subscription length (months),0.9030953799626873,0.1202585218254948,-0.23732916149511996,negative,2000,200,raw margin (log-odds),4
+seconds_of_use,Seconds of use,0.8227697813640443,0.007528238676112881,-0.6483807100135919,negative,2000,200,raw margin (log-odds),5
+complains,Complaint registered,0.665739705065587,0.107419372062545,0.46312133127525984,positive,2000,200,raw margin (log-odds),6
+frequency_of_sms,Number of text messages,0.6657045768095627,-0.039643396098032295,-0.64312627981385,negative,2000,200,raw margin (log-odds),7
+age_group,Age band,0.5911511440927837,-0.021348993362105648,,category-dependent,2000,200,raw margin (log-odds),8
+distinct_called_numbers,Distinct called numbers,0.4922016687179482,-0.04863144891248379,0.5326537803454703,positive,2000,200,raw margin (log-odds),9
+charge_amount,Charge amount band,0.3431873135025932,-0.03518054651195925,-0.8781756622493821,negative,2000,200,raw margin (log-odds),10
+tariff_plan,Contractual plan,0.0028319900988019067,0.0002528927110391669,0.3736524965666394,positive,2000,200,raw margin (log-odds),11

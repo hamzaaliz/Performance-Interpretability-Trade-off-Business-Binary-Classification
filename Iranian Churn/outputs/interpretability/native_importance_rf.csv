@@ -1,0 +1,12 @@
+feature,importance,display_name,rank
+complains,0.22158805062209802,Complaint registered,1
+status,0.15099133634880932,Account inactive,2
+seconds_of_use,0.1355589836011789,Seconds of use,3
+frequency_of_use,0.11832436751279737,Number of calls,4
+subscription_length,0.11030092762147156,Subscription length (months),5
+distinct_called_numbers,0.0827355272220472,Distinct called numbers,6
+call_failure,0.0630152870477443,Call failures,7
+frequency_of_sms,0.056008516728399106,Number of text messages,8
+age_group,0.03990281377662264,Age band,9
+charge_amount,0.019721023040853634,Charge amount band,10
+tariff_plan,0.0018531664779780218,Contractual plan,11

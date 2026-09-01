@@ -1,0 +1,24 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+repayment_status_september,"Repayment status, September",0.06824244311259586,-0.008407523438622742,0.2665384945587314,positive,2000,200,raw class-1 probability output,1
+credit_limit,Credit limit (NT$),0.024731832560294074,-0.004056877107674339,-0.9202077029340741,negative,2000,200,raw class-1 probability output,2
+repayment_status_august,"Repayment status, August",0.02097882488192512,0.006771497076548577,0.6260599997255389,positive,2000,200,raw class-1 probability output,3
+bill_amount_september,"Bill amount, September (NT$)",0.012616001806465296,-0.00013267037366652544,-0.23325983812507944,negative,2000,200,raw class-1 probability output,4
+repayment_status_july,"Repayment status, July",0.012361050352920013,0.0016269970334332386,0.8954420701073096,positive,2000,200,raw class-1 probability output,5
+payment_amount_july,"Payment made, July (NT$)",0.011409330549612686,-0.00039784390494021954,-0.7926627596686846,negative,2000,200,raw class-1 probability output,6
+repayment_status_june,"Repayment status, June",0.011264785731494628,0.00028495912063911637,0.7700295833093621,positive,2000,200,raw class-1 probability output,7
+payment_amount_august,"Payment made, August (NT$)",0.0102323199351104,-0.00035292985622458844,-0.9070000579646963,negative,2000,200,raw class-1 probability output,8
+payment_amount_september,"Payment made, September (NT$)",0.00943040030992237,-0.0006850527585534029,-0.9031002372012408,negative,2000,200,raw class-1 probability output,9
+repayment_status_may,"Repayment status, May",0.009042134718117078,-0.0007593326544046044,0.5535648865311613,positive,2000,200,raw class-1 probability output,10
+payment_amount_april,"Payment made, April (NT$)",0.006461909562219131,-5.393343068245285e-05,-0.8516282517420192,negative,2000,200,raw class-1 probability output,11
+repayment_status_april,"Repayment status, April",0.006301965663359672,-0.0003359518362935636,0.21376739539885248,positive,2000,200,raw class-1 probability output,12
+payment_amount_may,"Payment made, May (NT$)",0.00624735903046154,-0.0003841129306412361,-0.8253885674240323,negative,2000,200,raw class-1 probability output,13
+payment_amount_june,"Payment made, June (NT$)",0.005196937423318899,0.0004076899904940337,-0.7103875239747147,negative,2000,200,raw class-1 probability output,14
+bill_amount_august,"Bill amount, August (NT$)",0.004721559785921205,0.00023709596759752515,0.16522485687469274,positive,2000,200,raw class-1 probability output,15
+bill_amount_april,"Bill amount, April (NT$)",0.0046162180348291205,0.00016633159250516803,0.7452373406242572,positive,2000,200,raw class-1 probability output,16
+bill_amount_june,"Bill amount, June (NT$)",0.004154265284434775,0.0001934262190499295,0.6495677038591126,positive,2000,200,raw class-1 probability output,17
+bill_amount_july,"Bill amount, July (NT$)",0.003988969612738821,9.03466937639615e-05,0.655021119234505,positive,2000,200,raw class-1 probability output,18
+age,Age (years),0.003986195878591595,-0.0002503931577296633,0.5650604080049738,positive,2000,200,raw class-1 probability output,19
+bill_amount_may,"Bill amount, May (NT$)",0.003293916303294056,0.0001501474095550251,-0.14353538622640835,negative,2000,200,raw class-1 probability output,20
+marital_status,Marital status,0.002219988680637093,-0.00011143765405130496,,category-dependent,2000,200,raw class-1 probability output,21
+sex,Sex,0.001646479088665954,-0.00014490227146871288,-0.8062161299621725,negative,2000,200,raw class-1 probability output,22
+education_level,Education level,0.001603299778738001,0.00014212368999577357,,category-dependent,2000,200,raw class-1 probability output,23

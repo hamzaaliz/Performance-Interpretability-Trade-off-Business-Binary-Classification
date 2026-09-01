@@ -1,0 +1,39 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+ordinal__laufkont,Checking account status,laufkont,0.13465861164568926,-0.007993728052126236,1
+ordinal__sparkont,Savings,sparkont,0.04460023854221224,0.0025968692511785818,2
+quant__laufzeit,Credit duration (months),laufzeit,0.037163448774069484,-0.00489341485034674,3
+ordinal__beszeit,Employment duration,beszeit,0.025637502124719273,0.0008431517027784161,4
+nominal__verw_1,Purpose = car (new),verw,0.02430169904157517,0.0049483582070097044,5
+quant__hoehe,Credit amount (DM),hoehe,0.0221042582838796,-0.0006807087162509565,6
+ordinal__verm,Most valuable property,verm,0.02150525915976618,-0.0002203566800802946,7
+ordinal__moral,Credit history,moral,0.0107132131165126,-0.0002708424873184435,8
+ordinal__rate,Instalment rate (% of income),rate,0.009086497874150478,0.0017295446618809424,9
+quant__alter,Age (years),alter,0.00831503067180743,-0.001284657742583668,10
+nominal__buerge_2,Other debtors or guarantor = co-applicant,buerge,0.0,0.0,11
+nominal__famges_2,Personal status and sex = female: non-single or male: single,famges,0.0,0.0,12
+nominal__famges_3,Personal status and sex = male: married/widowed,famges,0.0,0.0,13
+nominal__famges_4,Personal status and sex = female: single,famges,0.0,0.0,14
+nominal__buerge_1,Other debtors or guarantor = none,buerge,0.0,0.0,15
+nominal__weitkred_3,Other instalment plans = none,weitkred,0.0,0.0,16
+nominal__buerge_3,Other debtors or guarantor = guarantor,buerge,0.0,0.0,17
+nominal__weitkred_1,Other instalment plans = bank,weitkred,0.0,0.0,18
+nominal__weitkred_2,Other instalment plans = stores,weitkred,0.0,0.0,19
+nominal__verw_10,Purpose = business,verw,0.0,0.0,20
+nominal__wohn_1,Housing = for free,wohn,0.0,0.0,21
+nominal__wohn_2,Housing = rent,wohn,0.0,0.0,22
+nominal__famges_1,Personal status and sex = male: divorced/separated,famges,0.0,0.0,23
+nominal__verw_4,Purpose = radio/television,verw,0.0,0.0,24
+nominal__verw_9,Purpose = retraining,verw,0.0,0.0,25
+nominal__verw_8,Purpose = vacation,verw,0.0,0.0,26
+nominal__verw_6,Purpose = repairs,verw,0.0,0.0,27
+nominal__verw_5,Purpose = domestic appliances,verw,0.0,0.0,28
+nominal__verw_3,Purpose = furniture/equipment,verw,0.0,0.0,29
+nominal__verw_2,Purpose = car (used),verw,0.0,0.0,30
+nominal__verw_0,Purpose = others,verw,0.0,0.0,31
+binary__gastarb,Foreign worker,gastarb,0.0,0.0,32
+binary__telef,Telephone registered,telef,0.0,0.0,33
+binary__pers,Three or more dependants,pers,0.0,0.0,34
+ordinal__beruf,Job quality,beruf,0.0,0.0,35
+ordinal__bishkred,Number of credits at this bank,bishkred,0.0,0.0,36
+ordinal__wohnzeit,Time at present residence,wohnzeit,0.0,0.0,37
+nominal__wohn_3,Housing = own,wohn,0.0,0.0,38

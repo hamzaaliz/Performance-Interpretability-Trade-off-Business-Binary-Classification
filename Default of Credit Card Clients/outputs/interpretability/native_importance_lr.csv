@@ -1,0 +1,29 @@
+feature,display_name,importance,rank,aggregation
+encoded-term-only,"Repayment status, September = two-month delay",2.0320049669304336,1,No variable-level native aggregate
+encoded-term-only,"Repayment status, September = delay of three months or more",1.6489297156042653,2,No variable-level native aggregate
+encoded-term-only,Education level = other or undocumented,1.1738955669732167,3,No variable-level native aggregate
+encoded-term-only,"Repayment status, April = delay of three months or more",0.6776357065582611,4,No variable-level native aggregate
+encoded-term-only,"Repayment status, September = one-month delay",0.5432876705802105,5,No variable-level native aggregate
+encoded-term-only,Credit limit (NT$),0.3831944685006713,6,No variable-level native aggregate
+encoded-term-only,"Repayment status, July = delay of one or two months",0.3668370956796258,7,No variable-level native aggregate
+encoded-term-only,"Repayment status, April = delay of one or two months",0.3513406940265876,8,No variable-level native aggregate
+encoded-term-only,"Repayment status, May = delay of three months or more",0.27191775874048385,9,No variable-level native aggregate
+encoded-term-only,"Repayment status, May = delay of one or two months",0.27136877330499964,10,No variable-level native aggregate
+encoded-term-only,"Repayment status, June = delay of one or two months",0.23349013866512014,11,No variable-level native aggregate
+encoded-term-only,"Repayment status, June = delay of three months or more",0.17320242444618164,12,No variable-level native aggregate
+encoded-term-only,"Repayment status, August = delay of one or two months",0.1559125527385763,13,No variable-level native aggregate
+encoded-term-only,Sex,0.14311675852940392,14,No variable-level native aggregate
+encoded-term-only,Marital status = married,0.1352838374398372,15,No variable-level native aggregate
+encoded-term-only,Marital status = other or undocumented,0.13160238324630377,16,No variable-level native aggregate
+encoded-term-only,"Bill amount, September (NT$)",0.11855650128584866,17,No variable-level native aggregate
+encoded-term-only,Education level = high school,0.09983972747573544,18,No variable-level native aggregate
+encoded-term-only,"Payment made, July (NT$)",0.07317869278082789,19,No variable-level native aggregate
+encoded-term-only,"Payment made, September (NT$)",0.06826409618662663,20,No variable-level native aggregate
+encoded-term-only,Age (years),0.06197795193078458,21,No variable-level native aggregate
+encoded-term-only,"Payment made, June (NT$)",0.05670381341741755,22,No variable-level native aggregate
+encoded-term-only,"Payment made, April (NT$)",0.048360877129080417,23,No variable-level native aggregate
+encoded-term-only,"Payment made, August (NT$)",0.038311800574830045,24,No variable-level native aggregate
+encoded-term-only,"Payment made, May (NT$)",0.026472711004341603,25,No variable-level native aggregate
+encoded-term-only,"Repayment status, August = delay of three months or more",0.015395825649132477,26,No variable-level native aggregate
+encoded-term-only,"Repayment status, July = delay of three months or more",0.013424774157513171,27,No variable-level native aggregate
+encoded-term-only,Education level = graduate school,0.008187821324813565,28,No variable-level native aggregate

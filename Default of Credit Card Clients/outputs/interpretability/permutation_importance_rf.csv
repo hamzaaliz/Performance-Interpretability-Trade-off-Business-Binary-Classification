@@ -1,0 +1,24 @@
+feature,display_name,importance_mean,importance_sd,n_measurements,rank
+repayment_status_september,"Repayment status, September",0.203731134712964,0.010802800637291885,150,1
+repayment_status_august,"Repayment status, August",0.0262647586902949,0.008744610830748959,150,2
+repayment_status_july,"Repayment status, July",0.0073187922953333795,0.0035619290889433246,150,3
+credit_limit,Credit limit (NT$),0.006881478493834715,0.0036936043718650874,150,4
+bill_amount_september,"Bill amount, September (NT$)",0.006487132173850393,0.00398979227112783,150,5
+repayment_status_june,"Repayment status, June",0.005825806801914816,0.00222199620716814,150,6
+payment_amount_july,"Payment made, July (NT$)",0.0051698219943516685,0.002936843860042615,150,7
+repayment_status_april,"Repayment status, April",0.004056351640984292,0.002301352019003291,150,8
+repayment_status_may,"Repayment status, May",0.003916445785217002,0.002726982716344125,150,9
+payment_amount_may,"Payment made, May (NT$)",0.002067092713470152,0.0019432087314202684,150,10
+age,Age (years),0.00183473910740709,0.0015664156557773324,150,11
+payment_amount_august,"Payment made, August (NT$)",0.0017975541745736338,0.0016415597220946034,150,12
+payment_amount_april,"Payment made, April (NT$)",0.0016702901227635995,0.0017392834951898925,150,13
+payment_amount_september,"Payment made, September (NT$)",0.0015293215595591676,0.002087689074309863,150,14
+bill_amount_april,"Bill amount, April (NT$)",0.0014462062459937412,0.001827168395102049,150,15
+payment_amount_june,"Payment made, June (NT$)",0.0009425804532503131,0.001026769918372257,150,16
+bill_amount_july,"Bill amount, July (NT$)",0.0006349344289480825,0.001563463472491591,150,17
+education_level,Education level,0.0005874701395230415,0.0010518336913338177,150,18
+bill_amount_august,"Bill amount, August (NT$)",0.000452421172210673,0.0023407796727946462,150,19
+bill_amount_may,"Bill amount, May (NT$)",1.4236819718834356e-05,0.00116541228828568,150,20
+bill_amount_june,"Bill amount, June (NT$)",-1.2337836780388726e-05,0.0008567700155914366,150,21
+marital_status,Marital status,-3.1949089742100424e-05,0.0005135367421151171,150,22
+sex,Sex,-0.00023204185232423476,0.0006900583421726621,150,23

@@ -1,0 +1,24 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+repayment_status_september,"Repayment status, September",0.3448149779290881,-0.03963575909184124,0.26528872992573477,positive,2000,200,raw margin (log-odds),1
+credit_limit,Credit limit (NT$),0.21280437253790063,-0.03868521983997407,-0.959263237435241,negative,2000,200,raw margin (log-odds),2
+bill_amount_september,"Bill amount, September (NT$)",0.1303628795598591,0.0012687951192114817,-0.2785733373738555,negative,2000,200,raw margin (log-odds),3
+payment_amount_august,"Payment made, August (NT$)",0.09576595862020153,-0.009287482067469426,-0.9309797868254149,negative,2000,200,raw margin (log-odds),4
+repayment_status_august,"Repayment status, August",0.09354073186042841,0.029951565506709906,0.7824663169017624,positive,2000,200,raw margin (log-odds),5
+payment_amount_september,"Payment made, September (NT$)",0.0933983893979699,-0.007507522409284029,-0.9432695428777306,negative,2000,200,raw margin (log-odds),6
+payment_amount_july,"Payment made, July (NT$)",0.08524831654045235,-0.008148658548614404,-0.8722638683363826,negative,2000,200,raw margin (log-odds),7
+repayment_status_july,"Repayment status, July",0.06732603045335131,0.011051019796901127,0.9098965502955604,positive,2000,200,raw margin (log-odds),8
+repayment_status_june,"Repayment status, June",0.0597715410245053,0.001731559272552003,0.8610408976971995,positive,2000,200,raw margin (log-odds),9
+repayment_status_may,"Repayment status, May",0.05836118770792797,-0.005650037688886588,0.27078654537315716,positive,2000,200,raw margin (log-odds),10
+payment_amount_april,"Payment made, April (NT$)",0.05683828160568986,-0.0011957382013811546,-0.9281150808751175,negative,2000,200,raw margin (log-odds),11
+payment_amount_may,"Payment made, May (NT$)",0.05256244853471368,-0.005042191542609462,-0.904685286707053,negative,2000,200,raw margin (log-odds),12
+repayment_status_april,"Repayment status, April",0.0476909784285387,-0.004116493182144596,0.3193883336297556,positive,2000,200,raw margin (log-odds),13
+marital_status,Marital status,0.04483540691961353,-0.0035246001722828283,,category-dependent,2000,200,raw margin (log-odds),14
+bill_amount_august,"Bill amount, August (NT$)",0.04231980272232516,0.004745405410497696,0.3740115082441369,positive,2000,200,raw margin (log-odds),15
+payment_amount_june,"Payment made, June (NT$)",0.04018133118584578,0.0060839547432606925,-0.7274673478371954,negative,2000,200,raw margin (log-odds),16
+bill_amount_july,"Bill amount, July (NT$)",0.035132583964776205,0.0026545275466416203,0.833271047932508,positive,2000,200,raw margin (log-odds),17
+bill_amount_april,"Bill amount, April (NT$)",0.0349796722228306,0.0016180860089196809,0.8650123227104186,positive,2000,200,raw margin (log-odds),18
+sex,Sex,0.03401217850176978,-0.0035453003473639184,-0.8465172356991776,negative,2000,200,raw margin (log-odds),19
+education_level,Education level,0.030863992513271918,0.005037553297323212,,category-dependent,2000,200,raw margin (log-odds),20
+age,Age (years),0.029226873036587348,-0.0025620355537446446,0.6759002419102184,positive,2000,200,raw margin (log-odds),21
+bill_amount_may,"Bill amount, May (NT$)",0.02586741448445613,0.004078537835126699,-0.4393103857737095,negative,2000,200,raw margin (log-odds),22
+bill_amount_june,"Bill amount, June (NT$)",0.025502758990646072,0.0008063558548486256,0.7187708576497002,positive,2000,200,raw margin (log-odds),23

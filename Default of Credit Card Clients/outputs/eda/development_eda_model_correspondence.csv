@@ -1,0 +1,24 @@
+raw_feature,display_name,association_score,association_method,association_rank,mean_permutation_rank,lr_perm_rank,dt_perm_rank,rf_perm_rank,xgb_perm_rank,rank_gap
+PAY_0,"Repayment status, September",0.29736280618697475,absolute Spearman rho,1,1.0,1,1,1,1,0.0
+PAY_2,"Repayment status, August",0.21930694151495325,absolute Spearman rho,2,5.25,13,2,2,4,-3.25
+PAY_3,"Repayment status, July",0.1990531343389804,absolute Spearman rho,3,6.0,4,11,3,6,-3.0
+PAY_4,"Repayment status, June",0.17861917948402448,absolute Spearman rho,4,7.75,10,6,6,9,-3.75
+LIMIT_BAL,Credit limit (NT$),0.17769764830830737,absolute Spearman rho,5,4.75,2,10,4,3,0.25
+PAY_AMT1,"Payment made, September (NT$)",0.16233009748281832,absolute Spearman rho,6,11.5,6,19,14,7,-5.5
+PAY_5,"Repayment status, May",0.15921778398731978,absolute Spearman rho,7,7.75,7,4,9,11,-0.75
+PAY_AMT2,"Payment made, August (NT$)",0.15104478170484967,absolute Spearman rho,8,10.25,14,7,12,8,-2.25
+PAY_6,"Repayment status, April",0.14561266916474988,absolute Spearman rho,9,7.25,3,8,8,10,1.75
+PAY_AMT3,"Payment made, July (NT$)",0.14164141580936274,absolute Spearman rho,10,6.0,9,3,7,5,4.0
+PAY_AMT4,"Payment made, June (NT$)",0.12435431463075472,absolute Spearman rho,11,17.25,17,22,16,14,-6.25
+PAY_AMT6,"Payment made, April (NT$)",0.12334940890379631,absolute Spearman rho,12,14.25,15,9,13,20,-2.25
+PAY_AMT5,"Payment made, May (NT$)",0.11704353987462142,absolute Spearman rho,13,16.5,18,23,10,15,-3.5
+EDUCATION,Education level,0.0713519143927635,bias-corrected Cramer's V,14,14.75,8,21,18,12,-0.75
+SEX,Sex,0.0433855541324905,bias-corrected Cramer's V,15,17.5,12,13,23,22,-2.5
+MARRIAGE,Marital status,0.02703675463564776,bias-corrected Cramer's V,16,18.5,11,20,22,21,-2.5
+BILL_AMT1,"Bill amount, September (NT$)",0.023259444685113043,absolute Spearman rho,17,4.25,5,5,5,2,12.75
+BILL_AMT2,"Bill amount, August (NT$)",0.014018524246771602,absolute Spearman rho,18,18.25,22,14,19,18,-0.25
+BILL_AMT3,"Bill amount, July (NT$)",0.011737522112168264,absolute Spearman rho,19,18.0,21,15,17,19,1.0
+BILL_AMT4,"Bill amount, June (NT$)",0.008633298047708078,absolute Spearman rho,20,19.0,23,16,21,16,1.0
+BILL_AMT5,"Bill amount, May (NT$)",0.00613269916749358,absolute Spearman rho,21,20.0,20,17,20,23,1.0
+AGE,Age (years),0.0033386522661543855,absolute Spearman rho,22,13.0,16,12,11,13,9.0
+BILL_AMT6,"Bill amount, April (NT$)",0.0030023070471389872,absolute Spearman rho,23,17.25,19,18,15,17,5.75

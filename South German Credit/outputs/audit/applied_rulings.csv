@@ -1,0 +1,13 @@
+display_name,issue,action,verified
+Credit risk,Target polarity,Construct positive class as one minus the raw outcome,True
+All variables,Missing values,Assert zero; no imputation,True
+All variables,Disguised missing codes,No replacement,True
+All variables,Duplicate rows,Retain all rows; none observed,True
+All variables,Identifier columns,No identifier exclusion,True
+Purpose,Unobserved education code,Do not create an all-zero dummy,True
+Purpose,Rare observed levels,Retain without collapsing,True
+Number of credits at this bank,Sparse top levels,Combine original levels 3 and 4,True
+People financially dependent and foreign worker,Corrected polarity,Apply no reversal beyond explicit binary indicators,True
+Credit amount (DM),Right skew,Log1p only inside logistic-regression folds,True
+Row position,Target ordering,Never use position; shuffled stratified split,True
+All variables,Outliers,No observations removed,True

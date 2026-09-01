@@ -1,0 +1,39 @@
+encoded_term,original_feature,display_term,term_importance
+quant__laufzeit,laufzeit,Credit duration (months),0.15222409742014373
+quant__hoehe,hoehe,Credit amount (DM),0.05001376507039798
+quant__alter,alter,Age (years),0.021627920770603624
+ordinal__laufkont,laufkont,Checking account status,0.43824243803317386
+ordinal__moral,moral,Credit history,0.021834333272568177
+ordinal__sparkont,sparkont,Savings,0.07570359432633537
+ordinal__beszeit,beszeit,Employment duration,0.048851804659961626
+ordinal__rate,rate,Instalment rate (% of income),0.030554749071243188
+ordinal__wohnzeit,wohnzeit,Time at present residence,0.0
+ordinal__verm,verm,Most valuable property,0.11636169984528251
+ordinal__bishkred,bishkred,Number of credits at this bank,0.0
+ordinal__beruf,beruf,Job quality,0.0
+binary__pers,pers,Three or more dependants,0.0
+binary__telef,telef,Telephone registered,0.0
+binary__gastarb,gastarb,Foreign worker,0.0
+nominal__verw_0,verw,Purpose = others,0.0
+nominal__verw_1,verw,Purpose = car (new),0.04458559753028997
+nominal__verw_2,verw,Purpose = car (used),0.0
+nominal__verw_3,verw,Purpose = furniture/equipment,0.0
+nominal__verw_4,verw,Purpose = radio/television,0.0
+nominal__verw_5,verw,Purpose = domestic appliances,0.0
+nominal__verw_6,verw,Purpose = repairs,0.0
+nominal__verw_8,verw,Purpose = vacation,0.0
+nominal__verw_9,verw,Purpose = retraining,0.0
+nominal__verw_10,verw,Purpose = business,0.0
+nominal__famges_1,famges,Personal status and sex = male: divorced/separated,0.0
+nominal__famges_2,famges,Personal status and sex = female: non-single or male: single,0.0
+nominal__famges_3,famges,Personal status and sex = male: married/widowed,0.0
+nominal__famges_4,famges,Personal status and sex = female: single,0.0
+nominal__buerge_1,buerge,Other debtors or guarantor = none,0.0
+nominal__buerge_2,buerge,Other debtors or guarantor = co-applicant,0.0
+nominal__buerge_3,buerge,Other debtors or guarantor = guarantor,0.0
+nominal__weitkred_1,weitkred,Other instalment plans = bank,0.0
+nominal__weitkred_2,weitkred,Other instalment plans = stores,0.0
+nominal__weitkred_3,weitkred,Other instalment plans = none,0.0
+nominal__wohn_1,wohn,Housing = for free,0.0
+nominal__wohn_2,wohn,Housing = rent,0.0
+nominal__wohn_3,wohn,Housing = own,0.0

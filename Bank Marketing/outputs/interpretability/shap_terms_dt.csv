@@ -1,0 +1,48 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+nominal__poutcome_success,Previous campaign outcome = success,poutcome,0.0668359345622373,-0.03474612387374141,1
+nominal__contact_unknown,Contact channel = unknown,contact,0.04722396804161794,0.012428368099457679,2
+nominal__month_jun,Month of planned contact = jun,month,0.021927386537920913,-0.0026593965353816002,3
+quantitative__age,Age (years),age,0.008607942246273393,0.001287521643415098,4
+binary__default,Credit in default,default,0.0,0.0,5
+binary__housing,Housing loan,housing,0.0,0.0,6
+binary__loan,Personal loan,loan,0.0,0.0,7
+nominal__contact_cellular,Contact channel = cellular,contact,0.0,0.0,8
+nominal__contact_telephone,Contact channel = telephone,contact,0.0,0.0,9
+nominal__education_primary,Education level = primary,education,0.0,0.0,10
+nominal__education_secondary,Education level = secondary,education,0.0,0.0,11
+nominal__education_tertiary,Education level = tertiary,education,0.0,0.0,12
+nominal__education_unknown,Education level = unknown,education,0.0,0.0,13
+nominal__job_admin.,Occupation = admin.,job,0.0,0.0,14
+nominal__job_blue-collar,Occupation = blue-collar,job,0.0,0.0,15
+nominal__job_entrepreneur,Occupation = entrepreneur,job,0.0,0.0,16
+nominal__job_housemaid,Occupation = housemaid,job,0.0,0.0,17
+nominal__job_management,Occupation = management,job,0.0,0.0,18
+nominal__job_retired,Occupation = retired,job,0.0,0.0,19
+nominal__job_self-employed,Occupation = self-employed,job,0.0,0.0,20
+nominal__job_services,Occupation = services,job,0.0,0.0,21
+nominal__job_student,Occupation = student,job,0.0,0.0,22
+nominal__job_technician,Occupation = technician,job,0.0,0.0,23
+nominal__job_unemployed,Occupation = unemployed,job,0.0,0.0,24
+nominal__job_unknown,Occupation = unknown,job,0.0,0.0,25
+nominal__marital_divorced,Marital status = divorced,marital,0.0,0.0,26
+nominal__marital_married,Marital status = married,marital,0.0,0.0,27
+nominal__marital_single,Marital status = single,marital,0.0,0.0,28
+nominal__month_apr,Month of planned contact = apr,month,0.0,0.0,29
+nominal__month_aug,Month of planned contact = aug,month,0.0,0.0,30
+nominal__month_dec,Month of planned contact = dec,month,0.0,0.0,31
+nominal__month_feb,Month of planned contact = feb,month,0.0,0.0,32
+nominal__month_jan,Month of planned contact = jan,month,0.0,0.0,33
+nominal__month_jul,Month of planned contact = jul,month,0.0,0.0,34
+nominal__month_mar,Month of planned contact = mar,month,0.0,0.0,35
+nominal__month_may,Month of planned contact = may,month,0.0,0.0,36
+nominal__month_nov,Month of planned contact = nov,month,0.0,0.0,37
+nominal__month_oct,Month of planned contact = oct,month,0.0,0.0,38
+nominal__month_sep,Month of planned contact = sep,month,0.0,0.0,39
+nominal__poutcome_failure,Previous campaign outcome = failure,poutcome,0.0,0.0,40
+nominal__poutcome_other,Previous campaign outcome = other,poutcome,0.0,0.0,41
+nominal__poutcome_unknown,Previous campaign outcome = unknown,poutcome,0.0,0.0,42
+quantitative__balance,Average yearly balance (EUR),balance,0.0,0.0,43
+quantitative__campaign,Contacts this campaign,campaign,0.0,0.0,44
+quantitative__day,Day of month of planned contact,day,0.0,0.0,45
+quantitative__pdays,Days since previous contact,pdays,0.0,0.0,46
+quantitative__previous,Contacts before this campaign,previous,0.0,0.0,47

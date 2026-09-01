@@ -1,0 +1,21 @@
+feature,display_name,lr_perm_rank,lr_shap_rank,lr_direction,dt_perm_rank,dt_shap_rank,dt_direction,rf_perm_rank,rf_shap_rank,rf_direction,xgb_perm_rank,xgb_shap_rank,xgb_direction
+laufzeit,Credit duration (months),3,4,positive,2,3,positive,2,3,positive,5,2,positive
+hoehe,Credit amount (DM),15,12,positive,4,6,positive,4,5,positive,3,4,mixed/weak
+alter,Age (years),18,17,negative,10,10,negative,20,8,negative,13,11,negative
+laufkont,Checking account status,1,1,negative,1,1,negative,1,1,negative,1,1,negative
+moral,Credit history,2,2,negative,6,8,negative,5,4,negative,2,5,negative
+sparkont,Savings,4,3,negative,3,2,negative,3,2,negative,4,3,negative
+beszeit,Employment duration,9,7,negative,7,4,negative,11,9,negative,10,7,negative
+rate,Instalment rate (% of income),6,6,positive,8,9,positive,7,13,positive,6,10,positive
+wohnzeit,Time at present residence,19,18,negative,17,19,mixed/weak,8,16,negative,15,16,negative
+verm,Most valuable property,10,8,positive,5,7,positive,15,10,positive,8,9,positive
+bishkred,Number of credits at this bank,8,10,positive,14,15,mixed/weak,17,18,positive,17,17,positive
+beruf,Job quality,20,14,positive,16,18,mixed/weak,13,15,positive,11,15,positive
+pers,Three or more dependants,17,20,positive,15,17,mixed/weak,12,19,positive,20,19,positive
+telef,Telephone registered,14,11,negative,11,16,mixed/weak,14,14,negative,9,12,negative
+gastarb,Foreign worker,11,19,negative,13,11,mixed/weak,10,20,negative,19,20,mixed/weak
+verw,Purpose,5,5,category-dependent,9,5,category-dependent,6,6,category-dependent,7,6,category-dependent
+famges,Personal status and sex,7,9,category-dependent,18,14,category-dependent,16,7,category-dependent,12,8,category-dependent
+buerge,Other debtors or guarantor,12,16,category-dependent,12,13,category-dependent,9,17,category-dependent,14,18,category-dependent
+weitkred,Other instalment plans,16,15,category-dependent,20,12,category-dependent,19,12,category-dependent,16,13,category-dependent
+wohn,Housing,13,13,category-dependent,19,20,category-dependent,18,11,category-dependent,18,14,category-dependent

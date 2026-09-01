@@ -1,0 +1,5 @@
+model,n_features_used,n_nonzero_coef,tree_depth,n_leaves,complexity_note,native_vs_perm_rank_corr,perm_vs_shap_rank_corr,calibration_slope,blank_reason,top10_overlap_lr,top10_overlap_dt,top10_overlap_rf,top10_overlap_xgb
+lr,28,28.0,,,non-zero coefficient count,,0.8101135190918473,0.9881940967391201,LR native coefficients remain at encoded-term level; LR SHAP is blank for the five pruned bill variables; permutation-versus-SHAP rho uses 18 common inputs,10,7,8,8
+dt,28,,4.0,9.0,realised depth and leaf count,0.6294466403162056,0.3488142292490119,0.9838146565753827,,7,10,8,8
+rf,28,,12.0,332.1854103343465,mean across 658 trees; max depth 12,0.8013833992094862,0.8952569169960475,1.046281623529774,,8,8,10,8
+xgb,28,,5.0,20.520833333333332,configured maximum depth; mean leaves across 240 trees,0.650197628458498,0.8112648221343874,1.0162900718730659,,8,8,8,10

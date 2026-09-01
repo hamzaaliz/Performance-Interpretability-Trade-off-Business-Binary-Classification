@@ -1,0 +1,16 @@
+feature,display_name,feature_type,model_use
+call_failure,Call failures,Quantitative,All four models
+complains,Complaint registered,Binary categorical,All four models
+subscription_length,Subscription length (months),Quantitative,All four models
+charge_amount,Charge amount band,Ordinal,All four models
+seconds_of_use,Seconds of use,Quantitative,Tree family only
+mean_call_duration,Mean call duration (seconds),Derived quantitative (LR only),LR only
+frequency_of_use,Number of calls,Quantitative,All four models
+frequency_of_sms,Number of text messages,Quantitative,All four models
+distinct_called_numbers,Distinct called numbers,Quantitative,All four models
+age_group,Age band,"Categorical, five levels",All four models
+tariff_plan,Contractual plan,Binary categorical,All four models
+status,Account inactive,Binary categorical,All four models
+age,Representative age,Dropped exact duplicate,Audit only
+customer_value,Customer value score,Dropped exact composite,Audit only
+churn,Churn,Target (binary),Positive class = 1

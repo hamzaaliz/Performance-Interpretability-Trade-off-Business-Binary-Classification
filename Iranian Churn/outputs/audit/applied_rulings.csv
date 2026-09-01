@@ -1,0 +1,18 @@
+ruling,display_name,issue,action,verified
+R1,Churn,Target polarity,Use raw churn code; positive is one,True
+R2,All variables,Missing values,Assert zero; no imputation,True
+R3,All variables,Disguised missingness,Retain substantive zeros,True
+R4,Age,Exact functional duplicate,Drop from all models,True
+R5,All variables,Identifier,No identifier exclusion,True
+R6,Charge Amount,Undocumented code 10,Resolve through R7 collapse,True
+R7,Charge Amount,Sparse upper levels,Collapse 5-10 to 5,True
+R8,All variables,Duplicate rows,Retain all rows,True
+R9,Feature profiles,Conflicting targets,Retain all 14 patterns / 64 rows,True
+R10,All variables,Outliers,Remove no observations,True
+R11,Six zero-mass fields,Exact zeros,Retain without indicators,True
+R12,Row position,Ordering,Exclude and shuffle split,True
+R13,All variables,Negative values,Assert none,True
+R14,Mean call duration,Zero denominator,Set to 0.0,True
+R15,Preprocessing,Fold containment,Only deterministic row-wise recodes precede folds,True
+R16,Call counts,Source-semantic ambiguity,Retain; derive no ratio,True
+R17,Customer Value,Exact undocumented composite,Drop from all models,True

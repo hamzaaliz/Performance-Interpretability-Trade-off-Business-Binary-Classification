@@ -1,0 +1,13 @@
+|--- Previous campaign outcome = success <= 0.5000
+|   |--- Age (years) <= 60.5000
+|   |   |--- Contact channel = unknown <= 0.5000
+|   |   |   |--- Month of planned contact = jun <= 0.5000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Month of planned contact = jun >  0.5000
+|   |   |   |   |--- class: 0
+|   |   |--- Contact channel = unknown >  0.5000
+|   |   |   |--- class: 0
+|   |--- Age (years) >  60.5000
+|   |   |--- class: 0
+|--- Previous campaign outcome = success >  0.5000
+|   |--- class: 1

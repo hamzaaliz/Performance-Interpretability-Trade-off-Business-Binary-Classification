@@ -1,0 +1,39 @@
+{
+  "dataset": "Default of Credit Card Clients",
+  "started_utc": "2026-08-23T23:09:01.581889+00:00",
+  "completed_utc": "2026-08-24T01:39:31.076139+00:00",
+  "run_time_seconds": 9029.494251012802,
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "xgboost": "2.1.4",
+    "shap": "0.49.1",
+    "joblib": "1.5.3",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2"
+  },
+  "seed": 42,
+  "single_thread_requested": true,
+  "code_version": "ccd-workflow-2026-08-24-v1:c3b2a2cd649f4d1c",
+  "source_sha256": "4edce6da569b2c30788a85fd98a9bafb1a983e8ca1a7aac875dd7ff853cbd0bb",
+  "fold_indices_sha256": "1970da6b9ed9d884ebab3998ede994d9a8688acad693f79bfee928d733972fdb",
+  "shap_rows_by_model": {
+    "lr": 2000,
+    "dt": 2000,
+    "rf": 2000,
+    "xgb": 2000
+  },
+  "shap_background_by_model": {
+    "lr": 200,
+    "dt": 200,
+    "rf": 200,
+    "xgb": 200
+  },
+  "permutation_repeats_per_fold": 30,
+  "bootstrap_resamples": 5000,
+  "shared_sgc_workflow_sha256": "89fb1a1ef6c7a91993a63c180a9855e8569eb9483817fa7435b94eacb292930c"
+}

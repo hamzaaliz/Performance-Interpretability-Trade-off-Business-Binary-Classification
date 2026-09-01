@@ -1,0 +1,25 @@
+feature,display_name,feature_type
+credit_limit,Credit limit (NT$),Quantitative
+sex,Sex,Binary categorical
+education_level,Education level,Nominal categorical
+marital_status,Marital status,Nominal categorical
+age,Age (years),Quantitative
+repayment_status_september,"Repayment status, September",Ordinal
+repayment_status_august,"Repayment status, August",Ordinal
+repayment_status_july,"Repayment status, July",Ordinal
+repayment_status_june,"Repayment status, June",Ordinal
+repayment_status_may,"Repayment status, May",Ordinal
+repayment_status_april,"Repayment status, April",Ordinal
+bill_amount_september,"Bill amount, September (NT$)",Quantitative
+bill_amount_august,"Bill amount, August (NT$)",Quantitative
+bill_amount_july,"Bill amount, July (NT$)",Quantitative
+bill_amount_june,"Bill amount, June (NT$)",Quantitative
+bill_amount_may,"Bill amount, May (NT$)",Quantitative
+bill_amount_april,"Bill amount, April (NT$)",Quantitative
+payment_amount_september,"Payment made, September (NT$)",Quantitative
+payment_amount_august,"Payment made, August (NT$)",Quantitative
+payment_amount_july,"Payment made, July (NT$)",Quantitative
+payment_amount_june,"Payment made, June (NT$)",Quantitative
+payment_amount_may,"Payment made, May (NT$)",Quantitative
+payment_amount_april,"Payment made, April (NT$)",Quantitative
+default,Default next month,Target (binary)

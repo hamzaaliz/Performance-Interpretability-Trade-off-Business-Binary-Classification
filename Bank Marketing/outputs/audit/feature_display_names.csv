@@ -1,0 +1,18 @@
+feature,display_name,feature_type
+age,Age (years),Quantitative
+balance,Average yearly balance (EUR),Quantitative
+day,Day of month of planned contact,Quantitative
+campaign,Contacts this campaign,Quantitative
+pdays,Days since previous contact,Quantitative
+previous,Contacts before this campaign,Quantitative
+default,Credit in default,Binary categorical
+housing,Housing loan,Binary categorical
+loan,Personal loan,Binary categorical
+job,Occupation,Nominal categorical
+marital,Marital status,Nominal categorical
+education,Education level,Nominal categorical
+contact,Contact channel,Nominal categorical
+month,Month of planned contact,Nominal categorical
+poutcome,Previous campaign outcome,Nominal categorical
+duration,Last contact duration (s),Excluded
+subscribed,Term deposit subscribed,Target (binary)

@@ -1,0 +1,17 @@
+model,feature_group,treatment,expected_encoded_terms
+Logistic regression,Quantitative,Standardised; credit amount receives fold-contained log1p first,33
+Logistic regression,Ordinal,"Ordered scores, standardised",33
+Logistic regression,Binary,Explicit 0/1 indicators,33
+Logistic regression,Nominal,Drop-reference one-hot encoding with locked references,33
+Decision tree,Quantitative,"Raw values, no scaling",38
+Decision tree,Ordinal,Raw ordered scores,38
+Decision tree,Binary,Explicit 0/1 indicators,38
+Decision tree,Nominal,Full one-hot encoding; no dropped level,38
+Random forest,Quantitative,"Raw values, no scaling",38
+Random forest,Ordinal,Raw ordered scores,38
+Random forest,Binary,Explicit 0/1 indicators,38
+Random forest,Nominal,Full one-hot encoding; no dropped level,38
+XGBoost,Quantitative,"Raw values, no scaling",38
+XGBoost,Ordinal,Raw ordered scores,38
+XGBoost,Binary,Explicit 0/1 indicators,38
+XGBoost,Nominal,Full one-hot encoding; no dropped level,38

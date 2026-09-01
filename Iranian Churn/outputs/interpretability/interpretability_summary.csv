@@ -1,0 +1,5 @@
+model,n_features_used,n_nonzero_coef,tree_depth,n_leaves,complexity_note,native_vs_perm_rank_corr,perm_vs_shap_rank_corr,calibration_slope,blank_reason,top10_overlap_lr,top10_shared_denominator_lr,top10_overlap_dt,top10_shared_denominator_dt,top10_overlap_rf,top10_shared_denominator_rf,top10_overlap_xgb,top10_shared_denominator_xgb
+lr,14,14.0,,,non-zero coefficient count,,0.9363636363636365,0.9521482978367657,LR native coefficients remain at encoded-term level,10,10,10,10,9,10,9,10
+dt,11,,5.0,7.0,realised depth and leaf count,0.5181818181818182,0.5818181818181819,0.7664887589768801,,10,10,10,10,9,10,9,10
+rf,11,,10.0,91.06916426512969,mean across 347 trees; max depth 10,0.9454545454545454,0.881818181818182,1.6868849908560517,,9,10,9,10,10,10,10,10
+xgb,11,,6.0,16.83219178082192,configured maximum depth; mean leaves across 584 trees,0.6727272727272727,0.8272727272727273,0.9803885191699913,,9,10,9,10,10,10,10,10

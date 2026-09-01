@@ -1,0 +1,34 @@
+feature,display_name,importance,rank,aggregation
+encoded-term-only,Checking account status,0.6546109466393841,1,No variable-level native aggregate
+encoded-term-only,Purpose = others,0.46301379710789625,2,No variable-level native aggregate
+encoded-term-only,Credit history,0.43205394526740143,3,No variable-level native aggregate
+encoded-term-only,Purpose = car (new),0.41853330171690345,4,No variable-level native aggregate
+encoded-term-only,Credit duration (months),0.3516301117704445,5,No variable-level native aggregate
+encoded-term-only,Savings,0.3435988496189085,6,No variable-level native aggregate
+encoded-term-only,Personal status and sex = female: non-single or male: single,0.3404480607470754,7,No variable-level native aggregate
+encoded-term-only,Purpose = repairs,0.26123570893279474,8,No variable-level native aggregate
+encoded-term-only,Foreign worker,0.24138489205264882,9,No variable-level native aggregate
+encoded-term-only,Other debtors or guarantor = guarantor,0.22236832561185862,10,No variable-level native aggregate
+encoded-term-only,Telephone registered,0.20945951278400718,11,No variable-level native aggregate
+encoded-term-only,Housing = for free,0.19243037033996155,12,No variable-level native aggregate
+encoded-term-only,Other instalment plans = bank,0.1919984202851561,13,No variable-level native aggregate
+encoded-term-only,Other instalment plans = stores,0.18622539128515472,14,No variable-level native aggregate
+encoded-term-only,Personal status and sex = male: divorced/separated,0.18020391446215284,15,No variable-level native aggregate
+encoded-term-only,Instalment rate (% of income),0.17851381009294004,16,No variable-level native aggregate
+encoded-term-only,Employment duration,0.17390224798993248,17,No variable-level native aggregate
+encoded-term-only,Most valuable property,0.16609846241206927,18,No variable-level native aggregate
+encoded-term-only,Number of credits at this bank,0.12612547594879217,19,No variable-level native aggregate
+encoded-term-only,Credit amount (DM),0.0912966684151043,20,No variable-level native aggregate
+encoded-term-only,Purpose = domestic appliances,0.08806851441114395,21,No variable-level native aggregate
+encoded-term-only,Job quality,0.08553637978147102,22,No variable-level native aggregate
+encoded-term-only,Housing = own,0.08296888298803871,23,No variable-level native aggregate
+encoded-term-only,Purpose = car (used),0.07534976622318058,24,No variable-level native aggregate
+encoded-term-only,Other debtors or guarantor = co-applicant,0.05892219969299095,25,No variable-level native aggregate
+encoded-term-only,Purpose = retraining,0.05314281099585958,26,No variable-level native aggregate
+encoded-term-only,Purpose = vacation,0.04661386036334267,27,No variable-level native aggregate
+encoded-term-only,Purpose = business,0.03634726670690809,28,No variable-level native aggregate
+encoded-term-only,Age (years),0.02932845326497382,29,No variable-level native aggregate
+encoded-term-only,Purpose = radio/television,0.02498965696656557,30,No variable-level native aggregate
+encoded-term-only,Time at present residence,0.021561640948674406,31,No variable-level native aggregate
+encoded-term-only,Personal status and sex = female: single,0.007452935113918442,32,No variable-level native aggregate
+encoded-term-only,Three or more dependants,0.0031237336206106137,33,No variable-level native aggregate

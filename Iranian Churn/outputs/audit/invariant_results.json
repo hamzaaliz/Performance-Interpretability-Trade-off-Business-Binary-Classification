@@ -1,0 +1,550 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Development and test source indices are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Split sizes are 2,520/630",
+      "passed": true
+    },
+    {
+      "check": "Split positives are 396/99",
+      "passed": true
+    },
+    {
+      "check": "One hundred test rows share a development feature pattern",
+      "passed": true
+    },
+    {
+      "check": "Split seed and shuffle rule are locked",
+      "passed": true
+    },
+    {
+      "check": "Outer held-out folds cover development once",
+      "passed": true
+    },
+    {
+      "check": "Outer train/validation indices are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Outer-fold hash reproduces",
+      "passed": true
+    },
+    {
+      "check": "lr OOF has development length",
+      "passed": true
+    },
+    {
+      "check": "lr OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "lr OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "dt OOF has development length",
+      "passed": true
+    },
+    {
+      "check": "dt OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "dt OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "rf OOF has development length",
+      "passed": true
+    },
+    {
+      "check": "rf OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "rf OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF has development length",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "Fold assignments are identical across models",
+      "passed": true
+    },
+    {
+      "check": "Selected-threshold schema is exact",
+      "passed": true
+    },
+    {
+      "check": "lr threshold-sweep schema is exact",
+      "passed": true
+    },
+    {
+      "check": "lr threshold grid is distinct and finite",
+      "passed": true
+    },
+    {
+      "check": "lr sweep has no empty prediction candidate",
+      "passed": true
+    },
+    {
+      "check": "lr sweep counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "lr selected threshold appears once",
+      "passed": true
+    },
+    {
+      "check": "lr threshold mode reproduces",
+      "passed": true
+    },
+    {
+      "check": "lr threshold tie-break reproduces",
+      "passed": true
+    },
+    {
+      "check": "lr floor declaration is locked",
+      "passed": true
+    },
+    {
+      "check": "lr guaranteed recall floor is attained",
+      "passed": true
+    },
+    {
+      "check": "lr threshold selection used development length",
+      "passed": true
+    },
+    {
+      "check": "lr conventional support reproduces",
+      "passed": true
+    },
+    {
+      "check": "lr conventional precision reproduces",
+      "passed": true
+    },
+    {
+      "check": "lr conventional recall reproduces",
+      "passed": true
+    },
+    {
+      "check": "dt threshold-sweep schema is exact",
+      "passed": true
+    },
+    {
+      "check": "dt threshold grid is distinct and finite",
+      "passed": true
+    },
+    {
+      "check": "dt sweep has no empty prediction candidate",
+      "passed": true
+    },
+    {
+      "check": "dt sweep counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "dt selected threshold appears once",
+      "passed": true
+    },
+    {
+      "check": "dt threshold mode reproduces",
+      "passed": true
+    },
+    {
+      "check": "dt threshold tie-break reproduces",
+      "passed": true
+    },
+    {
+      "check": "dt floor declaration is locked",
+      "passed": true
+    },
+    {
+      "check": "dt guaranteed recall floor is attained",
+      "passed": true
+    },
+    {
+      "check": "dt threshold selection used development length",
+      "passed": true
+    },
+    {
+      "check": "dt conventional support reproduces",
+      "passed": true
+    },
+    {
+      "check": "dt conventional precision reproduces",
+      "passed": true
+    },
+    {
+      "check": "dt conventional recall reproduces",
+      "passed": true
+    },
+    {
+      "check": "rf threshold-sweep schema is exact",
+      "passed": true
+    },
+    {
+      "check": "rf threshold grid is distinct and finite",
+      "passed": true
+    },
+    {
+      "check": "rf sweep has no empty prediction candidate",
+      "passed": true
+    },
+    {
+      "check": "rf sweep counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "rf selected threshold appears once",
+      "passed": true
+    },
+    {
+      "check": "rf threshold mode reproduces",
+      "passed": true
+    },
+    {
+      "check": "rf threshold tie-break reproduces",
+      "passed": true
+    },
+    {
+      "check": "rf floor declaration is locked",
+      "passed": true
+    },
+    {
+      "check": "rf guaranteed recall floor is attained",
+      "passed": true
+    },
+    {
+      "check": "rf threshold selection used development length",
+      "passed": true
+    },
+    {
+      "check": "rf conventional support reproduces",
+      "passed": true
+    },
+    {
+      "check": "rf conventional precision reproduces",
+      "passed": true
+    },
+    {
+      "check": "rf conventional recall reproduces",
+      "passed": true
+    },
+    {
+      "check": "xgb threshold-sweep schema is exact",
+      "passed": true
+    },
+    {
+      "check": "xgb threshold grid is distinct and finite",
+      "passed": true
+    },
+    {
+      "check": "xgb sweep has no empty prediction candidate",
+      "passed": true
+    },
+    {
+      "check": "xgb sweep counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "xgb selected threshold appears once",
+      "passed": true
+    },
+    {
+      "check": "xgb threshold mode reproduces",
+      "passed": true
+    },
+    {
+      "check": "xgb threshold tie-break reproduces",
+      "passed": true
+    },
+    {
+      "check": "xgb floor declaration is locked",
+      "passed": true
+    },
+    {
+      "check": "xgb guaranteed recall floor is attained",
+      "passed": true
+    },
+    {
+      "check": "xgb threshold selection used development length",
+      "passed": true
+    },
+    {
+      "check": "xgb conventional support reproduces",
+      "passed": true
+    },
+    {
+      "check": "xgb conventional precision reproduces",
+      "passed": true
+    },
+    {
+      "check": "xgb conventional recall reproduces",
+      "passed": true
+    },
+    {
+      "check": "Calibration uses nested OOF development scores",
+      "passed": true
+    },
+    {
+      "check": "Nested PR-AUC values are admissible",
+      "passed": true
+    },
+    {
+      "check": "Below-baseline results carry warnings",
+      "passed": true
+    },
+    {
+      "check": "Holdout results use the locked test size",
+      "passed": true
+    },
+    {
+      "check": "Holdout confusion counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "Registry schema matches the cross-dataset protocol",
+      "passed": true
+    },
+    {
+      "check": "Registry key set exactly matches its declaration",
+      "passed": true
+    },
+    {
+      "check": "Every registry row names Iranian Churn",
+      "passed": true
+    },
+    {
+      "check": "Every registry row carries the code version",
+      "passed": true
+    },
+    {
+      "check": "Seeded registry rows carry the seed",
+      "passed": true
+    },
+    {
+      "check": "Decision-tree realised depth does not exceed five",
+      "passed": true
+    },
+    {
+      "check": "LR uses 14 encoded terms",
+      "passed": true
+    },
+    {
+      "check": "Tree-family models use 11 terms",
+      "passed": true
+    },
+    {
+      "check": "LR SHAP names match preprocessing output",
+      "passed": true
+    },
+    {
+      "check": "LR coefficient metadata records the reference band",
+      "passed": true
+    },
+    {
+      "check": "lr permutation feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "lr permutation covers 5 x 30 measurements",
+      "passed": true
+    },
+    {
+      "check": "lr permutation ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP uses 2,000 rows",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP background uses 200 rows",
+      "passed": true
+    },
+    {
+      "check": "dt permutation feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "dt permutation covers 5 x 30 measurements",
+      "passed": true
+    },
+    {
+      "check": "dt permutation ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP uses 2,000 rows",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP background uses 200 rows",
+      "passed": true
+    },
+    {
+      "check": "dt native ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "rf permutation feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "rf permutation covers 5 x 30 measurements",
+      "passed": true
+    },
+    {
+      "check": "rf permutation ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP uses 2,000 rows",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP background uses 200 rows",
+      "passed": true
+    },
+    {
+      "check": "rf native ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "xgb permutation feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP feature set is exact",
+      "passed": true
+    },
+    {
+      "check": "xgb permutation covers 5 x 30 measurements",
+      "passed": true
+    },
+    {
+      "check": "xgb permutation ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP uses 2,000 rows",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP background uses 200 rows",
+      "passed": true
+    },
+    {
+      "check": "xgb native ranks are exact",
+      "passed": true
+    },
+    {
+      "check": "LR total-seconds ranks are blank",
+      "passed": true
+    },
+    {
+      "check": "dt mean-duration ranks are blank",
+      "passed": true
+    },
+    {
+      "check": "rf mean-duration ranks are blank",
+      "passed": true
+    },
+    {
+      "check": "xgb mean-duration ranks are blank",
+      "passed": true
+    },
+    {
+      "check": "All R1-R17 rulings are verified",
+      "passed": true
+    },
+    {
+      "check": "Leakage register is header-only as locked",
+      "passed": true
+    },
+    {
+      "check": "Call-count ambiguity is recorded",
+      "passed": true
+    },
+    {
+      "check": "Customer Value formula is verified",
+      "passed": true
+    },
+    {
+      "check": "Dormant conflicting count correction is recorded",
+      "passed": true
+    },
+    {
+      "check": "Feature-set table records LR term count",
+      "passed": true
+    },
+    {
+      "check": "Feature-set table records tree term count",
+      "passed": true
+    },
+    {
+      "check": "Exact reproduction waiver is recorded",
+      "passed": true
+    },
+    {
+      "check": "Manifest contains all and only expected artefacts",
+      "passed": true
+    },
+    {
+      "check": "Environment records the source hash",
+      "passed": true
+    },
+    {
+      "check": "Environment records SHAP coverage",
+      "passed": true
+    },
+    {
+      "check": "Prohibited significance vocabulary is absent",
+      "passed": true
+    }
+  ],
+  "n_checks": 136
+}

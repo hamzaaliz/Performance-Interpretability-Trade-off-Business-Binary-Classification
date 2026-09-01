@@ -1,0 +1,166 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "Development and test source indices are disjoint",
+      "passed": true
+    },
+    {
+      "check": "Split sizes are 800/200",
+      "passed": true
+    },
+    {
+      "check": "Outer held-out folds cover every development row once",
+      "passed": true
+    },
+    {
+      "check": "Outer train and validation indices are disjoint",
+      "passed": true
+    },
+    {
+      "check": "lr OOF predictions have development length",
+      "passed": true
+    },
+    {
+      "check": "lr OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "lr OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "dt OOF predictions have development length",
+      "passed": true
+    },
+    {
+      "check": "dt OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "dt OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "rf OOF predictions have development length",
+      "passed": true
+    },
+    {
+      "check": "rf OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "rf OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF predictions have development length",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF row order is complete",
+      "passed": true
+    },
+    {
+      "check": "xgb OOF scores are finite",
+      "passed": true
+    },
+    {
+      "check": "Fold assignments are identical across models",
+      "passed": true
+    },
+    {
+      "check": "Threshold selection used development-length arrays",
+      "passed": true
+    },
+    {
+      "check": "Every selected threshold attains the recall floor",
+      "passed": true
+    },
+    {
+      "check": "Calibration used OOF development arrays",
+      "passed": true
+    },
+    {
+      "check": "Nested PR-AUC values are admissible",
+      "passed": true
+    },
+    {
+      "check": "Every below-baseline nested result has a warning",
+      "passed": true
+    },
+    {
+      "check": "Registry key set exactly matches its declaration",
+      "passed": true
+    },
+    {
+      "check": "Every registry row carries the code version",
+      "passed": true
+    },
+    {
+      "check": "Seeded registry rows carry the seed",
+      "passed": true
+    },
+    {
+      "check": "Decision-tree realised depth does not exceed five",
+      "passed": true
+    },
+    {
+      "check": "LR SHAP feature names match fitted preprocessing output",
+      "passed": true
+    },
+    {
+      "check": "lr permutation evidence covers 5 folds x 30 repeats",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP uses development length",
+      "passed": true
+    },
+    {
+      "check": "lr SHAP background has 200 rows",
+      "passed": true
+    },
+    {
+      "check": "dt permutation evidence covers 5 folds x 30 repeats",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP uses development length",
+      "passed": true
+    },
+    {
+      "check": "dt SHAP background has 200 rows",
+      "passed": true
+    },
+    {
+      "check": "rf permutation evidence covers 5 folds x 30 repeats",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP uses development length",
+      "passed": true
+    },
+    {
+      "check": "rf SHAP background has 200 rows",
+      "passed": true
+    },
+    {
+      "check": "xgb permutation evidence covers 5 folds x 30 repeats",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP uses development length",
+      "passed": true
+    },
+    {
+      "check": "xgb SHAP background has 200 rows",
+      "passed": true
+    },
+    {
+      "check": "Every expected artefact is present",
+      "passed": true
+    }
+  ],
+  "n_checks": 40
+}

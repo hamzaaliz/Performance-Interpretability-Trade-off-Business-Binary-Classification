@@ -1,0 +1,1548 @@
+{
+  "scope": {
+    "development_rows": 24000,
+    "defaults": 5309,
+    "base_rate": 0.22120833333333334
+  },
+  "zero_recorded_segment": {
+    "n": 642,
+    "default_rate": 0.37383177570093457,
+    "outside_n": 23358,
+    "outside_default_rate": 0.21701344293175787,
+    "share": 0.02675,
+    "september_minus2_n": 232,
+    "september_one_n": 410
+  },
+  "naive_positive_status_rule": {
+    "flagged": 8104,
+    "recall": 0.6553023168204934,
+    "precision": 0.42929417571569595
+  },
+  "demographics": {
+    "Education level": [
+      {
+        "_group": "Graduate school",
+        "n": 8455,
+        "defaults": 1631,
+        "default_rate": 0.1929036073329391
+      },
+      {
+        "_group": "High school",
+        "n": 3903,
+        "defaults": 976,
+        "default_rate": 0.2500640532923392
+      },
+      {
+        "_group": "Other or undocumented",
+        "n": 386,
+        "defaults": 28,
+        "default_rate": 0.07253886010362694
+      },
+      {
+        "_group": "University",
+        "n": 11256,
+        "defaults": 2674,
+        "default_rate": 0.23756218905472637
+      }
+    ],
+    "Marital status": [
+      {
+        "_group": "Married",
+        "n": 10892,
+        "defaults": 2538,
+        "default_rate": 0.23301505692251193
+      },
+      {
+        "_group": "Other or undocumented",
+        "n": 302,
+        "defaults": 77,
+        "default_rate": 0.25496688741721857
+      },
+      {
+        "_group": "Single",
+        "n": 12806,
+        "defaults": 2694,
+        "default_rate": 0.210370138997345
+      }
+    ],
+    "Sex": [
+      {
+        "_group": "Female",
+        "n": 14514,
+        "defaults": 2997,
+        "default_rate": 0.20649028524183546
+      },
+      {
+        "_group": "Male",
+        "n": 9486,
+        "defaults": 2312,
+        "default_rate": 0.24372759856630824
+      }
+    ],
+    "age_marital_spearman": -0.4617903739551804,
+    "mean_age_by_marital_status": {
+      "Married": 39.97163055453544,
+      "Other or undocumented": 41.86092715231788,
+      "Single": 31.420427924410433
+    },
+    "mean_credit_limit_by_education": {
+      "Graduate school": 212419.86989946777,
+      "High school": 125967.20471432232,
+      "Other or undocumented": 181673.57512953368,
+      "University": 147385.03909026296
+    }
+  },
+  "bill_block": {
+    "mean_abs_pearson": 0.8896551814934964,
+    "maximum_abs_pearson": 0.9516867495837004,
+    "latest_adjacent_correlation": 0.9516867495837004
+  },
+  "model_evidence": {
+    "nested_pr_auc": {
+      "lr": 0.545423825800224,
+      "dt": 0.4884866742445961,
+      "rf": 0.5595594142690945,
+      "xgb": 0.5591803881040815
+    },
+    "paired_differences": [
+      {
+        "model_a": "lr",
+        "model_b": "dt",
+        "mean_diff": 0.0569371515556278,
+        "sd_diff": 0.0095375824388017,
+        "folds_agreeing_in_sign": 5,
+        "n_folds": 5,
+        "fold_diff_1": 0.0654541265090764,
+        "fold_diff_2": 0.0646404075869118,
+        "fold_diff_3": 0.0612533638156143,
+        "fold_diff_4": 0.0477825861687243,
+        "fold_diff_5": 0.0455552736978124
+      },
+      {
+        "model_a": "lr",
+        "model_b": "rf",
+        "mean_diff": -0.0141355884688703,
+        "sd_diff": 0.0055578658359438,
+        "folds_agreeing_in_sign": 5,
+        "n_folds": 5,
+        "fold_diff_1": -0.0072343550676904,
+        "fold_diff_2": -0.0140881966563005,
+        "fold_diff_3": -0.0106941807343572,
+        "fold_diff_4": -0.0170822118910883,
+        "fold_diff_5": -0.0215789979949153
+      },
+      {
+        "model_a": "lr",
+        "model_b": "xgb",
+        "mean_diff": -0.0137565623038575,
+        "sd_diff": 0.004140399813385,
+        "folds_agreeing_in_sign": 5,
+        "n_folds": 5,
+        "fold_diff_1": -0.0137715814814679,
+        "fold_diff_2": -0.0115309133165463,
+        "fold_diff_3": -0.0098376545639335,
+        "fold_diff_4": -0.0129824217082799,
+        "fold_diff_5": -0.0206602404490597
+      },
+      {
+        "model_a": "dt",
+        "model_b": "rf",
+        "mean_diff": -0.0710727400244982,
+        "sd_diff": 0.0053860522856301,
+        "folds_agreeing_in_sign": 5,
+        "n_folds": 5,
+        "fold_diff_1": -0.0726884815767668,
+        "fold_diff_2": -0.0787286042432123,
+        "fold_diff_3": -0.0719475445499716,
+        "fold_diff_4": -0.0648647980598127,
+        "fold_diff_5": -0.0671342716927277
+      },
+      {
+        "model_a": "dt",
+        "model_b": "xgb",
+        "mean_diff": -0.0706937138594853,
+        "sd_diff": 0.0074429568857892,
+        "folds_agreeing_in_sign": 5,
+        "n_folds": 5,
+        "fold_diff_1": -0.0792257079905444,
+        "fold_diff_2": -0.0761713209034581,
+        "fold_diff_3": -0.0710910183795479,
+        "fold_diff_4": -0.0607650078770042,
+        "fold_diff_5": -0.0662155141468722
+      },
+      {
+        "model_a": "rf",
+        "model_b": "xgb",
+        "mean_diff": 0.0003790261650128,
+        "sd_diff": 0.0040909276193698,
+        "folds_agreeing_in_sign": 4,
+        "n_folds": 5,
+        "fold_diff_1": -0.0065372264137775,
+        "fold_diff_2": 0.0025572833397542,
+        "fold_diff_3": 0.0008565261704236,
+        "fold_diff_4": 0.0040997901828084,
+        "fold_diff_5": 0.0009187575458555
+      }
+    ]
+  },
+  "repayment_status_by_month": {
+    "September": [
+      {
+        "_status": "-2*",
+        "n": 2198,
+        "defaults": 279,
+        "default_rate": 0.12693357597816196
+      },
+      {
+        "_status": "-1",
+        "n": 4527,
+        "defaults": 753,
+        "default_rate": 0.1663353214049039
+      },
+      {
+        "_status": "0*",
+        "n": 11781,
+        "defaults": 1508,
+        "default_rate": 0.12800271623801035
+      },
+      {
+        "_status": "1",
+        "n": 3000,
+        "defaults": 1031,
+        "default_rate": 0.3436666666666667
+      },
+      {
+        "_status": "2",
+        "n": 2138,
+        "defaults": 1483,
+        "default_rate": 0.6936389148737138
+      },
+      {
+        "_status": "3+",
+        "n": 356,
+        "defaults": 255,
+        "default_rate": 0.7162921348314607
+      }
+    ],
+    "August": [
+      {
+        "_status": "-2*",
+        "n": 3030,
+        "defaults": 544,
+        "default_rate": 0.17953795379537954
+      },
+      {
+        "_status": "-1",
+        "n": 4845,
+        "defaults": 774,
+        "default_rate": 0.15975232198142414
+      },
+      {
+        "_status": "0*",
+        "n": 12573,
+        "defaults": 2006,
+        "default_rate": 0.15954823828839576
+      },
+      {
+        "_status": "1",
+        "n": 25,
+        "defaults": 5,
+        "default_rate": 0.2
+      },
+      {
+        "_status": "2",
+        "n": 3145,
+        "defaults": 1749,
+        "default_rate": 0.556120826709062
+      },
+      {
+        "_status": "3+",
+        "n": 382,
+        "defaults": 231,
+        "default_rate": 0.6047120418848168
+      }
+    ],
+    "July": [
+      {
+        "_status": "-2*",
+        "n": 3270,
+        "defaults": 589,
+        "default_rate": 0.1801223241590214
+      },
+      {
+        "_status": "-1",
+        "n": 4733,
+        "defaults": 736,
+        "default_rate": 0.15550390872596662
+      },
+      {
+        "_status": "0*",
+        "n": 12636,
+        "defaults": 2220,
+        "default_rate": 0.17568850902184235
+      },
+      {
+        "_status": "1",
+        "n": 3,
+        "defaults": 1,
+        "default_rate": 0.3333333333333333
+      },
+      {
+        "_status": "2",
+        "n": 3049,
+        "defaults": 1580,
+        "default_rate": 0.5182026894063627
+      },
+      {
+        "_status": "3+",
+        "n": 309,
+        "defaults": 183,
+        "default_rate": 0.5922330097087378
+      }
+    ],
+    "June": [
+      {
+        "_status": "-2*",
+        "n": 3477,
+        "defaults": 646,
+        "default_rate": 0.18579234972677597
+      },
+      {
+        "_status": "-1",
+        "n": 4531,
+        "defaults": 722,
+        "default_rate": 0.1593467225777974
+      },
+      {
+        "_status": "0*",
+        "n": 13180,
+        "defaults": 2433,
+        "default_rate": 0.184597875569044
+      },
+      {
+        "_status": "1",
+        "n": 2,
+        "defaults": 1,
+        "default_rate": 0.5
+      },
+      {
+        "_status": "2",
+        "n": 2542,
+        "defaults": 1338,
+        "default_rate": 0.5263571990558615
+      },
+      {
+        "_status": "3+",
+        "n": 268,
+        "defaults": 169,
+        "default_rate": 0.6305970149253731
+      }
+    ],
+    "May": [
+      {
+        "_status": "-2*",
+        "n": 3659,
+        "defaults": 701,
+        "default_rate": 0.19158239956272205
+      },
+      {
+        "_status": "-1",
+        "n": 4417,
+        "defaults": 736,
+        "default_rate": 0.16662893366538375
+      },
+      {
+        "_status": "0*",
+        "n": 13560,
+        "defaults": 2560,
+        "default_rate": 0.1887905604719764
+      },
+      {
+        "_status": "1",
+        "n": 0,
+        "defaults": 0,
+        "default_rate": NaN
+      },
+      {
+        "_status": "2",
+        "n": 2102,
+        "defaults": 1148,
+        "default_rate": 0.5461465271170314
+      },
+      {
+        "_status": "3+",
+        "n": 262,
+        "defaults": 164,
+        "default_rate": 0.6259541984732825
+      }
+    ],
+    "April": [
+      {
+        "_status": "-2*",
+        "n": 3942,
+        "defaults": 778,
+        "default_rate": 0.19736174530695078
+      },
+      {
+        "_status": "-1",
+        "n": 4576,
+        "defaults": 773,
+        "default_rate": 0.16892482517482518
+      },
+      {
+        "_status": "0*",
+        "n": 13008,
+        "defaults": 2465,
+        "default_rate": 0.18949876998769988
+      },
+      {
+        "_status": "1",
+        "n": 0,
+        "defaults": 0,
+        "default_rate": NaN
+      },
+      {
+        "_status": "2",
+        "n": 2230,
+        "defaults": 1130,
+        "default_rate": 0.5067264573991032
+      },
+      {
+        "_status": "3+",
+        "n": 244,
+        "defaults": 163,
+        "default_rate": 0.6680327868852459
+      }
+    ]
+  },
+  "quantile_rates": {
+    "Credit limit (NT$)": [
+      {
+        "_bin": 1,
+        "n": 6146,
+        "defaults": 1977,
+        "default_rate": 0.32167263260657336,
+        "median": 30000.0,
+        "minimum": 10000,
+        "maximum": 50000
+      },
+      {
+        "_bin": 2,
+        "n": 3819,
+        "defaults": 990,
+        "default_rate": 0.25923016496465046,
+        "median": 80000.0,
+        "minimum": 60000,
+        "maximum": 100000
+      },
+      {
+        "_bin": 3,
+        "n": 4922,
+        "defaults": 982,
+        "default_rate": 0.19951239333604226,
+        "median": 150000.0,
+        "minimum": 110000,
+        "maximum": 180000
+      },
+      {
+        "_bin": 4,
+        "n": 4380,
+        "defaults": 741,
+        "default_rate": 0.16917808219178082,
+        "median": 220000.0,
+        "minimum": 190000,
+        "maximum": 270000
+      },
+      {
+        "_bin": 5,
+        "n": 4733,
+        "defaults": 619,
+        "default_rate": 0.1307838580181703,
+        "median": 360000.0,
+        "minimum": 280000,
+        "maximum": 1000000
+      }
+    ],
+    "Age (years)": [
+      {
+        "_bin": 1,
+        "n": 5297,
+        "defaults": 1284,
+        "default_rate": 0.24240135925995845,
+        "median": 25.0,
+        "minimum": 21,
+        "maximum": 27
+      },
+      {
+        "_bin": 2,
+        "n": 4530,
+        "defaults": 895,
+        "default_rate": 0.19757174392935983,
+        "median": 29.0,
+        "minimum": 28,
+        "maximum": 31
+      },
+      {
+        "_bin": 3,
+        "n": 4610,
+        "defaults": 927,
+        "default_rate": 0.20108459869848155,
+        "median": 34.0,
+        "minimum": 32,
+        "maximum": 36
+      },
+      {
+        "_bin": 4,
+        "n": 4816,
+        "defaults": 1047,
+        "default_rate": 0.21740033222591362,
+        "median": 40.0,
+        "minimum": 37,
+        "maximum": 43
+      },
+      {
+        "_bin": 5,
+        "n": 4747,
+        "defaults": 1156,
+        "default_rate": 0.24352222456288183,
+        "median": 49.0,
+        "minimum": 44,
+        "maximum": 75
+      }
+    ],
+    "Bill amount, September (NT$)": [
+      {
+        "_bin": 1,
+        "n": 4800,
+        "defaults": 1099,
+        "default_rate": 0.22895833333333335,
+        "median": 268.0,
+        "minimum": -165580,
+        "maximum": 1875
+      },
+      {
+        "_bin": 2,
+        "n": 4800,
+        "defaults": 1021,
+        "default_rate": 0.21270833333333333,
+        "median": 6052.5,
+        "minimum": 1876,
+        "maximum": 13486
+      },
+      {
+        "_bin": 3,
+        "n": 4800,
+        "defaults": 1212,
+        "default_rate": 0.2525,
+        "median": 22330.0,
+        "minimum": 13488,
+        "maximum": 36954
+      },
+      {
+        "_bin": 4,
+        "n": 4800,
+        "defaults": 1039,
+        "default_rate": 0.21645833333333334,
+        "median": 51987.5,
+        "minimum": 36956,
+        "maximum": 83722
+      },
+      {
+        "_bin": 5,
+        "n": 4800,
+        "defaults": 938,
+        "default_rate": 0.19541666666666666,
+        "median": 141541.0,
+        "minimum": 83725,
+        "maximum": 964511
+      }
+    ]
+  },
+  "payment_amount_bins": {
+    "September": [
+      {
+        "_payment_bin": "Zero",
+        "n": 4180,
+        "defaults": 1497,
+        "default_rate": 0.358133971291866,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 4955,
+        "defaults": 1147,
+        "default_rate": 0.23148335015136226,
+        "median_amount": 1139.0
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 5333,
+        "defaults": 1173,
+        "default_rate": 0.21995124695293455,
+        "median_amount": 2060.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4585,
+        "defaults": 835,
+        "default_rate": 0.1821155943293348,
+        "median_amount": 4308.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4947,
+        "defaults": 657,
+        "default_rate": 0.1328077622801698,
+        "median_amount": 10063.0
+      }
+    ],
+    "August": [
+      {
+        "_payment_bin": "Zero",
+        "n": 4324,
+        "defaults": 1437,
+        "default_rate": 0.33233117483811286,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 4922,
+        "defaults": 1187,
+        "default_rate": 0.24116212921576594,
+        "median_amount": 1044.0
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 5568,
+        "defaults": 1223,
+        "default_rate": 0.21964798850574713,
+        "median_amount": 2019.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4410,
+        "defaults": 838,
+        "default_rate": 0.19002267573696144,
+        "median_amount": 4300.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4776,
+        "defaults": 624,
+        "default_rate": 0.1306532663316583,
+        "median_amount": 10463.5
+      }
+    ],
+    "July": [
+      {
+        "_payment_bin": "Zero",
+        "n": 4780,
+        "defaults": 1544,
+        "default_rate": 0.32301255230125525,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 4805,
+        "defaults": 1104,
+        "default_rate": 0.22976066597294484,
+        "median_amount": 776.0
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 4966,
+        "defaults": 1122,
+        "default_rate": 0.22593636729762384,
+        "median_amount": 1851.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4644,
+        "defaults": 854,
+        "default_rate": 0.1838931955211025,
+        "median_amount": 3664.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4805,
+        "defaults": 685,
+        "default_rate": 0.1425598335067638,
+        "median_amount": 10000.0
+      }
+    ],
+    "June": [
+      {
+        "_payment_bin": "Zero",
+        "n": 5141,
+        "defaults": 1578,
+        "default_rate": 0.3069441742851585,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 5104,
+        "defaults": 1172,
+        "default_rate": 0.22962382445141066,
+        "median_amount": 628.0
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 4326,
+        "defaults": 989,
+        "default_rate": 0.2286176606564956,
+        "median_amount": 1633.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4771,
+        "defaults": 864,
+        "default_rate": 0.1810941102494236,
+        "median_amount": 3352.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4658,
+        "defaults": 706,
+        "default_rate": 0.15156719622155432,
+        "median_amount": 10000.0
+      }
+    ],
+    "May": [
+      {
+        "_payment_bin": "Zero",
+        "n": 5387,
+        "defaults": 1575,
+        "default_rate": 0.29237052162613697,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 4768,
+        "defaults": 1131,
+        "default_rate": 0.23720637583892618,
+        "median_amount": 641.5
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 4540,
+        "defaults": 1029,
+        "default_rate": 0.22665198237885462,
+        "median_amount": 1700.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4653,
+        "defaults": 861,
+        "default_rate": 0.18504190844616378,
+        "median_amount": 3400.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4652,
+        "defaults": 713,
+        "default_rate": 0.15326741186586415,
+        "median_amount": 9880.5
+      }
+    ],
+    "April": [
+      {
+        "_payment_bin": "Zero",
+        "n": 5787,
+        "defaults": 1675,
+        "default_rate": 0.28944185242785553,
+        "median_amount": 0.0
+      },
+      {
+        "_payment_bin": "Positive Q1",
+        "n": 4664,
+        "defaults": 1124,
+        "default_rate": 0.24099485420240138,
+        "median_amount": 638.0
+      },
+      {
+        "_payment_bin": "Positive Q2",
+        "n": 4457,
+        "defaults": 1016,
+        "default_rate": 0.22795602423154587,
+        "median_amount": 1707.0
+      },
+      {
+        "_payment_bin": "Positive Q3",
+        "n": 4541,
+        "defaults": 833,
+        "default_rate": 0.18343977097555605,
+        "median_amount": 3500.0
+      },
+      {
+        "_payment_bin": "Positive Q4",
+        "n": 4551,
+        "defaults": 661,
+        "default_rate": 0.14524280377938914,
+        "median_amount": 10000.0
+      }
+    ]
+  },
+  "bill_correlations": {
+    "September": {
+      "September": 1.0,
+      "August": 0.95168675,
+      "July": 0.90101748,
+      "June": 0.86201097,
+      "May": 0.83043936,
+      "April": 0.80270556
+    },
+    "August": {
+      "September": 0.95168675,
+      "August": 1.0,
+      "July": 0.93783537,
+      "June": 0.89497313,
+      "May": 0.86148296,
+      "April": 0.83194509
+    },
+    "July": {
+      "September": 0.90101748,
+      "August": 0.93783537,
+      "July": 1.0,
+      "June": 0.93348077,
+      "May": 0.89200392,
+      "April": 0.85667603
+    },
+    "June": {
+      "September": 0.86201097,
+      "August": 0.89497313,
+      "July": 0.93348077,
+      "June": 1.0,
+      "May": 0.94132191,
+      "April": 0.90148069
+    },
+    "May": {
+      "September": 0.83043936,
+      "August": 0.86148296,
+      "July": 0.89200392,
+      "June": 0.94132191,
+      "May": 1.0,
+      "April": 0.94576773
+    },
+    "April": {
+      "September": 0.80270556,
+      "August": 0.83194509,
+      "July": 0.85667603,
+      "June": 0.90148069,
+      "May": 0.94576773,
+      "April": 1.0
+    }
+  },
+  "bill_to_limit_deciles_all": [
+    {
+      "_bin": 1,
+      "n": 2400,
+      "defaults": 612,
+      "default_rate": 0.255,
+      "median": 0.0009946323529411764,
+      "minimum": -0.23259,
+      "maximum": 0.004166666666666667
+    },
+    {
+      "_bin": 2,
+      "n": 2400,
+      "defaults": 450,
+      "default_rate": 0.1875,
+      "median": 0.009467129629629631,
+      "minimum": 0.004170666666666667,
+      "maximum": 0.0177
+    },
+    {
+      "_bin": 3,
+      "n": 2400,
+      "defaults": 352,
+      "default_rate": 0.14666666666666667,
+      "median": 0.03030263888888889,
+      "minimum": 0.017703546099290778,
+      "maximum": 0.051375
+    },
+    {
+      "_bin": 4,
+      "n": 2400,
+      "defaults": 339,
+      "default_rate": 0.14125,
+      "median": 0.08299642857142858,
+      "minimum": 0.051409047619047625,
+      "maximum": 0.13195833333333332
+    },
+    {
+      "_bin": 5,
+      "n": 2400,
+      "defaults": 397,
+      "default_rate": 0.16541666666666666,
+      "median": 0.20019972165991903,
+      "minimum": 0.13200777777777778,
+      "maximum": 0.2842
+    },
+    {
+      "_bin": 6,
+      "n": 2400,
+      "defaults": 466,
+      "default_rate": 0.19416666666666665,
+      "median": 0.3663901041666667,
+      "minimum": 0.28426150793650795,
+      "maximum": 0.45065
+    },
+    {
+      "_bin": 7,
+      "n": 2400,
+      "defaults": 560,
+      "default_rate": 0.23333333333333334,
+      "median": 0.530104077540107,
+      "minimum": 0.4507166666666667,
+      "maximum": 0.6122508771929824
+    },
+    {
+      "_bin": 8,
+      "n": 2400,
+      "defaults": 618,
+      "default_rate": 0.2575,
+      "median": 0.6858897101449275,
+      "minimum": 0.6123286666666666,
+      "maximum": 0.7561666666666667
+    },
+    {
+      "_bin": 9,
+      "n": 2400,
+      "defaults": 719,
+      "default_rate": 0.2995833333333333,
+      "median": 0.8240180555555555,
+      "minimum": 0.7561911764705882,
+      "maximum": 0.8898
+    },
+    {
+      "_bin": 10,
+      "n": 2400,
+      "defaults": 796,
+      "default_rate": 0.33166666666666667,
+      "median": 0.9590782828282829,
+      "minimum": 0.889825,
+      "maximum": 5.364308333333334
+    }
+  ],
+  "bill_to_limit_deciles_excluding_zero_segment": [
+    {
+      "_bin": 1,
+      "n": 2336,
+      "defaults": 497,
+      "default_rate": 0.2127568493150685,
+      "median": 0.002350740740740741,
+      "minimum": -0.23259,
+      "maximum": 0.0065
+    },
+    {
+      "_bin": 2,
+      "n": 2337,
+      "defaults": 408,
+      "default_rate": 0.17458279845956354,
+      "median": 0.012809259259259258,
+      "minimum": 0.006500980392156863,
+      "maximum": 0.02275
+    },
+    {
+      "_bin": 3,
+      "n": 2335,
+      "defaults": 331,
+      "default_rate": 0.14175588865096359,
+      "median": 0.03739444444444444,
+      "minimum": 0.022751234567901235,
+      "maximum": 0.06160390625
+    },
+    {
+      "_bin": 4,
+      "n": 2335,
+      "defaults": 333,
+      "default_rate": 0.14261241970021413,
+      "median": 0.09856666666666666,
+      "minimum": 0.061628666666666665,
+      "maximum": 0.15333333333333332
+    },
+    {
+      "_bin": 5,
+      "n": 2336,
+      "defaults": 385,
+      "default_rate": 0.16481164383561644,
+      "median": 0.2248425,
+      "minimum": 0.15339466666666665,
+      "maximum": 0.3074359375
+    },
+    {
+      "_bin": 6,
+      "n": 2336,
+      "defaults": 478,
+      "default_rate": 0.2046232876712329,
+      "median": 0.38579105902777777,
+      "minimum": 0.3075159090909091,
+      "maximum": 0.46608793103448276
+    },
+    {
+      "_bin": 7,
+      "n": 2335,
+      "defaults": 559,
+      "default_rate": 0.23940042826552463,
+      "median": 0.5456,
+      "minimum": 0.4661095238095238,
+      "maximum": 0.6238123456790123
+    },
+    {
+      "_bin": 8,
+      "n": 2336,
+      "defaults": 597,
+      "default_rate": 0.2555650684931507,
+      "median": 0.695200909090909,
+      "minimum": 0.6238302631578947,
+      "maximum": 0.7633583333333334
+    },
+    {
+      "_bin": 9,
+      "n": 2336,
+      "defaults": 708,
+      "default_rate": 0.3030821917808219,
+      "median": 0.8283794444444446,
+      "minimum": 0.7634533333333333,
+      "maximum": 0.8935666666666666
+    },
+    {
+      "_bin": 10,
+      "n": 2336,
+      "defaults": 773,
+      "default_rate": 0.3309075342465753,
+      "median": 0.9606510606060605,
+      "minimum": 0.8936,
+      "maximum": 5.364308333333334
+    }
+  ],
+  "joint_september_august": [
+    {
+      "_sep": "Non-positive",
+      "_aug": "Non-positive",
+      "n": 18142,
+      "default_rate": 0.13284092161834418
+    },
+    {
+      "_sep": "Non-positive",
+      "_aug": "1 month",
+      "n": 0,
+      "default_rate": NaN
+    },
+    {
+      "_sep": "Non-positive",
+      "_aug": "2 months",
+      "n": 321,
+      "default_rate": 0.3333333333333333
+    },
+    {
+      "_sep": "Non-positive",
+      "_aug": "3+ months",
+      "n": 43,
+      "default_rate": 0.5348837209302325
+    },
+    {
+      "_sep": "1 month",
+      "_aug": "Non-positive",
+      "n": 1505,
+      "default_rate": 0.2584717607973422
+    },
+    {
+      "_sep": "1 month",
+      "_aug": "1 month",
+      "n": 25,
+      "default_rate": 0.2
+    },
+    {
+      "_sep": "1 month",
+      "_aug": "2 months",
+      "n": 1349,
+      "default_rate": 0.4225352112676056
+    },
+    {
+      "_sep": "1 month",
+      "_aug": "3+ months",
+      "n": 121,
+      "default_rate": 0.5537190082644629
+    },
+    {
+      "_sep": "2 months",
+      "_aug": "Non-positive",
+      "n": 801,
+      "default_rate": 0.6554307116104869
+    },
+    {
+      "_sep": "2 months",
+      "_aug": "1 month",
+      "n": 0,
+      "default_rate": NaN
+    },
+    {
+      "_sep": "2 months",
+      "_aug": "2 months",
+      "n": 1269,
+      "default_rate": 0.7218282111899134
+    },
+    {
+      "_sep": "2 months",
+      "_aug": "3+ months",
+      "n": 68,
+      "default_rate": 0.6176470588235294
+    },
+    {
+      "_sep": "3+ months",
+      "_aug": "Non-positive",
+      "n": 0,
+      "default_rate": NaN
+    },
+    {
+      "_sep": "3+ months",
+      "_aug": "1 month",
+      "n": 0,
+      "default_rate": NaN
+    },
+    {
+      "_sep": "3+ months",
+      "_aug": "2 months",
+      "n": 206,
+      "default_rate": 0.7572815533980582
+    },
+    {
+      "_sep": "3+ months",
+      "_aug": "3+ months",
+      "n": 150,
+      "default_rate": 0.66
+    }
+  ],
+  "joint_september_credit_limit": [
+    {
+      "_sep": "Non-positive",
+      "_limit": "Q1",
+      "n": 4148,
+      "default_rate": 0.20057859209257473
+    },
+    {
+      "_sep": "Non-positive",
+      "_limit": "Q2",
+      "n": 2767,
+      "default_rate": 0.14817491868449584
+    },
+    {
+      "_sep": "Non-positive",
+      "_limit": "Q3",
+      "n": 3908,
+      "default_rate": 0.12922210849539406
+    },
+    {
+      "_sep": "Non-positive",
+      "_limit": "Q4",
+      "n": 3602,
+      "default_rate": 0.11465852304275402
+    },
+    {
+      "_sep": "Non-positive",
+      "_limit": "Q5",
+      "n": 4081,
+      "default_rate": 0.09311443273707425
+    },
+    {
+      "_sep": "1 month",
+      "_limit": "Q1",
+      "n": 953,
+      "default_rate": 0.43756558237145854
+    },
+    {
+      "_sep": "1 month",
+      "_limit": "Q2",
+      "n": 473,
+      "default_rate": 0.3572938689217759
+    },
+    {
+      "_sep": "1 month",
+      "_limit": "Q3",
+      "n": 572,
+      "default_rate": 0.29895104895104896
+    },
+    {
+      "_sep": "1 month",
+      "_limit": "Q4",
+      "n": 524,
+      "default_rate": 0.2862595419847328
+    },
+    {
+      "_sep": "1 month",
+      "_limit": "Q5",
+      "n": 478,
+      "default_rate": 0.2594142259414226
+    },
+    {
+      "_sep": "2 months",
+      "_limit": "Q1",
+      "n": 833,
+      "default_rate": 0.6890756302521008
+    },
+    {
+      "_sep": "2 months",
+      "_limit": "Q2",
+      "n": 517,
+      "default_rate": 0.7195357833655706
+    },
+    {
+      "_sep": "2 months",
+      "_limit": "Q3",
+      "n": 403,
+      "default_rate": 0.6997518610421837
+    },
+    {
+      "_sep": "2 months",
+      "_limit": "Q4",
+      "n": 229,
+      "default_rate": 0.6812227074235808
+    },
+    {
+      "_sep": "2 months",
+      "_limit": "Q5",
+      "n": 156,
+      "default_rate": 0.6346153846153846
+    },
+    {
+      "_sep": "3+ months",
+      "_limit": "Q1",
+      "n": 212,
+      "default_rate": 0.7264150943396226
+    },
+    {
+      "_sep": "3+ months",
+      "_limit": "Q2",
+      "n": 62,
+      "default_rate": 0.6290322580645161
+    },
+    {
+      "_sep": "3+ months",
+      "_limit": "Q3",
+      "n": 39,
+      "default_rate": 0.6153846153846154
+    },
+    {
+      "_sep": "3+ months",
+      "_limit": "Q4",
+      "n": 25,
+      "default_rate": 0.88
+    },
+    {
+      "_sep": "3+ months",
+      "_limit": "Q5",
+      "n": 18,
+      "default_rate": 0.8888888888888888
+    }
+  ],
+  "association_correspondence": [
+    {
+      "raw_feature": "PAY_0",
+      "display_name": "Repayment status, September",
+      "association_score": 0.29736280618697475,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 1,
+      "mean_permutation_rank": 1.0,
+      "lr_perm_rank": 1,
+      "dt_perm_rank": 1,
+      "rf_perm_rank": 1,
+      "xgb_perm_rank": 1,
+      "rank_gap": 0.0
+    },
+    {
+      "raw_feature": "PAY_2",
+      "display_name": "Repayment status, August",
+      "association_score": 0.21930694151495325,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 2,
+      "mean_permutation_rank": 5.25,
+      "lr_perm_rank": 13,
+      "dt_perm_rank": 2,
+      "rf_perm_rank": 2,
+      "xgb_perm_rank": 4,
+      "rank_gap": -3.25
+    },
+    {
+      "raw_feature": "PAY_3",
+      "display_name": "Repayment status, July",
+      "association_score": 0.1990531343389804,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 3,
+      "mean_permutation_rank": 6.0,
+      "lr_perm_rank": 4,
+      "dt_perm_rank": 11,
+      "rf_perm_rank": 3,
+      "xgb_perm_rank": 6,
+      "rank_gap": -3.0
+    },
+    {
+      "raw_feature": "PAY_4",
+      "display_name": "Repayment status, June",
+      "association_score": 0.17861917948402448,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 4,
+      "mean_permutation_rank": 7.75,
+      "lr_perm_rank": 10,
+      "dt_perm_rank": 6,
+      "rf_perm_rank": 6,
+      "xgb_perm_rank": 9,
+      "rank_gap": -3.75
+    },
+    {
+      "raw_feature": "LIMIT_BAL",
+      "display_name": "Credit limit (NT$)",
+      "association_score": 0.17769764830830737,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 5,
+      "mean_permutation_rank": 4.75,
+      "lr_perm_rank": 2,
+      "dt_perm_rank": 10,
+      "rf_perm_rank": 4,
+      "xgb_perm_rank": 3,
+      "rank_gap": 0.25
+    },
+    {
+      "raw_feature": "PAY_AMT1",
+      "display_name": "Payment made, September (NT$)",
+      "association_score": 0.16233009748281832,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 6,
+      "mean_permutation_rank": 11.5,
+      "lr_perm_rank": 6,
+      "dt_perm_rank": 19,
+      "rf_perm_rank": 14,
+      "xgb_perm_rank": 7,
+      "rank_gap": -5.5
+    },
+    {
+      "raw_feature": "PAY_5",
+      "display_name": "Repayment status, May",
+      "association_score": 0.15921778398731978,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 7,
+      "mean_permutation_rank": 7.75,
+      "lr_perm_rank": 7,
+      "dt_perm_rank": 4,
+      "rf_perm_rank": 9,
+      "xgb_perm_rank": 11,
+      "rank_gap": -0.75
+    },
+    {
+      "raw_feature": "PAY_AMT2",
+      "display_name": "Payment made, August (NT$)",
+      "association_score": 0.15104478170484967,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 8,
+      "mean_permutation_rank": 10.25,
+      "lr_perm_rank": 14,
+      "dt_perm_rank": 7,
+      "rf_perm_rank": 12,
+      "xgb_perm_rank": 8,
+      "rank_gap": -2.25
+    },
+    {
+      "raw_feature": "PAY_6",
+      "display_name": "Repayment status, April",
+      "association_score": 0.14561266916474988,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 9,
+      "mean_permutation_rank": 7.25,
+      "lr_perm_rank": 3,
+      "dt_perm_rank": 8,
+      "rf_perm_rank": 8,
+      "xgb_perm_rank": 10,
+      "rank_gap": 1.75
+    },
+    {
+      "raw_feature": "PAY_AMT3",
+      "display_name": "Payment made, July (NT$)",
+      "association_score": 0.14164141580936274,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 10,
+      "mean_permutation_rank": 6.0,
+      "lr_perm_rank": 9,
+      "dt_perm_rank": 3,
+      "rf_perm_rank": 7,
+      "xgb_perm_rank": 5,
+      "rank_gap": 4.0
+    },
+    {
+      "raw_feature": "PAY_AMT4",
+      "display_name": "Payment made, June (NT$)",
+      "association_score": 0.12435431463075472,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 11,
+      "mean_permutation_rank": 17.25,
+      "lr_perm_rank": 17,
+      "dt_perm_rank": 22,
+      "rf_perm_rank": 16,
+      "xgb_perm_rank": 14,
+      "rank_gap": -6.25
+    },
+    {
+      "raw_feature": "PAY_AMT6",
+      "display_name": "Payment made, April (NT$)",
+      "association_score": 0.12334940890379631,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 12,
+      "mean_permutation_rank": 14.25,
+      "lr_perm_rank": 15,
+      "dt_perm_rank": 9,
+      "rf_perm_rank": 13,
+      "xgb_perm_rank": 20,
+      "rank_gap": -2.25
+    },
+    {
+      "raw_feature": "PAY_AMT5",
+      "display_name": "Payment made, May (NT$)",
+      "association_score": 0.11704353987462142,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 13,
+      "mean_permutation_rank": 16.5,
+      "lr_perm_rank": 18,
+      "dt_perm_rank": 23,
+      "rf_perm_rank": 10,
+      "xgb_perm_rank": 15,
+      "rank_gap": -3.5
+    },
+    {
+      "raw_feature": "EDUCATION",
+      "display_name": "Education level",
+      "association_score": 0.0713519143927635,
+      "association_method": "bias-corrected Cramer's V",
+      "association_rank": 14,
+      "mean_permutation_rank": 14.75,
+      "lr_perm_rank": 8,
+      "dt_perm_rank": 21,
+      "rf_perm_rank": 18,
+      "xgb_perm_rank": 12,
+      "rank_gap": -0.75
+    },
+    {
+      "raw_feature": "SEX",
+      "display_name": "Sex",
+      "association_score": 0.0433855541324905,
+      "association_method": "bias-corrected Cramer's V",
+      "association_rank": 15,
+      "mean_permutation_rank": 17.5,
+      "lr_perm_rank": 12,
+      "dt_perm_rank": 13,
+      "rf_perm_rank": 23,
+      "xgb_perm_rank": 22,
+      "rank_gap": -2.5
+    },
+    {
+      "raw_feature": "MARRIAGE",
+      "display_name": "Marital status",
+      "association_score": 0.02703675463564776,
+      "association_method": "bias-corrected Cramer's V",
+      "association_rank": 16,
+      "mean_permutation_rank": 18.5,
+      "lr_perm_rank": 11,
+      "dt_perm_rank": 20,
+      "rf_perm_rank": 22,
+      "xgb_perm_rank": 21,
+      "rank_gap": -2.5
+    },
+    {
+      "raw_feature": "BILL_AMT1",
+      "display_name": "Bill amount, September (NT$)",
+      "association_score": 0.023259444685113043,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 17,
+      "mean_permutation_rank": 4.25,
+      "lr_perm_rank": 5,
+      "dt_perm_rank": 5,
+      "rf_perm_rank": 5,
+      "xgb_perm_rank": 2,
+      "rank_gap": 12.75
+    },
+    {
+      "raw_feature": "BILL_AMT2",
+      "display_name": "Bill amount, August (NT$)",
+      "association_score": 0.014018524246771602,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 18,
+      "mean_permutation_rank": 18.25,
+      "lr_perm_rank": 22,
+      "dt_perm_rank": 14,
+      "rf_perm_rank": 19,
+      "xgb_perm_rank": 18,
+      "rank_gap": -0.25
+    },
+    {
+      "raw_feature": "BILL_AMT3",
+      "display_name": "Bill amount, July (NT$)",
+      "association_score": 0.011737522112168264,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 19,
+      "mean_permutation_rank": 18.0,
+      "lr_perm_rank": 21,
+      "dt_perm_rank": 15,
+      "rf_perm_rank": 17,
+      "xgb_perm_rank": 19,
+      "rank_gap": 1.0
+    },
+    {
+      "raw_feature": "BILL_AMT4",
+      "display_name": "Bill amount, June (NT$)",
+      "association_score": 0.008633298047708078,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 20,
+      "mean_permutation_rank": 19.0,
+      "lr_perm_rank": 23,
+      "dt_perm_rank": 16,
+      "rf_perm_rank": 21,
+      "xgb_perm_rank": 16,
+      "rank_gap": 1.0
+    },
+    {
+      "raw_feature": "BILL_AMT5",
+      "display_name": "Bill amount, May (NT$)",
+      "association_score": 0.00613269916749358,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 21,
+      "mean_permutation_rank": 20.0,
+      "lr_perm_rank": 20,
+      "dt_perm_rank": 17,
+      "rf_perm_rank": 20,
+      "xgb_perm_rank": 23,
+      "rank_gap": 1.0
+    },
+    {
+      "raw_feature": "AGE",
+      "display_name": "Age (years)",
+      "association_score": 0.0033386522661543855,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 22,
+      "mean_permutation_rank": 13.0,
+      "lr_perm_rank": 16,
+      "dt_perm_rank": 12,
+      "rf_perm_rank": 11,
+      "xgb_perm_rank": 13,
+      "rank_gap": 9.0
+    },
+    {
+      "raw_feature": "BILL_AMT6",
+      "display_name": "Bill amount, April (NT$)",
+      "association_score": 0.0030023070471389872,
+      "association_method": "absolute Spearman rho",
+      "association_rank": 23,
+      "mean_permutation_rank": 17.25,
+      "lr_perm_rank": 19,
+      "dt_perm_rank": 18,
+      "rf_perm_rank": 15,
+      "xgb_perm_rank": 17,
+      "rank_gap": 5.75
+    }
+  ],
+  "figures": {
+    "figure_1": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_1_repayment_status.png",
+    "figure_2": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_2_quantitative_shapes.png",
+    "figure_3": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_3_payment_amounts.png",
+    "figure_4": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_4_bill_structure.png",
+    "figure_5": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_5_joint_structure.png",
+    "figure_6": "/Users/hamzaali/Desktop/Data Science Research Project/Default of Credit Card Clients/plots/eda_development_report/figure_6_model_correspondence.png"
+  }
+}

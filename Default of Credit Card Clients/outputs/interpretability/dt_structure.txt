@@ -1,0 +1,25 @@
+|--- Repayment status, September <= 1.5000
+|   |--- Repayment status, August <= 1.5000
+|   |   |--- Payment made, July (NT$) <= 565.5000
+|   |   |   |--- Bill amount, September (NT$) <= 531.5000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Bill amount, September (NT$) >  531.5000
+|   |   |   |   |--- class: 0
+|   |   |--- Payment made, July (NT$) >  565.5000
+|   |   |   |--- Repayment status, May <= 1.0000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Repayment status, May >  1.0000
+|   |   |   |   |--- class: 0
+|   |--- Repayment status, August >  1.5000
+|   |   |--- Repayment status, May <= 1.0000
+|   |   |   |--- Credit limit (NT$) <= 165000.0000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Credit limit (NT$) >  165000.0000
+|   |   |   |   |--- class: 0
+|   |   |--- Repayment status, May >  1.0000
+|   |   |   |--- class: 1
+|--- Repayment status, September >  1.5000
+|   |--- Bill amount, September (NT$) <= 2207.5000
+|   |   |--- class: 0
+|   |--- Bill amount, September (NT$) >  2207.5000
+|   |   |--- class: 1

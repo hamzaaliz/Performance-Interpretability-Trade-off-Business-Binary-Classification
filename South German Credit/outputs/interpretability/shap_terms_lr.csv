@@ -1,0 +1,34 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+ordinal__laufkont,Checking account status,laufkont,0.6070077191255999,-0.050177775553603955,1
+ordinal__moral,Credit history,moral,0.36061584156373044,-0.03049288374741845,2
+ordinal__sparkont,Savings,sparkont,0.29037223653780136,-0.010605267952439776,3
+quant__laufzeit,Credit duration (months),laufzeit,0.28049713022003636,-0.017740268509773657,4
+ordinal__rate,Instalment rate (% of income),rate,0.16066862373920945,0.012944940927969368,5
+nominal__verw_0,Purpose = others,verw,0.15579256738188066,0.02141438811624005,6
+nominal__famges_2,Personal status and sex = female: non-single or male: single,famges,0.14925242983151912,-0.011064561974279954,7
+ordinal__beszeit,Employment duration,beszeit,0.14841232498567428,-0.008395574688660491,8
+ordinal__verm,Most valuable property,verm,0.14789369285453802,0.00019703396330206853,9
+ordinal__bishkred,Number of credits at this bank,bishkred,0.11408521115844988,0.004908256794284681,10
+binary__telef,Telephone registered,telef,0.10018448496459069,-0.01309121954900052,11
+nominal__verw_1,Purpose = car (new),verw,0.08402056031966866,0.005754832898607383,12
+amount__hoehe,Credit amount (DM),hoehe,0.07462334445416043,-0.005135511611237249,13
+ordinal__beruf,Job quality,beruf,0.06209337412106531,0.006954975481129926,14
+nominal__wohn_1,Housing = for free,wohn,0.060221084397891145,-0.006253987036048705,15
+nominal__weitkred_1,Other instalment plans = bank,weitkred,0.04292124685474711,0.0031199743296338183,16
+nominal__verw_6,Purpose = repairs,verw,0.02803059156848884,-0.0016327231808299515,17
+nominal__buerge_3,Other debtors or guarantor = guarantor,buerge,0.02712893572464708,0.006671049768355756,18
+quant__alter,Age (years),alter,0.022855088993885452,-0.005617244510745392,19
+nominal__verw_2,Purpose = car (used),verw,0.020400949204926175,0.0016953697400215058,20
+ordinal__wohnzeit,Time at present residence,wohnzeit,0.01926820151570187,0.0033884848215502282,21
+binary__gastarb,Foreign worker,gastarb,0.018260767083783047,0.00030173111506579914,22
+nominal__wohn_3,Housing = own,wohn,0.016813644137525924,-0.0009333999336154483,23
+nominal__weitkred_2,Other instalment plans = stores,weitkred,0.016229542850501294,0.0020950356519579797,24
+nominal__famges_1,Personal status and sex = male: divorced/separated,famges,0.012686355578135453,0.005856627220019933,25
+nominal__verw_9,Purpose = retraining,verw,0.00843243553476792,0.00033214256872412943,26
+nominal__verw_5,Purpose = domestic appliances,verw,0.004608185016563206,-0.0005504282150696445,27
+nominal__buerge_2,Other debtors or guarantor = co-applicant,buerge,0.004592985466068618,7.365274961623567e-05,28
+nominal__famges_4,Personal status and sex = female: single,famges,0.0011988046130738056,0.00012111019560117668,29
+binary__pers,Three or more dependants,pers,0.0009436018334459456,-0.00016009134805629435,30
+nominal__verw_4,Purpose = radio/television,verw,0.0008296566112899781,-0.0001561853560410373,31
+nominal__verw_10,Purpose = business,verw,0.0007642012825127418,-4.5434083383634035e-05,32
+nominal__verw_8,Purpose = vacation,verw,0.00046613860363342667,-0.00046613860363342667,33

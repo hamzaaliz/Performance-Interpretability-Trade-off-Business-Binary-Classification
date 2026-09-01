@@ -1,0 +1,16 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+poutcome,Previous campaign outcome,0.06683593456223606,-0.034746123873740424,,category-dependent,2000,200,raw class-1 probability output,1
+contact,Contact channel,0.047223968041618346,0.012428368099457583,,category-dependent,2000,200,raw class-1 probability output,2
+month,Month of planned contact,0.021927386537920687,-0.002659396535381676,,category-dependent,2000,200,raw class-1 probability output,3
+age,Age (years),0.00860794224627316,0.0012875216434150918,0.07398573152267371,mixed/weak,2000,200,raw class-1 probability output,4
+balance,Average yearly balance (EUR),0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,5
+campaign,Contacts this campaign,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,6
+day,Day of month of planned contact,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,7
+default,Credit in default,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,8
+education,Education level,0.0,0.0,,category-dependent,2000,200,raw class-1 probability output,9
+housing,Housing loan,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,10
+job,Occupation,0.0,0.0,,category-dependent,2000,200,raw class-1 probability output,11
+loan,Personal loan,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,12
+marital,Marital status,0.0,0.0,,category-dependent,2000,200,raw class-1 probability output,13
+pdays,Days since previous contact,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,14
+previous,Contacts before this campaign,0.0,0.0,,mixed/weak,2000,200,raw class-1 probability output,15

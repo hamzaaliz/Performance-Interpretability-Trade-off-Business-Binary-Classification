@@ -1,0 +1,589 @@
+dataset,stage,model,scope,metric,value,source_file,seed_applicable,seed,code_version
+Bank Marketing,4,,split,development_rows,36168.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,4,,split,development_positives,4231.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,4,,split,test_rows,9043.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,4,,split,test_positives,1058.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,4,,split,outer_folds,5.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,4,,split,inner_folds,3.0,outputs/split/split_spec.json,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,lr,outer-fold CV,pr_auc_mean,0.4054118077939635,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,lr,outer-fold CV,pr_auc_sd,0.007668219024942904,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,dt,outer-fold CV,pr_auc_mean,0.30073220735192313,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,dt,outer-fold CV,pr_auc_sd,0.014815572979912027,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,rf,outer-fold CV,pr_auc_mean,0.4137857235273298,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,rf,outer-fold CV,pr_auc_sd,0.0238429982176896,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,xgb,outer-fold CV,pr_auc_mean,0.42188302033507075,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,xgb,outer-fold CV,pr_auc_sd,0.012995203009761869,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,dummy,outer-fold CV,pr_auc_mean,0.11698186142744749,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,8,dummy,outer-fold CV,pr_auc_sd,5.876439263078321e-05,outputs/modelling/baseline_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_mean,0.4059836179534586,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_sd,0.007865862057275259,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_fold_1,0.40380895135944106,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_fold_2,0.40548684919225503,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_fold_3,0.3972002836809943,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_fold_4,0.4046484835614668,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,pr_auc_fold_5,0.41877352197313605,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,search_score,0.4058573312752779,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,lr,nested development CV,final_fit_search_score,0.4069933779338175,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_mean,0.2792590167778878,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_sd,0.007416715042931127,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_fold_1,0.2697001465425019,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_fold_2,0.2810326372635328,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_fold_3,0.2748736629034973,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_fold_4,0.28133060500920115,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,pr_auc_fold_5,0.28935803217070555,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,search_score,0.2831616213859838,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,dt,nested development CV,final_fit_search_score,0.2804900032025288,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_mean,0.4380946499591614,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_sd,0.013876503868044168,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_fold_1,0.4222600739863906,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_fold_2,0.4429230714371034,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_fold_3,0.44472710111798813,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_fold_4,0.4254048766842635,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,pr_auc_fold_5,0.4551581265700617,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,search_score,0.43173263439672427,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,rf,nested development CV,final_fit_search_score,0.44078355435876526,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_mean,0.4516193989760401,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_sd,0.014863454222308975,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_fold_1,0.43134436270514037,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_fold_2,0.4622354132024443,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_fold_3,0.4601198713348234,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_fold_4,0.4402198783280379,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,pr_auc_fold_5,0.46417746930975434,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,search_score,0.4475456695260351,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,9,xgb,nested development CV,final_fit_search_score,0.4567386895285546,outputs/modelling/nested_cv.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,lr,nested OOF development,slope,1.0197241213963613,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,lr,nested OOF development,intercept,0.03506222062463662,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,lr,nested OOF development,brier,0.08604317654646222,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,lr,nested OOF development,log_loss,0.3013400314936635,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,dt,nested OOF development,slope,0.9883348159087111,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,dt,nested OOF development,intercept,-0.021698246808701,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,dt,nested OOF development,brier,0.09047818288316134,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,dt,nested OOF development,log_loss,0.3173107833365617,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,rf,nested OOF development,slope,1.1172107173014028,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,rf,nested OOF development,intercept,0.2062532600301443,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,rf,nested OOF development,brier,0.0833561060481898,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,rf,nested OOF development,log_loss,0.2914595569581937,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,xgb,nested OOF development,slope,1.0255168754056154,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,xgb,nested OOF development,intercept,0.050512722198812324,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,xgb,nested OOF development,brier,0.08171139948992737,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,11,xgb,nested OOF development,log_loss,0.2849317801113103,outputs/modelling/calibration.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,threshold,0.2410990911590416,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,precision,0.5,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,recall,0.37697943748522805,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,fp,1595.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,fn,2636.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,precision_at_050,0.6614391143911439,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,lr,nested OOF development,recall_at_050,0.169463483809974,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,threshold,0.3630769230769231,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,precision,0.5412453432676956,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,recall,0.24036870716142755,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,fp,862.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,fn,3214.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,precision_at_050,0.6464730290456432,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,dt,nested OOF development,recall_at_050,0.1841172299692744,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,threshold,0.28745734082135144,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,precision,0.5,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,recall,0.40132356416922715,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,fp,1698.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,fn,2533.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,precision_at_050,0.6694772344013491,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,rf,nested OOF development,recall_at_050,0.18766249113684708,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,threshold,0.2828892171382904,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,precision,0.5001383891502906,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,recall,0.42708579532025526,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,fp,1806.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,fn,2424.0,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,precision_at_050,0.6349965823650034,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,12,xgb,nested OOF development,recall_at_050,0.21956984164500118,outputs/modelling/thresholds_selected.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,pr_auc,0.4137737203017934,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,pr_auc_ci_low,0.3853380919782898,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,pr_auc_ci_high,0.44497824448891393,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,roc_auc,0.77205712980269,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,calibration_slope,1.0455943494061715,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,precision,0.5318352059925093,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,recall,0.40264650283553877,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,threshold,0.2410990911590416,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,pr_auc,0.2798314561149783,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,pr_auc_ci_low,0.25758921729706125,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,pr_auc_ci_high,0.30335869838356166,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,roc_auc,0.6943949134305462,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,calibration_slope,0.998513762743947,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,precision,0.5503355704697986,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,recall,0.23251417769376181,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,threshold,0.3630769230769231,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,pr_auc,0.44408548865268505,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,pr_auc_ci_low,0.41503610929893464,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,pr_auc_ci_high,0.4752283469102448,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,roc_auc,0.796165068482611,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,calibration_slope,1.1132848857422986,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,precision,0.5039727582292849,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,recall,0.41965973534971646,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,threshold,0.28745734082135144,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,pr_auc,0.46677317651231776,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,pr_auc_ci_low,0.43757972946248674,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,pr_auc_ci_high,0.4975514427924648,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,roc_auc,0.808194831282189,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,calibration_slope,1.0203651190801208,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,precision,0.5267260579064588,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,recall,0.44706994328922495,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,threshold,0.2828892171382904,outputs/modelling/test_results.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,tp,426.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,fp,375.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,tn,7610.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,lr,locked holdout test,fn,632.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,tp,246.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,fp,201.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,tn,7784.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,dt,locked holdout test,fn,812.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,tp,444.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,fp,437.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,tn,7548.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,rf,locked holdout test,fn,614.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,tp,473.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,fp,425.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,tn,7560.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,13,xgb,locked holdout test,fn,585.0,outputs/modelling/confusion_matrices.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_dt,paired outer folds,mean_diff,0.12672460117557088,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_dt,paired outer folds,sd_diff,0.00494646345800579,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_dt,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_dt,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_rf,paired outer folds,mean_diff,-0.032111032005702825,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_rf,paired outer folds,sd_diff,0.012245289529407849,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_xgb,paired outer folds,mean_diff,-0.04563578102258141,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_xgb,paired outer folds,sd_diff,0.014587605332986794,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,lr_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_rf,paired outer folds,mean_diff,-0.15883563318127375,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_rf,paired outer folds,sd_diff,0.010446408867764111,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_xgb,paired outer folds,mean_diff,-0.17236038219815233,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_xgb,paired outer folds,sd_diff,0.011689593501482323,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,dt_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,rf_vs_xgb,paired outer folds,mean_diff,-0.01352474901687859,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,rf_vs_xgb,paired outer folds,sd_diff,0.004434716965278551,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,rf_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,14,rf_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::poutcome,0.10009271797750378,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::poutcome,0.09726093862466655,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::poutcome,0.1067658641715085,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::poutcome,0.09570807243996118,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::poutcome,0.0975980346954095,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::poutcome,0.10313067995597325,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::month,0.06700664482272056,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::month,0.06376663921673349,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::month,0.06911956463746821,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::month,0.05768568295342701,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::month,0.07182256507793329,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::month,0.07263877222804081,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::contact,0.06134165637346434,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::contact,0.06529039431788185,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::contact,0.059092682479166964,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::contact,0.061601188968248254,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::contact,0.06153146278111812,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::contact,0.05919255332090651,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::housing,0.02426334224854911,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::housing,0.027966097615505312,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::housing,0.019135969930932636,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::housing,0.025795730531006516,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::housing,0.021800872852981972,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::housing,0.026618040312319107,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::campaign,0.010439018512975563,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::campaign,0.009813961760977576,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::campaign,0.01213782839562649,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::campaign,0.010733639828929489,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::campaign,0.007288478526832467,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::campaign,0.012221184052511795,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::balance,0.007663784872472442,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::balance,0.010752189772467235,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::balance,0.007223159663472282,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::balance,0.006890047875271464,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::balance,0.007356264089106178,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::balance,0.006097262962045055,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::previous,0.0067369154155525295,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::previous,0.004738383381409872,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::previous,0.008701532812801184,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::previous,0.009145085236283277,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::previous,0.006356865301225797,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::previous,0.0047427103460425165,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::pdays,0.006664521290180472,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::pdays,0.007420386949298522,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::pdays,0.006799723493760483,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::pdays,0.006375624930743262,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::pdays,0.008037955675826037,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::pdays,0.004688915401274056,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::job,0.004487550067216042,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::job,0.004586215836923429,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::job,0.0027153216596785433,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::job,0.005186222779189435,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::job,0.005028358747027495,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::job,0.004921631313261306,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::marital,0.004341793431852505,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::marital,0.005267057086603804,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::marital,0.0047350216615541394,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::marital,0.00472353674551876,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::marital,0.004265884409068822,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::marital,0.0027174672565169994,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::loan,0.0037270700534691756,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::loan,0.005085137089308624,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::loan,0.00402774491829182,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::loan,0.0029231228822803415,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::loan,0.0023683317765698744,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::loan,0.004231013600895219,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::education,0.002835041048013366,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::education,0.0036488109402352735,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::education,0.004007984344444104,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::education,0.0002141394839675755,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::education,0.0017601733996321551,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::education,0.004544097071787721,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::day,0.000497038307886157,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::day,0.00037146752118398795,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::day,1.0876172197403037e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::day,0.000898604176463876,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::day,-7.605497459354238e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::day,0.0012802986441790602,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::default,-5.715965410147961e-06,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::default,4.471681633241113e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::default,-7.605157467223122e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::default,3.461121453008919e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::default,-3.152315186055743e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::default,-3.3313138045147163e-07,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development,permutation::age,-1.616886072418685e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 1,permutation::age,6.468832999651509e-05,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 2,permutation::age,-0.00038065293908505954,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 3,permutation::age,0.0003715563502292148,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 4,permutation::age,5.560239361927325e-06,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,cross-fitted development fold 5,permutation::age,-0.00014199628412353189,outputs/interpretability/permutation_importance_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::contact,0.5679988072568356,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::month,0.3067637981769414,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::housing,0.26214680374902927,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::poutcome,0.2227117063364854,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::campaign,0.1494979328286813,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::marital,0.14223703502739218,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::balance,0.1228801300223417,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::pdays,0.10662632331027308,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::previous,0.09861022040829145,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::job,0.08232204330038519,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::education,0.07869819492277981,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::loan,0.07304532899846844,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::day,0.027064041765087157,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::age,0.007305496021172543,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,lr,final-refit development,shap::default,0.0008632940163089752,outputs/interpretability/shap_summary_lr.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::poutcome,0.10880073873847411,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::poutcome,0.11186937619578882,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::poutcome,0.10364507268690047,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::poutcome,0.1176817613043664,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::poutcome,0.10553014561256086,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::poutcome,0.105277337892754,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::contact,0.034270087055505535,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::contact,0.04564270122858569,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::contact,0.027287381643827165,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::contact,0.041200233039510405,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::contact,0.02835534257537903,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::contact,0.028864776790225415,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::month,0.014413006100748072,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::month,0.022442535534565503,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::month,0.01458954133608403,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::month,0.01993418577184603,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::month,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::month,0.015098767861244795,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::housing,0.01438318276250441,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::housing,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::housing,0.024880518465649388,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::housing,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::housing,0.014934295349079117,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::housing,0.03210109999779354,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::age,0.010176957716147508,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::age,0.016070064888750332,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::age,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::age,0.01740185441923553,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::age,0.017412869272751683,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::age,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::balance,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::campaign,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::day,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::default,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::education,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::job,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::loan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::marital,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::pdays,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 1,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 2,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 3,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 4,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,cross-fitted development fold 5,permutation::previous,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::poutcome,0.06683593456223606,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::contact,0.047223968041618346,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::month,0.021927386537920687,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::age,0.00860794224627316,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::balance,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::campaign,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::day,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::default,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::education,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::housing,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::job,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::loan,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::marital,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::pdays,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,dt,final-refit development,shap::previous,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::poutcome,0.12465128619263761,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::poutcome,0.11267040768585326,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::poutcome,0.12685307076189953,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::poutcome,0.13292863878307656,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::poutcome,0.12075223841763108,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::poutcome,0.13005207531472757,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::month,0.09392086496977203,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::month,0.09991347065464044,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::month,0.0744970822601113,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::month,0.10073442233414118,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::month,0.09350410816726347,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::month,0.10095524143270372,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::contact,0.0722017790188157,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::contact,0.08346860585486127,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::contact,0.041315805935094395,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::contact,0.08687253847825173,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::contact,0.07101088778259577,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::contact,0.07834105704327538,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::pdays,0.026484074661687687,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::pdays,0.02939003530397568,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::pdays,0.01934159368664002,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::pdays,0.030284752875140142,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::pdays,0.020725149687863223,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::pdays,0.03267884175481936,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::age,0.02423851844275007,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::age,0.026373488475463797,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::age,0.01657479222528587,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::age,0.029550733930762352,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::age,0.022964076319192697,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::age,0.02572950126304563,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::housing,0.020508007348177048,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::housing,0.020277489075250867,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::housing,0.02199192728954662,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::housing,0.01943139175118392,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::housing,0.018505454904666114,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::housing,0.022333773720237697,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::day,0.015230334018112697,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::day,0.014845381544386489,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::day,0.013777188955475358,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::day,0.014835817947543904,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::day,0.014910360584261977,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::day,0.017782921058895774,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::balance,0.006203709408126299,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::balance,0.007671022389009065,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::balance,0.0042576174230784984,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::balance,0.006039784350867352,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::balance,0.005861042569663329,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::balance,0.007189080308013248,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::marital,0.003427863108358567,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::marital,0.003582331359163826,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::marital,0.004917528558694441,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::marital,0.003000925856478792,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::marital,0.00141061478585409,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::marital,0.004227914981601685,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::previous,0.003025381395147527,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::previous,0.004169468930608345,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::previous,0.006540946984293287,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::previous,0.0026017651921794263,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::previous,0.0014436984952372963,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::previous,0.00037102737341928037,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::campaign,0.002707066947164309,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::campaign,0.00020912564430696594,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::campaign,0.006473849629893896,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::campaign,0.0010482774915166933,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::campaign,0.0023621504263629097,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::campaign,0.00344193154374108,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::job,0.0015344249721402211,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::job,0.0009720487310735511,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::job,0.0006758831766976743,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::job,0.0030756091493763663,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::job,0.0016160396092388062,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::job,0.0013325441943147073,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::loan,0.0008162554714327655,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::loan,0.00044746884249040423,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::loan,0.0019239235425241566,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::loan,0.000430462866353352,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::loan,0.00037134988909666157,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::loan,0.0009080722166992535,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::education,0.0006634722820311937,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::education,-0.00021809890264898695,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::education,0.001750960807922247,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::education,0.0010198684783156164,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::education,0.000389701834395347,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::education,0.00037492919217174496,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development,permutation::default,-1.0423309525116424e-05,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 1,permutation::default,1.50073496205901e-05,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 2,permutation::default,-7.072320830451654e-07,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 3,permutation::default,-4.267415210432538e-05,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 4,permutation::default,-1.7810043313408e-05,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,cross-fitted development fold 5,permutation::default,-5.932469745393668e-06,outputs/interpretability/permutation_importance_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::poutcome,0.0430942016514946,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::month,0.03788311151531177,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::contact,0.03619684350923046,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::pdays,0.01695704107013856,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::housing,0.0146738173569453,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::age,0.010863553386025482,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::balance,0.008279301766270696,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::marital,0.006688893225390226,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::previous,0.0061827944300013385,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::day,0.0041077234021206785,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::campaign,0.0027482282146513637,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::job,0.0017286872831377665,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::education,0.001148428337369103,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::loan,0.0006336542129386788,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,rf,final-refit development,shap::default,2.3469300841675998e-05,outputs/interpretability/shap_summary_rf.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::month,0.09809904275042884,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::month,0.09123566084535649,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::month,0.10505628628903159,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::month,0.09926915364932973,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::month,0.09632479128183391,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::month,0.09860932168659249,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::poutcome,0.0826285396297584,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::poutcome,0.0746763806115499,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::poutcome,0.08925968750962308,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::poutcome,0.09239735942953094,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::poutcome,0.07702866626058176,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::poutcome,0.07978060433750632,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::contact,0.0688335180033432,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::contact,0.07704760400184354,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::contact,0.0639040161635185,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::contact,0.07605339580105056,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::contact,0.06341396004737458,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::contact,0.06374861400292879,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::day,0.04611200618538496,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::day,0.03713155503668395,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::day,0.04499225671580603,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::day,0.04787726614032817,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::day,0.04309586399573228,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::day,0.05746308903837435,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::pdays,0.025122439938305555,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::pdays,0.026778845803463472,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::pdays,0.025218423584557524,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::pdays,0.028061395390113066,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::pdays,0.02087990635012611,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::pdays,0.02467362856326759,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::housing,0.016900296248951358,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::housing,0.022290915978989866,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::housing,0.017166154314901882,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::housing,0.014000871302600503,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::housing,0.01272879248786144,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::housing,0.01831474716040311,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::campaign,0.010093043077691738,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::campaign,0.01167405017160562,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::campaign,0.011825757552598343,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::campaign,0.008057014705871416,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::campaign,0.008115242919089816,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::campaign,0.010793150039293493,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::age,0.007994410860854834,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::age,0.00916610987769734,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::age,0.00856525855465141,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::age,0.008847785833503614,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::age,0.007039712306224585,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::age,0.006353187732197217,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::balance,0.006364259564519453,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::balance,0.005713232304448146,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::balance,0.0071810587190030105,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::balance,0.005891072025935786,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::balance,0.007658154087891089,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::balance,0.0053777806853192315,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::marital,0.003892036352384253,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::marital,0.002669220997114213,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::marital,0.005928512851599025,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::marital,0.004298763819053362,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::marital,0.002251396199518831,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::marital,0.004312287894635836,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::loan,0.003263790813025213,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::loan,0.004992130935309384,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::loan,0.004283234975420095,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::loan,0.0032144325554195495,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::loan,0.00041036314413978964,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::loan,0.0034187924548372477,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::previous,0.0017663020647046954,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::previous,0.0007782171554268895,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::previous,0.0018937073424288632,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::previous,0.0029671469469149964,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::previous,0.002857190954594683,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::previous,0.00033524792415804414,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::education,0.0009958878482871799,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::education,0.002050322003503765,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::education,0.0009583121646267919,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::education,0.00022383594120296187,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::education,0.0007595554654722318,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::education,0.0009874136666301492,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::job,0.00035017419372979975,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::job,0.00010510816226311412,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::job,0.0015935887317458468,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::job,-0.001281786360422706,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::job,-0.0003958867758202256,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::job,0.0017298472108829696,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development,permutation::default,-2.5478049245982366e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 1,permutation::default,-3.4419976978990645e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 2,permutation::default,1.9328630098325304e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 3,permutation::default,-5.7147843132432374e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 4,permutation::default,-2.1323511350316662e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,cross-fitted development fold 5,permutation::default,-3.3827544866497454e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::contact,0.5140494846868553,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::month,0.30534533041519263,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::poutcome,0.2224443962878249,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::day,0.18702417834790572,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::balance,0.1591660672469058,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::marital,0.1553228547741727,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::housing,0.15020934648687476,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::campaign,0.12023973066882433,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::pdays,0.11898097529836338,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::age,0.10195172034230097,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::education,0.07031888636478502,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::loan,0.05195903821572371,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::previous,0.04887110963677167,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::job,0.04053323431876204,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc
+Bank Marketing,16,xgb,final-refit development,shap::default,0.0008116634052910376,outputs/interpretability/shap_summary_xgb.csv,True,42,bank-marketing-workflow-2026-08-24-v1:dbe8eacbe67beacc

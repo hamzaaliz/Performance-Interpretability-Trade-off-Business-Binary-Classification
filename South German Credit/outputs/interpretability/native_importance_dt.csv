@@ -1,0 +1,21 @@
+feature,importance,display_name,rank
+laufkont,0.43824243803317386,Checking account status,1
+laufzeit,0.15222409742014373,Credit duration (months),2
+verm,0.11636169984528251,Most valuable property,3
+sparkont,0.07570359432633537,Savings,4
+hoehe,0.05001376507039798,Credit amount (DM),5
+beszeit,0.048851804659961626,Employment duration,6
+verw,0.04458559753028997,Purpose,7
+rate,0.030554749071243188,Instalment rate (% of income),8
+moral,0.021834333272568177,Credit history,9
+alter,0.021627920770603624,Age (years),10
+beruf,0.0,Job quality,11
+pers,0.0,Three or more dependants,12
+gastarb,0.0,Foreign worker,13
+famges,0.0,Personal status and sex,14
+telef,0.0,Telephone registered,15
+buerge,0.0,Other debtors or guarantor,16
+bishkred,0.0,Number of credits at this bank,17
+weitkred,0.0,Other instalment plans,18
+wohn,0.0,Housing,19
+wohnzeit,0.0,Time at present residence,20

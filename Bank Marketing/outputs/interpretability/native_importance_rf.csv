@@ -1,0 +1,16 @@
+feature,importance,display_name,rank
+poutcome,0.3569260735041932,Previous campaign outcome,1
+month,0.18242004487110164,Month of planned contact,2
+age,0.10503224189590919,Age (years),3
+pdays,0.08712531003420623,Days since previous contact,4
+housing,0.05615008594678949,Housing loan,5
+balance,0.048380248126534534,Average yearly balance (EUR),6
+day,0.04739611228193966,Day of month of planned contact,7
+contact,0.04600134499199806,Contact channel,8
+previous,0.019346224363983807,Contacts before this campaign,9
+marital,0.014034582446775197,Marital status,10
+job,0.013707381033032812,Occupation,11
+campaign,0.01150371951690191,Contacts this campaign,12
+education,0.009688798383918298,Education level,13
+loan,0.002181931945754152,Personal loan,14
+default,0.00010590065696197808,Credit in default,15

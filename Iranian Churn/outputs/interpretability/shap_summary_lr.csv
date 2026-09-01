@@ -1,0 +1,12 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+frequency_of_use,Number of calls,1.2972962403601422,-0.06754794608126782,-1.0,negative,2000,200,log-odds (linear model raw output),1
+frequency_of_sms,Number of text messages,1.1636309804985991,-0.0630193932125793,-0.9999999999999998,negative,2000,200,log-odds (linear model raw output),2
+call_failure,Call failures,0.5833884926354002,0.08049651994353553,0.9999999999999998,positive,2000,200,log-odds (linear model raw output),3
+complains,Complaint registered,0.4929936511735722,0.06729632523820216,1.0,positive,2000,200,log-odds (linear model raw output),4
+age_group,Age band,0.46723985577163457,0.08018483202660547,,category-dependent,2000,200,log-odds (linear model raw output),5
+status,Account inactive,0.38893374599730063,-0.018140566511068143,1.0,positive,2000,200,log-odds (linear model raw output),6
+charge_amount,Charge amount band,0.2411902356523178,-0.03687068714374611,-1.0,negative,2000,200,log-odds (linear model raw output),7
+distinct_called_numbers,Distinct called numbers,0.16990242612909282,-0.0052338498826212795,-1.0,negative,2000,200,log-odds (linear model raw output),8
+subscription_length,Subscription length (months),0.15984094968500404,-0.013262843654408395,-0.9999999999999998,negative,2000,200,log-odds (linear model raw output),9
+tariff_plan,Contractual plan,0.0893697597207059,0.01870618635760183,1.0,positive,2000,200,log-odds (linear model raw output),10
+mean_call_duration,Mean call duration (seconds),0.022032158827701202,0.0051183170003589705,0.9999999999999998,positive,2000,200,log-odds (linear model raw output),11

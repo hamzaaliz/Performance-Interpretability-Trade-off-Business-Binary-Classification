@@ -1,0 +1,43 @@
+feature,display_name,importance,rank,aggregation
+encoded-term-only,Previous campaign outcome = success,1.4748529635277499,1,No variable-level native aggregate
+encoded-term-only,Month of planned contact = mar,1.3576542853912172,2,No variable-level native aggregate
+encoded-term-only,Contact channel = unknown,1.2877417346723223,3,No variable-level native aggregate
+encoded-term-only,Month of planned contact = sep,1.0012611762916677,4,No variable-level native aggregate
+encoded-term-only,Month of planned contact = oct,0.9789675485190723,5,No variable-level native aggregate
+encoded-term-only,Month of planned contact = dec,0.8898773735262845,6,No variable-level native aggregate
+encoded-term-only,Previous campaign outcome = failure,0.7193994890071355,7,No variable-level native aggregate
+encoded-term-only,Month of planned contact = jan,0.6314935169878343,8,No variable-level native aggregate
+encoded-term-only,Month of planned contact = jun,0.5745620504376481,9,No variable-level native aggregate
+encoded-term-only,Housing loan,0.5278725836149679,10,No variable-level native aggregate
+encoded-term-only,Occupation = retired,0.5182730695263909,11,No variable-level native aggregate
+encoded-term-only,Previous campaign outcome = other,0.45151014698478886,12,No variable-level native aggregate
+encoded-term-only,Month of planned contact = nov,0.4374277849623314,13,No variable-level native aggregate
+encoded-term-only,Month of planned contact = apr,0.4191087222997609,14,No variable-level native aggregate
+encoded-term-only,Occupation = student,0.3959413705524129,15,No variable-level native aggregate
+encoded-term-only,Month of planned contact = aug,0.3823274399370794,16,No variable-level native aggregate
+encoded-term-only,Personal loan,0.33870596771987593,17,No variable-level native aggregate
+encoded-term-only,Marital status = single,0.31308422140711173,18,No variable-level native aggregate
+encoded-term-only,Previously contacted,0.3089194633322972,19,No variable-level native aggregate
+encoded-term-only,Contacts this campaign,0.26213294506949547,20,No variable-level native aggregate
+encoded-term-only,Marital status = divorced,0.24816023860539102,21,No variable-level native aggregate
+encoded-term-only,Occupation = housemaid,0.22572586099713782,22,No variable-level native aggregate
+encoded-term-only,Month of planned contact = jul,0.22484337071709143,23,No variable-level native aggregate
+encoded-term-only,"Average yearly balance (signed-log, standardised)",0.19202263198292677,24,No variable-level native aggregate
+encoded-term-only,Occupation = unemployed,0.18211671915695268,25,No variable-level native aggregate
+encoded-term-only,Contact channel = telephone,0.17325113290395452,26,No variable-level native aggregate
+encoded-term-only,Education level = primary,0.16434344628229902,27,No variable-level native aggregate
+encoded-term-only,Education level = tertiary,0.14050714214804297,28,No variable-level native aggregate
+encoded-term-only,Contacts before this campaign (log1p),0.12957375658131104,29,No variable-level native aggregate
+encoded-term-only,Occupation = admin.,0.11162533931077803,30,No variable-level native aggregate
+encoded-term-only,Month of planned contact = feb,0.08192617465527421,31,No variable-level native aggregate
+encoded-term-only,Occupation = management,0.06495249942493447,32,No variable-level native aggregate
+encoded-term-only,Occupation = entrepreneur,0.05867920672354359,33,No variable-level native aggregate
+encoded-term-only,Occupation = technician,0.043730880072137324,34,No variable-level native aggregate
+encoded-term-only,Occupation = self-employed,0.0428121599281165,35,No variable-level native aggregate
+encoded-term-only,Occupation = unknown,0.04162867489127892,36,No variable-level native aggregate
+encoded-term-only,Day of month of planned contact,0.03156675171964172,37,No variable-level native aggregate
+encoded-term-only,Credit in default,0.03123350276081676,38,No variable-level native aggregate
+encoded-term-only,Occupation = services,0.02956521776832903,39,No variable-level native aggregate
+encoded-term-only,Days since previous contact (cleaned),0.01549792308115632,40,No variable-level native aggregate
+encoded-term-only,Education level = unknown,0.014994941191927784,41,No variable-level native aggregate
+encoded-term-only,Age (years),0.008978359729903865,42,No variable-level native aggregate

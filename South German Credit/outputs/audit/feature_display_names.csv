@@ -1,0 +1,22 @@
+feature,display_name
+duration,Credit duration (months)
+amount,Credit amount (DM)
+age,Age (years)
+checking_account_status,Checking account status
+credit_history,Credit history
+savings,Savings
+employment_duration,Employment duration
+instalment_rate,Instalment rate (% of income)
+present_residence,Time at present residence
+property,Most valuable property
+number_of_credits,Number of credits at this bank
+job_quality,Job quality
+dependants,Three or more dependants
+telephone,Telephone registered
+foreign_worker,Foreign worker
+purpose,Purpose
+personal_status_and_sex,Personal status and sex
+other_debtors,Other debtors or guarantor
+other_instalment_plans,Other instalment plans
+housing,Housing
+credit_risk,Credit risk

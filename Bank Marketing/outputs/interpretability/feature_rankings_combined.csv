@@ -1,0 +1,16 @@
+feature,display_name,lr_perm_rank,lr_shap_rank,lr_direction,dt_perm_rank,dt_shap_rank,dt_direction,rf_perm_rank,rf_shap_rank,rf_direction,xgb_perm_rank,xgb_shap_rank,xgb_direction
+age,Age (years),15,14,positive,5,4,mixed/weak,5,6,negative,8,10,negative
+balance,Average yearly balance (EUR),6,7,positive,6,5,mixed/weak,8,7,positive,9,5,positive
+day,Day of month of planned contact,13,13,positive,8,7,mixed/weak,7,10,positive,4,4,mixed/weak
+campaign,Contacts this campaign,5,5,negative,7,6,mixed/weak,11,11,negative,7,8,negative
+pdays,Days since previous contact,8,8,positive,14,14,mixed/weak,4,4,positive,5,9,positive
+previous,Contacts before this campaign,7,9,positive,15,15,mixed/weak,10,9,positive,12,13,positive
+default,Credit in default,14,15,positive,9,8,mixed/weak,15,15,positive,15,15,positive
+housing,Housing loan,4,3,negative,4,10,mixed/weak,6,5,negative,6,7,negative
+loan,Personal loan,11,12,negative,12,12,mixed/weak,13,14,negative,11,12,negative
+job,Occupation,9,10,category-dependent,11,11,category-dependent,12,12,category-dependent,14,14,category-dependent
+marital,Marital status,10,6,category-dependent,13,13,category-dependent,9,8,category-dependent,10,6,category-dependent
+education,Education level,12,11,category-dependent,10,9,category-dependent,14,13,category-dependent,13,11,category-dependent
+contact,Contact channel,3,1,category-dependent,2,2,category-dependent,3,3,category-dependent,3,1,category-dependent
+month,Month of planned contact,2,2,category-dependent,3,3,category-dependent,2,2,category-dependent,1,2,category-dependent
+poutcome,Previous campaign outcome,1,4,category-dependent,1,1,category-dependent,1,1,category-dependent,2,3,category-dependent

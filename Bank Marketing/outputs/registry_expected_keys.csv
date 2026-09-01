@@ -1,0 +1,589 @@
+stage,model,scope,metric
+4,,split,development_positives
+4,,split,development_rows
+4,,split,inner_folds
+4,,split,outer_folds
+4,,split,test_positives
+4,,split,test_rows
+8,dt,outer-fold CV,pr_auc_mean
+8,dt,outer-fold CV,pr_auc_sd
+8,dummy,outer-fold CV,pr_auc_mean
+8,dummy,outer-fold CV,pr_auc_sd
+8,lr,outer-fold CV,pr_auc_mean
+8,lr,outer-fold CV,pr_auc_sd
+8,rf,outer-fold CV,pr_auc_mean
+8,rf,outer-fold CV,pr_auc_sd
+8,xgb,outer-fold CV,pr_auc_mean
+8,xgb,outer-fold CV,pr_auc_sd
+9,dt,nested development CV,final_fit_search_score
+9,dt,nested development CV,pr_auc_fold_1
+9,dt,nested development CV,pr_auc_fold_2
+9,dt,nested development CV,pr_auc_fold_3
+9,dt,nested development CV,pr_auc_fold_4
+9,dt,nested development CV,pr_auc_fold_5
+9,dt,nested development CV,pr_auc_mean
+9,dt,nested development CV,pr_auc_sd
+9,dt,nested development CV,search_score
+9,lr,nested development CV,final_fit_search_score
+9,lr,nested development CV,pr_auc_fold_1
+9,lr,nested development CV,pr_auc_fold_2
+9,lr,nested development CV,pr_auc_fold_3
+9,lr,nested development CV,pr_auc_fold_4
+9,lr,nested development CV,pr_auc_fold_5
+9,lr,nested development CV,pr_auc_mean
+9,lr,nested development CV,pr_auc_sd
+9,lr,nested development CV,search_score
+9,rf,nested development CV,final_fit_search_score
+9,rf,nested development CV,pr_auc_fold_1
+9,rf,nested development CV,pr_auc_fold_2
+9,rf,nested development CV,pr_auc_fold_3
+9,rf,nested development CV,pr_auc_fold_4
+9,rf,nested development CV,pr_auc_fold_5
+9,rf,nested development CV,pr_auc_mean
+9,rf,nested development CV,pr_auc_sd
+9,rf,nested development CV,search_score
+9,xgb,nested development CV,final_fit_search_score
+9,xgb,nested development CV,pr_auc_fold_1
+9,xgb,nested development CV,pr_auc_fold_2
+9,xgb,nested development CV,pr_auc_fold_3
+9,xgb,nested development CV,pr_auc_fold_4
+9,xgb,nested development CV,pr_auc_fold_5
+9,xgb,nested development CV,pr_auc_mean
+9,xgb,nested development CV,pr_auc_sd
+9,xgb,nested development CV,search_score
+11,dt,nested OOF development,brier
+11,dt,nested OOF development,intercept
+11,dt,nested OOF development,log_loss
+11,dt,nested OOF development,slope
+11,lr,nested OOF development,brier
+11,lr,nested OOF development,intercept
+11,lr,nested OOF development,log_loss
+11,lr,nested OOF development,slope
+11,rf,nested OOF development,brier
+11,rf,nested OOF development,intercept
+11,rf,nested OOF development,log_loss
+11,rf,nested OOF development,slope
+11,xgb,nested OOF development,brier
+11,xgb,nested OOF development,intercept
+11,xgb,nested OOF development,log_loss
+11,xgb,nested OOF development,slope
+12,dt,nested OOF development,fn
+12,dt,nested OOF development,fp
+12,dt,nested OOF development,precision
+12,dt,nested OOF development,precision_at_050
+12,dt,nested OOF development,recall
+12,dt,nested OOF development,recall_at_050
+12,dt,nested OOF development,threshold
+12,lr,nested OOF development,fn
+12,lr,nested OOF development,fp
+12,lr,nested OOF development,precision
+12,lr,nested OOF development,precision_at_050
+12,lr,nested OOF development,recall
+12,lr,nested OOF development,recall_at_050
+12,lr,nested OOF development,threshold
+12,rf,nested OOF development,fn
+12,rf,nested OOF development,fp
+12,rf,nested OOF development,precision
+12,rf,nested OOF development,precision_at_050
+12,rf,nested OOF development,recall
+12,rf,nested OOF development,recall_at_050
+12,rf,nested OOF development,threshold
+12,xgb,nested OOF development,fn
+12,xgb,nested OOF development,fp
+12,xgb,nested OOF development,precision
+12,xgb,nested OOF development,precision_at_050
+12,xgb,nested OOF development,recall
+12,xgb,nested OOF development,recall_at_050
+12,xgb,nested OOF development,threshold
+13,dt,locked holdout test,calibration_slope
+13,dt,locked holdout test,fn
+13,dt,locked holdout test,fp
+13,dt,locked holdout test,pr_auc
+13,dt,locked holdout test,pr_auc_ci_high
+13,dt,locked holdout test,pr_auc_ci_low
+13,dt,locked holdout test,precision
+13,dt,locked holdout test,recall
+13,dt,locked holdout test,roc_auc
+13,dt,locked holdout test,threshold
+13,dt,locked holdout test,tn
+13,dt,locked holdout test,tp
+13,lr,locked holdout test,calibration_slope
+13,lr,locked holdout test,fn
+13,lr,locked holdout test,fp
+13,lr,locked holdout test,pr_auc
+13,lr,locked holdout test,pr_auc_ci_high
+13,lr,locked holdout test,pr_auc_ci_low
+13,lr,locked holdout test,precision
+13,lr,locked holdout test,recall
+13,lr,locked holdout test,roc_auc
+13,lr,locked holdout test,threshold
+13,lr,locked holdout test,tn
+13,lr,locked holdout test,tp
+13,rf,locked holdout test,calibration_slope
+13,rf,locked holdout test,fn
+13,rf,locked holdout test,fp
+13,rf,locked holdout test,pr_auc
+13,rf,locked holdout test,pr_auc_ci_high
+13,rf,locked holdout test,pr_auc_ci_low
+13,rf,locked holdout test,precision
+13,rf,locked holdout test,recall
+13,rf,locked holdout test,roc_auc
+13,rf,locked holdout test,threshold
+13,rf,locked holdout test,tn
+13,rf,locked holdout test,tp
+13,xgb,locked holdout test,calibration_slope
+13,xgb,locked holdout test,fn
+13,xgb,locked holdout test,fp
+13,xgb,locked holdout test,pr_auc
+13,xgb,locked holdout test,pr_auc_ci_high
+13,xgb,locked holdout test,pr_auc_ci_low
+13,xgb,locked holdout test,precision
+13,xgb,locked holdout test,recall
+13,xgb,locked holdout test,roc_auc
+13,xgb,locked holdout test,threshold
+13,xgb,locked holdout test,tn
+13,xgb,locked holdout test,tp
+14,dt_vs_rf,paired outer folds,folds_agreeing_in_sign
+14,dt_vs_rf,paired outer folds,mean_diff
+14,dt_vs_rf,paired outer folds,n_folds
+14,dt_vs_rf,paired outer folds,sd_diff
+14,dt_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,dt_vs_xgb,paired outer folds,mean_diff
+14,dt_vs_xgb,paired outer folds,n_folds
+14,dt_vs_xgb,paired outer folds,sd_diff
+14,lr_vs_dt,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_dt,paired outer folds,mean_diff
+14,lr_vs_dt,paired outer folds,n_folds
+14,lr_vs_dt,paired outer folds,sd_diff
+14,lr_vs_rf,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_rf,paired outer folds,mean_diff
+14,lr_vs_rf,paired outer folds,n_folds
+14,lr_vs_rf,paired outer folds,sd_diff
+14,lr_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_xgb,paired outer folds,mean_diff
+14,lr_vs_xgb,paired outer folds,n_folds
+14,lr_vs_xgb,paired outer folds,sd_diff
+14,rf_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,rf_vs_xgb,paired outer folds,mean_diff
+14,rf_vs_xgb,paired outer folds,n_folds
+14,rf_vs_xgb,paired outer folds,sd_diff
+16,dt,cross-fitted development,permutation::age
+16,dt,cross-fitted development,permutation::balance
+16,dt,cross-fitted development,permutation::campaign
+16,dt,cross-fitted development,permutation::contact
+16,dt,cross-fitted development,permutation::day
+16,dt,cross-fitted development,permutation::default
+16,dt,cross-fitted development,permutation::education
+16,dt,cross-fitted development,permutation::housing
+16,dt,cross-fitted development,permutation::job
+16,dt,cross-fitted development,permutation::loan
+16,dt,cross-fitted development,permutation::marital
+16,dt,cross-fitted development,permutation::month
+16,dt,cross-fitted development,permutation::pdays
+16,dt,cross-fitted development,permutation::poutcome
+16,dt,cross-fitted development,permutation::previous
+16,dt,cross-fitted development fold 1,permutation::age
+16,dt,cross-fitted development fold 1,permutation::balance
+16,dt,cross-fitted development fold 1,permutation::campaign
+16,dt,cross-fitted development fold 1,permutation::contact
+16,dt,cross-fitted development fold 1,permutation::day
+16,dt,cross-fitted development fold 1,permutation::default
+16,dt,cross-fitted development fold 1,permutation::education
+16,dt,cross-fitted development fold 1,permutation::housing
+16,dt,cross-fitted development fold 1,permutation::job
+16,dt,cross-fitted development fold 1,permutation::loan
+16,dt,cross-fitted development fold 1,permutation::marital
+16,dt,cross-fitted development fold 1,permutation::month
+16,dt,cross-fitted development fold 1,permutation::pdays
+16,dt,cross-fitted development fold 1,permutation::poutcome
+16,dt,cross-fitted development fold 1,permutation::previous
+16,dt,cross-fitted development fold 2,permutation::age
+16,dt,cross-fitted development fold 2,permutation::balance
+16,dt,cross-fitted development fold 2,permutation::campaign
+16,dt,cross-fitted development fold 2,permutation::contact
+16,dt,cross-fitted development fold 2,permutation::day
+16,dt,cross-fitted development fold 2,permutation::default
+16,dt,cross-fitted development fold 2,permutation::education
+16,dt,cross-fitted development fold 2,permutation::housing
+16,dt,cross-fitted development fold 2,permutation::job
+16,dt,cross-fitted development fold 2,permutation::loan
+16,dt,cross-fitted development fold 2,permutation::marital
+16,dt,cross-fitted development fold 2,permutation::month
+16,dt,cross-fitted development fold 2,permutation::pdays
+16,dt,cross-fitted development fold 2,permutation::poutcome
+16,dt,cross-fitted development fold 2,permutation::previous
+16,dt,cross-fitted development fold 3,permutation::age
+16,dt,cross-fitted development fold 3,permutation::balance
+16,dt,cross-fitted development fold 3,permutation::campaign
+16,dt,cross-fitted development fold 3,permutation::contact
+16,dt,cross-fitted development fold 3,permutation::day
+16,dt,cross-fitted development fold 3,permutation::default
+16,dt,cross-fitted development fold 3,permutation::education
+16,dt,cross-fitted development fold 3,permutation::housing
+16,dt,cross-fitted development fold 3,permutation::job
+16,dt,cross-fitted development fold 3,permutation::loan
+16,dt,cross-fitted development fold 3,permutation::marital
+16,dt,cross-fitted development fold 3,permutation::month
+16,dt,cross-fitted development fold 3,permutation::pdays
+16,dt,cross-fitted development fold 3,permutation::poutcome
+16,dt,cross-fitted development fold 3,permutation::previous
+16,dt,cross-fitted development fold 4,permutation::age
+16,dt,cross-fitted development fold 4,permutation::balance
+16,dt,cross-fitted development fold 4,permutation::campaign
+16,dt,cross-fitted development fold 4,permutation::contact
+16,dt,cross-fitted development fold 4,permutation::day
+16,dt,cross-fitted development fold 4,permutation::default
+16,dt,cross-fitted development fold 4,permutation::education
+16,dt,cross-fitted development fold 4,permutation::housing
+16,dt,cross-fitted development fold 4,permutation::job
+16,dt,cross-fitted development fold 4,permutation::loan
+16,dt,cross-fitted development fold 4,permutation::marital
+16,dt,cross-fitted development fold 4,permutation::month
+16,dt,cross-fitted development fold 4,permutation::pdays
+16,dt,cross-fitted development fold 4,permutation::poutcome
+16,dt,cross-fitted development fold 4,permutation::previous
+16,dt,cross-fitted development fold 5,permutation::age
+16,dt,cross-fitted development fold 5,permutation::balance
+16,dt,cross-fitted development fold 5,permutation::campaign
+16,dt,cross-fitted development fold 5,permutation::contact
+16,dt,cross-fitted development fold 5,permutation::day
+16,dt,cross-fitted development fold 5,permutation::default
+16,dt,cross-fitted development fold 5,permutation::education
+16,dt,cross-fitted development fold 5,permutation::housing
+16,dt,cross-fitted development fold 5,permutation::job
+16,dt,cross-fitted development fold 5,permutation::loan
+16,dt,cross-fitted development fold 5,permutation::marital
+16,dt,cross-fitted development fold 5,permutation::month
+16,dt,cross-fitted development fold 5,permutation::pdays
+16,dt,cross-fitted development fold 5,permutation::poutcome
+16,dt,cross-fitted development fold 5,permutation::previous
+16,dt,final-refit development,shap::age
+16,dt,final-refit development,shap::balance
+16,dt,final-refit development,shap::campaign
+16,dt,final-refit development,shap::contact
+16,dt,final-refit development,shap::day
+16,dt,final-refit development,shap::default
+16,dt,final-refit development,shap::education
+16,dt,final-refit development,shap::housing
+16,dt,final-refit development,shap::job
+16,dt,final-refit development,shap::loan
+16,dt,final-refit development,shap::marital
+16,dt,final-refit development,shap::month
+16,dt,final-refit development,shap::pdays
+16,dt,final-refit development,shap::poutcome
+16,dt,final-refit development,shap::previous
+16,lr,cross-fitted development,permutation::age
+16,lr,cross-fitted development,permutation::balance
+16,lr,cross-fitted development,permutation::campaign
+16,lr,cross-fitted development,permutation::contact
+16,lr,cross-fitted development,permutation::day
+16,lr,cross-fitted development,permutation::default
+16,lr,cross-fitted development,permutation::education
+16,lr,cross-fitted development,permutation::housing
+16,lr,cross-fitted development,permutation::job
+16,lr,cross-fitted development,permutation::loan
+16,lr,cross-fitted development,permutation::marital
+16,lr,cross-fitted development,permutation::month
+16,lr,cross-fitted development,permutation::pdays
+16,lr,cross-fitted development,permutation::poutcome
+16,lr,cross-fitted development,permutation::previous
+16,lr,cross-fitted development fold 1,permutation::age
+16,lr,cross-fitted development fold 1,permutation::balance
+16,lr,cross-fitted development fold 1,permutation::campaign
+16,lr,cross-fitted development fold 1,permutation::contact
+16,lr,cross-fitted development fold 1,permutation::day
+16,lr,cross-fitted development fold 1,permutation::default
+16,lr,cross-fitted development fold 1,permutation::education
+16,lr,cross-fitted development fold 1,permutation::housing
+16,lr,cross-fitted development fold 1,permutation::job
+16,lr,cross-fitted development fold 1,permutation::loan
+16,lr,cross-fitted development fold 1,permutation::marital
+16,lr,cross-fitted development fold 1,permutation::month
+16,lr,cross-fitted development fold 1,permutation::pdays
+16,lr,cross-fitted development fold 1,permutation::poutcome
+16,lr,cross-fitted development fold 1,permutation::previous
+16,lr,cross-fitted development fold 2,permutation::age
+16,lr,cross-fitted development fold 2,permutation::balance
+16,lr,cross-fitted development fold 2,permutation::campaign
+16,lr,cross-fitted development fold 2,permutation::contact
+16,lr,cross-fitted development fold 2,permutation::day
+16,lr,cross-fitted development fold 2,permutation::default
+16,lr,cross-fitted development fold 2,permutation::education
+16,lr,cross-fitted development fold 2,permutation::housing
+16,lr,cross-fitted development fold 2,permutation::job
+16,lr,cross-fitted development fold 2,permutation::loan
+16,lr,cross-fitted development fold 2,permutation::marital
+16,lr,cross-fitted development fold 2,permutation::month
+16,lr,cross-fitted development fold 2,permutation::pdays
+16,lr,cross-fitted development fold 2,permutation::poutcome
+16,lr,cross-fitted development fold 2,permutation::previous
+16,lr,cross-fitted development fold 3,permutation::age
+16,lr,cross-fitted development fold 3,permutation::balance
+16,lr,cross-fitted development fold 3,permutation::campaign
+16,lr,cross-fitted development fold 3,permutation::contact
+16,lr,cross-fitted development fold 3,permutation::day
+16,lr,cross-fitted development fold 3,permutation::default
+16,lr,cross-fitted development fold 3,permutation::education
+16,lr,cross-fitted development fold 3,permutation::housing
+16,lr,cross-fitted development fold 3,permutation::job
+16,lr,cross-fitted development fold 3,permutation::loan
+16,lr,cross-fitted development fold 3,permutation::marital
+16,lr,cross-fitted development fold 3,permutation::month
+16,lr,cross-fitted development fold 3,permutation::pdays
+16,lr,cross-fitted development fold 3,permutation::poutcome
+16,lr,cross-fitted development fold 3,permutation::previous
+16,lr,cross-fitted development fold 4,permutation::age
+16,lr,cross-fitted development fold 4,permutation::balance
+16,lr,cross-fitted development fold 4,permutation::campaign
+16,lr,cross-fitted development fold 4,permutation::contact
+16,lr,cross-fitted development fold 4,permutation::day
+16,lr,cross-fitted development fold 4,permutation::default
+16,lr,cross-fitted development fold 4,permutation::education
+16,lr,cross-fitted development fold 4,permutation::housing
+16,lr,cross-fitted development fold 4,permutation::job
+16,lr,cross-fitted development fold 4,permutation::loan
+16,lr,cross-fitted development fold 4,permutation::marital
+16,lr,cross-fitted development fold 4,permutation::month
+16,lr,cross-fitted development fold 4,permutation::pdays
+16,lr,cross-fitted development fold 4,permutation::poutcome
+16,lr,cross-fitted development fold 4,permutation::previous
+16,lr,cross-fitted development fold 5,permutation::age
+16,lr,cross-fitted development fold 5,permutation::balance
+16,lr,cross-fitted development fold 5,permutation::campaign
+16,lr,cross-fitted development fold 5,permutation::contact
+16,lr,cross-fitted development fold 5,permutation::day
+16,lr,cross-fitted development fold 5,permutation::default
+16,lr,cross-fitted development fold 5,permutation::education
+16,lr,cross-fitted development fold 5,permutation::housing
+16,lr,cross-fitted development fold 5,permutation::job
+16,lr,cross-fitted development fold 5,permutation::loan
+16,lr,cross-fitted development fold 5,permutation::marital
+16,lr,cross-fitted development fold 5,permutation::month
+16,lr,cross-fitted development fold 5,permutation::pdays
+16,lr,cross-fitted development fold 5,permutation::poutcome
+16,lr,cross-fitted development fold 5,permutation::previous
+16,lr,final-refit development,shap::age
+16,lr,final-refit development,shap::balance
+16,lr,final-refit development,shap::campaign
+16,lr,final-refit development,shap::contact
+16,lr,final-refit development,shap::day
+16,lr,final-refit development,shap::default
+16,lr,final-refit development,shap::education
+16,lr,final-refit development,shap::housing
+16,lr,final-refit development,shap::job
+16,lr,final-refit development,shap::loan
+16,lr,final-refit development,shap::marital
+16,lr,final-refit development,shap::month
+16,lr,final-refit development,shap::pdays
+16,lr,final-refit development,shap::poutcome
+16,lr,final-refit development,shap::previous
+16,rf,cross-fitted development,permutation::age
+16,rf,cross-fitted development,permutation::balance
+16,rf,cross-fitted development,permutation::campaign
+16,rf,cross-fitted development,permutation::contact
+16,rf,cross-fitted development,permutation::day
+16,rf,cross-fitted development,permutation::default
+16,rf,cross-fitted development,permutation::education
+16,rf,cross-fitted development,permutation::housing
+16,rf,cross-fitted development,permutation::job
+16,rf,cross-fitted development,permutation::loan
+16,rf,cross-fitted development,permutation::marital
+16,rf,cross-fitted development,permutation::month
+16,rf,cross-fitted development,permutation::pdays
+16,rf,cross-fitted development,permutation::poutcome
+16,rf,cross-fitted development,permutation::previous
+16,rf,cross-fitted development fold 1,permutation::age
+16,rf,cross-fitted development fold 1,permutation::balance
+16,rf,cross-fitted development fold 1,permutation::campaign
+16,rf,cross-fitted development fold 1,permutation::contact
+16,rf,cross-fitted development fold 1,permutation::day
+16,rf,cross-fitted development fold 1,permutation::default
+16,rf,cross-fitted development fold 1,permutation::education
+16,rf,cross-fitted development fold 1,permutation::housing
+16,rf,cross-fitted development fold 1,permutation::job
+16,rf,cross-fitted development fold 1,permutation::loan
+16,rf,cross-fitted development fold 1,permutation::marital
+16,rf,cross-fitted development fold 1,permutation::month
+16,rf,cross-fitted development fold 1,permutation::pdays
+16,rf,cross-fitted development fold 1,permutation::poutcome
+16,rf,cross-fitted development fold 1,permutation::previous
+16,rf,cross-fitted development fold 2,permutation::age
+16,rf,cross-fitted development fold 2,permutation::balance
+16,rf,cross-fitted development fold 2,permutation::campaign
+16,rf,cross-fitted development fold 2,permutation::contact
+16,rf,cross-fitted development fold 2,permutation::day
+16,rf,cross-fitted development fold 2,permutation::default
+16,rf,cross-fitted development fold 2,permutation::education
+16,rf,cross-fitted development fold 2,permutation::housing
+16,rf,cross-fitted development fold 2,permutation::job
+16,rf,cross-fitted development fold 2,permutation::loan
+16,rf,cross-fitted development fold 2,permutation::marital
+16,rf,cross-fitted development fold 2,permutation::month
+16,rf,cross-fitted development fold 2,permutation::pdays
+16,rf,cross-fitted development fold 2,permutation::poutcome
+16,rf,cross-fitted development fold 2,permutation::previous
+16,rf,cross-fitted development fold 3,permutation::age
+16,rf,cross-fitted development fold 3,permutation::balance
+16,rf,cross-fitted development fold 3,permutation::campaign
+16,rf,cross-fitted development fold 3,permutation::contact
+16,rf,cross-fitted development fold 3,permutation::day
+16,rf,cross-fitted development fold 3,permutation::default
+16,rf,cross-fitted development fold 3,permutation::education
+16,rf,cross-fitted development fold 3,permutation::housing
+16,rf,cross-fitted development fold 3,permutation::job
+16,rf,cross-fitted development fold 3,permutation::loan
+16,rf,cross-fitted development fold 3,permutation::marital
+16,rf,cross-fitted development fold 3,permutation::month
+16,rf,cross-fitted development fold 3,permutation::pdays
+16,rf,cross-fitted development fold 3,permutation::poutcome
+16,rf,cross-fitted development fold 3,permutation::previous
+16,rf,cross-fitted development fold 4,permutation::age
+16,rf,cross-fitted development fold 4,permutation::balance
+16,rf,cross-fitted development fold 4,permutation::campaign
+16,rf,cross-fitted development fold 4,permutation::contact
+16,rf,cross-fitted development fold 4,permutation::day
+16,rf,cross-fitted development fold 4,permutation::default
+16,rf,cross-fitted development fold 4,permutation::education
+16,rf,cross-fitted development fold 4,permutation::housing
+16,rf,cross-fitted development fold 4,permutation::job
+16,rf,cross-fitted development fold 4,permutation::loan
+16,rf,cross-fitted development fold 4,permutation::marital
+16,rf,cross-fitted development fold 4,permutation::month
+16,rf,cross-fitted development fold 4,permutation::pdays
+16,rf,cross-fitted development fold 4,permutation::poutcome
+16,rf,cross-fitted development fold 4,permutation::previous
+16,rf,cross-fitted development fold 5,permutation::age
+16,rf,cross-fitted development fold 5,permutation::balance
+16,rf,cross-fitted development fold 5,permutation::campaign
+16,rf,cross-fitted development fold 5,permutation::contact
+16,rf,cross-fitted development fold 5,permutation::day
+16,rf,cross-fitted development fold 5,permutation::default
+16,rf,cross-fitted development fold 5,permutation::education
+16,rf,cross-fitted development fold 5,permutation::housing
+16,rf,cross-fitted development fold 5,permutation::job
+16,rf,cross-fitted development fold 5,permutation::loan
+16,rf,cross-fitted development fold 5,permutation::marital
+16,rf,cross-fitted development fold 5,permutation::month
+16,rf,cross-fitted development fold 5,permutation::pdays
+16,rf,cross-fitted development fold 5,permutation::poutcome
+16,rf,cross-fitted development fold 5,permutation::previous
+16,rf,final-refit development,shap::age
+16,rf,final-refit development,shap::balance
+16,rf,final-refit development,shap::campaign
+16,rf,final-refit development,shap::contact
+16,rf,final-refit development,shap::day
+16,rf,final-refit development,shap::default
+16,rf,final-refit development,shap::education
+16,rf,final-refit development,shap::housing
+16,rf,final-refit development,shap::job
+16,rf,final-refit development,shap::loan
+16,rf,final-refit development,shap::marital
+16,rf,final-refit development,shap::month
+16,rf,final-refit development,shap::pdays
+16,rf,final-refit development,shap::poutcome
+16,rf,final-refit development,shap::previous
+16,xgb,cross-fitted development,permutation::age
+16,xgb,cross-fitted development,permutation::balance
+16,xgb,cross-fitted development,permutation::campaign
+16,xgb,cross-fitted development,permutation::contact
+16,xgb,cross-fitted development,permutation::day
+16,xgb,cross-fitted development,permutation::default
+16,xgb,cross-fitted development,permutation::education
+16,xgb,cross-fitted development,permutation::housing
+16,xgb,cross-fitted development,permutation::job
+16,xgb,cross-fitted development,permutation::loan
+16,xgb,cross-fitted development,permutation::marital
+16,xgb,cross-fitted development,permutation::month
+16,xgb,cross-fitted development,permutation::pdays
+16,xgb,cross-fitted development,permutation::poutcome
+16,xgb,cross-fitted development,permutation::previous
+16,xgb,cross-fitted development fold 1,permutation::age
+16,xgb,cross-fitted development fold 1,permutation::balance
+16,xgb,cross-fitted development fold 1,permutation::campaign
+16,xgb,cross-fitted development fold 1,permutation::contact
+16,xgb,cross-fitted development fold 1,permutation::day
+16,xgb,cross-fitted development fold 1,permutation::default
+16,xgb,cross-fitted development fold 1,permutation::education
+16,xgb,cross-fitted development fold 1,permutation::housing
+16,xgb,cross-fitted development fold 1,permutation::job
+16,xgb,cross-fitted development fold 1,permutation::loan
+16,xgb,cross-fitted development fold 1,permutation::marital
+16,xgb,cross-fitted development fold 1,permutation::month
+16,xgb,cross-fitted development fold 1,permutation::pdays
+16,xgb,cross-fitted development fold 1,permutation::poutcome
+16,xgb,cross-fitted development fold 1,permutation::previous
+16,xgb,cross-fitted development fold 2,permutation::age
+16,xgb,cross-fitted development fold 2,permutation::balance
+16,xgb,cross-fitted development fold 2,permutation::campaign
+16,xgb,cross-fitted development fold 2,permutation::contact
+16,xgb,cross-fitted development fold 2,permutation::day
+16,xgb,cross-fitted development fold 2,permutation::default
+16,xgb,cross-fitted development fold 2,permutation::education
+16,xgb,cross-fitted development fold 2,permutation::housing
+16,xgb,cross-fitted development fold 2,permutation::job
+16,xgb,cross-fitted development fold 2,permutation::loan
+16,xgb,cross-fitted development fold 2,permutation::marital
+16,xgb,cross-fitted development fold 2,permutation::month
+16,xgb,cross-fitted development fold 2,permutation::pdays
+16,xgb,cross-fitted development fold 2,permutation::poutcome
+16,xgb,cross-fitted development fold 2,permutation::previous
+16,xgb,cross-fitted development fold 3,permutation::age
+16,xgb,cross-fitted development fold 3,permutation::balance
+16,xgb,cross-fitted development fold 3,permutation::campaign
+16,xgb,cross-fitted development fold 3,permutation::contact
+16,xgb,cross-fitted development fold 3,permutation::day
+16,xgb,cross-fitted development fold 3,permutation::default
+16,xgb,cross-fitted development fold 3,permutation::education
+16,xgb,cross-fitted development fold 3,permutation::housing
+16,xgb,cross-fitted development fold 3,permutation::job
+16,xgb,cross-fitted development fold 3,permutation::loan
+16,xgb,cross-fitted development fold 3,permutation::marital
+16,xgb,cross-fitted development fold 3,permutation::month
+16,xgb,cross-fitted development fold 3,permutation::pdays
+16,xgb,cross-fitted development fold 3,permutation::poutcome
+16,xgb,cross-fitted development fold 3,permutation::previous
+16,xgb,cross-fitted development fold 4,permutation::age
+16,xgb,cross-fitted development fold 4,permutation::balance
+16,xgb,cross-fitted development fold 4,permutation::campaign
+16,xgb,cross-fitted development fold 4,permutation::contact
+16,xgb,cross-fitted development fold 4,permutation::day
+16,xgb,cross-fitted development fold 4,permutation::default
+16,xgb,cross-fitted development fold 4,permutation::education
+16,xgb,cross-fitted development fold 4,permutation::housing
+16,xgb,cross-fitted development fold 4,permutation::job
+16,xgb,cross-fitted development fold 4,permutation::loan
+16,xgb,cross-fitted development fold 4,permutation::marital
+16,xgb,cross-fitted development fold 4,permutation::month
+16,xgb,cross-fitted development fold 4,permutation::pdays
+16,xgb,cross-fitted development fold 4,permutation::poutcome
+16,xgb,cross-fitted development fold 4,permutation::previous
+16,xgb,cross-fitted development fold 5,permutation::age
+16,xgb,cross-fitted development fold 5,permutation::balance
+16,xgb,cross-fitted development fold 5,permutation::campaign
+16,xgb,cross-fitted development fold 5,permutation::contact
+16,xgb,cross-fitted development fold 5,permutation::day
+16,xgb,cross-fitted development fold 5,permutation::default
+16,xgb,cross-fitted development fold 5,permutation::education
+16,xgb,cross-fitted development fold 5,permutation::housing
+16,xgb,cross-fitted development fold 5,permutation::job
+16,xgb,cross-fitted development fold 5,permutation::loan
+16,xgb,cross-fitted development fold 5,permutation::marital
+16,xgb,cross-fitted development fold 5,permutation::month
+16,xgb,cross-fitted development fold 5,permutation::pdays
+16,xgb,cross-fitted development fold 5,permutation::poutcome
+16,xgb,cross-fitted development fold 5,permutation::previous
+16,xgb,final-refit development,shap::age
+16,xgb,final-refit development,shap::balance
+16,xgb,final-refit development,shap::campaign
+16,xgb,final-refit development,shap::contact
+16,xgb,final-refit development,shap::day
+16,xgb,final-refit development,shap::default
+16,xgb,final-refit development,shap::education
+16,xgb,final-refit development,shap::housing
+16,xgb,final-refit development,shap::job
+16,xgb,final-refit development,shap::loan
+16,xgb,final-refit development,shap::marital
+16,xgb,final-refit development,shap::month
+16,xgb,final-refit development,shap::pdays
+16,xgb,final-refit development,shap::poutcome
+16,xgb,final-refit development,shap::previous

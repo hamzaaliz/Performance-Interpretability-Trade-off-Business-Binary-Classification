@@ -1,0 +1,38 @@
+{
+  "dataset": "South German Credit",
+  "started_utc": "2026-08-22T20:31:26.583259+00:00",
+  "completed_utc": "2026-08-22T20:37:07.381327+00:00",
+  "run_time_seconds": 340.79806995391846,
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "xgboost": "2.1.4",
+    "shap": "0.49.1",
+    "joblib": "1.5.3",
+    "matplotlib": "3.9.4",
+    "seaborn": "0.13.2"
+  },
+  "seed": 42,
+  "single_thread_requested": true,
+  "code_version": "sgc-workflow-2026-08-22-v1:e29a20a66fc69356",
+  "source_sha256": "5f363343f356ca38a0236baab849e472846399b2176ccc5bd686483dd8a7562f",
+  "fold_indices_sha256": "46ffa003be87c9f11ce89a0cb6b88833de35bf492df006dbe89aec0d18252ddb",
+  "shap_rows_by_model": {
+    "lr": 800,
+    "dt": 800,
+    "rf": 800,
+    "xgb": 800
+  },
+  "shap_background_by_model": {
+    "lr": 200,
+    "dt": 200,
+    "rf": 200,
+    "xgb": 200
+  },
+  "permutation_repeats_per_fold": 30,
+  "bootstrap_resamples": 5000
+}

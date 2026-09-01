@@ -1,0 +1,19 @@
+model,feature_group,treatment,expected_encoded_terms
+Logistic regression,"Credit limit, age and latest bill",Robust-scaled,28
+Logistic regression,Five older bill amounts,Pruned by the locked chronology rule,28
+Logistic regression,Six payment amounts,"Fold-contained log1p, then robust-scaled",28
+Logistic regression,Repayment status,Locked behavioural buckets; drop-reference one-hot,28
+Logistic regression,Sex,Explicit binary indicator,28
+Logistic regression,Education and marital status,Drop-reference one-hot with locked references,28
+Decision tree,Fourteen quantitative variables,Raw values; no scaling or transformation,28
+Decision tree,Repayment status,Raw integer codes,28
+Decision tree,Sex,Explicit binary indicator,28
+Decision tree,Education and marital status,Full one-hot encoding; no dropped level,28
+Random forest,Fourteen quantitative variables,Raw values; no scaling or transformation,28
+Random forest,Repayment status,Raw integer codes,28
+Random forest,Sex,Explicit binary indicator,28
+Random forest,Education and marital status,Full one-hot encoding; no dropped level,28
+XGBoost,Fourteen quantitative variables,Raw values; no scaling or transformation,28
+XGBoost,Repayment status,Raw integer codes,28
+XGBoost,Sex,Explicit binary indicator,28
+XGBoost,Education and marital status,Full one-hot encoding; no dropped level,28

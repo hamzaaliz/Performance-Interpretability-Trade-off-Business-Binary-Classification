@@ -1,0 +1,38 @@
+audit_item,observed_value,verification_note
+source_filename,Customer Churn.csv,Locked supplied CSV
+retrieval_date,2026-08-25,Recorded project date
+licence,CC BY 4.0,UCI dataset licence
+sha256,90d5fb6bd1630cd4de4b4d28fcf8b4cb92a8f6ab7484605b0799d47386f7dbe1,Matches locked source hash
+file_size_bytes,131728,"Expected 131,728"
+rows,3150,"Expected 3,150"
+columns,14,Expected 14
+source_predictors,13,Before two locked exclusions
+model_predictors_per_family,11,Age and Customer Value excluded; Seconds/mean-duration asymmetry
+positive_count,495,Churn
+negative_count,2655,Stayed
+positive_rate,0.15714285714285714,Supplied-sample rate
+missing_values,0,Expected zero
+non_finite_values,0,Asserted
+negative_values,0,Expected zero
+exact_duplicate_rows,300,Retained
+feature_identical_duplicates,314,Retained
+rows_in_repeated_feature_profiles,476,Retained
+conflicting_feature_profiles,14,64 rows in total; retained
+rows_in_conflicting_feature_profiles,64,Retained
+dormant_conflicting_profiles,11,Corrected pre-execution count
+rows_in_dormant_conflicting_profiles,56,Corrected pre-execution count
+charge_amount_source_max,10,Source documents 0-9; observed 10
+charge_amount_collapsed_max,5,Levels 5-10 collapsed to 5
+age_exact_functional_duplicate,True,"Age Group maps to 15,25,30,45,55"
+distinct_numbers_exceeds_frequency_rows,120,Retained; no ratio derived
+customer_value_max_abs_formula_residual,4.547473508864641e-13,Tolerance 5e-10
+zero_call_usage_sets_equal,True,"Seconds, frequency and distinct numbers"
+customer_value_zero_set_verified,True,Zero calls and zero SMS
+call_failure_zero_count,702,Substantive zero
+seconds_of_use_zero_count,154,Substantive zero
+frequency_of_use_zero_count,154,Substantive zero
+frequency_of_sms_zero_count,603,Substantive zero
+distinct_called_numbers_zero_count,154,Substantive zero
+customer_value_zero_count,132,Audit-only derived field
+identifier_columns,0,No identifier column supplied
+candidate_antecedent_indicators,2,Status and Complains retained with timing caveat

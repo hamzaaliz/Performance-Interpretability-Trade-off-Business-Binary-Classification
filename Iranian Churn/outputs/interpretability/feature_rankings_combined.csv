@@ -1,0 +1,13 @@
+feature,display_name,lr_perm_rank,lr_shap_rank,lr_direction,dt_perm_rank,dt_shap_rank,dt_direction,rf_perm_rank,rf_shap_rank,rf_direction,xgb_perm_rank,xgb_shap_rank,xgb_direction
+call_failure,Call failures,4.0,3.0,positive,8.0,7.0,mixed/weak,8.0,6.0,positive,5.0,3.0,positive
+complains,Complaint registered,1.0,4.0,positive,1.0,2.0,positive,1.0,2.0,positive,1.0,6.0,positive
+subscription_length,Subscription length (months),10.0,9.0,negative,3.0,4.0,positive,4.0,5.0,mixed/weak,4.0,4.0,negative
+charge_amount,Charge amount band,7.0,7.0,negative,9.0,8.0,mixed/weak,10.0,10.0,negative,10.0,10.0,negative
+seconds_of_use,Seconds of use,,,,11.0,5.0,negative,3.0,4.0,negative,6.0,5.0,negative
+mean_call_duration,Mean call duration (seconds),11.0,11.0,positive,,,,,,,,,
+frequency_of_use,Number of calls,2.0,1.0,negative,4.0,10.0,mixed/weak,6.0,3.0,negative,2.0,1.0,negative
+frequency_of_sms,Number of text messages,3.0,2.0,negative,6.0,9.0,mixed/weak,9.0,8.0,negative,9.0,7.0,negative
+distinct_called_numbers,Distinct called numbers,8.0,8.0,negative,5.0,3.0,positive,5.0,7.0,positive,8.0,9.0,positive
+age_group,Age band,5.0,5.0,category-dependent,7.0,6.0,category-dependent,7.0,9.0,category-dependent,7.0,8.0,category-dependent
+tariff_plan,Contractual plan,9.0,10.0,positive,10.0,11.0,mixed/weak,11.0,11.0,negative,11.0,11.0,positive
+status,Account inactive,6.0,6.0,positive,2.0,1.0,positive,2.0,1.0,positive,3.0,2.0,positive

@@ -1,0 +1,34 @@
+audit_item,observed_value,verification_note
+source_filename,credit_card_default.csv,Locked converted CSV
+retrieval_date,2026-08-20,Recorded retrieval date
+licence,CC BY 4.0,UCI dataset licence
+sha256,4edce6da569b2c30788a85fd98a9bafb1a983e8ca1a7aac875dd7ff853cbd0bb,Matches locked converted-file hash
+file_size_bytes,2867208,"Expected 2,867,208"
+rows,30000,"Expected 30,000"
+columns,25,Expected 25
+predictors,23,Expected 23
+positive_count,6636,Default next month
+negative_count,23364,No default next month
+positive_rate,0.2212,Delivered-sample rate; sampling design undocumented
+missing_values,0,Expected zero
+constant_columns,0,Expected zero
+largest_categorical_majority_rate,0.6037333333333333,No automatic exclusion
+duplicate_identifiers,0,Expected zero
+exact_duplicate_rows,0,Scope follows the locked duplicate ruling
+redundant_feature_target_copies,35,Scope follows the locked duplicate ruling
+feature_target_repeated_rows,70,Scope follows the locked duplicate ruling
+redundant_feature_only_copies,56,Scope follows the locked duplicate ruling
+repeated_feature_groups,52,Scope follows the locked duplicate ruling
+repeated_feature_rows,108,Scope follows the locked duplicate ruling
+conflicting_label_groups,21,Scope follows the locked duplicate ruling
+undocumented_education_or_marriage_cells,399,Folded under locked rulings
+undocumented_repayment_status_cells,120334,Retained; labels remain inferential
+negative_bill_cells,3932,Retained unchanged
+rows_with_bill_above_credit_limit,3931,Retained unchanged
+maximum_bill_to_limit_ratio,10.688575,No hard-cap inference
+maximum_bill_amount,1664089,Retained unchanged
+maximum_payment_amount,1684259,Retained unchanged
+zero_recorded_bill_and_payment_rows,795,Pre-model segment; no indicator engineered
+off_grid_credit_limit_rows,3,Three locked anomalies retained
+identifier_columns_dropped,1,Identifier excluded before modelling
+candidate_leakage_variables,0,No predictor post-dates the decision point

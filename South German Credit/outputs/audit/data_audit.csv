@@ -1,0 +1,20 @@
+audit_item,observed_value,verification_note
+source_filename,SouthGermanCredit.asc,Locked source file
+retrieval_date,2026-07-15,Local file timestamp; retained as the recorded retrieval date
+licence,CC BY 4.0,UCI dataset licence
+sha256,5f363343f356ca38a0236baab849e472846399b2176ccc5bd686483dd8a7562f,Matches locked hash
+rows,1000,Expected 1000
+columns,21,Expected 21
+predictors,20,Expected 20
+positive_count,300,Bad credit
+positive_rate,0.3,Sample rate; positives were oversampled
+missing_values,0,Expected zero
+exact_duplicate_rows,0,Expected zero
+feature_identical_duplicates,0,Expected zero
+constant_columns,0,Expected zero
+near_constant_foreign_worker_majority_rate,0.963,963 of 1000 in the majority category
+maximum_credit_amount,18424,Retained; no outlier removal
+maximum_age,75,Retained; no outlier removal
+undocumented_category_codes,0,All observed codes matched the code table
+identifier_columns,0,No identifiers present
+candidate_leakage_variables,0,All predictors are available at the decision point

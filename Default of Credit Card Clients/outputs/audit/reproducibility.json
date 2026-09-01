@@ -1,0 +1,8 @@
+{
+  "status": "waived_by_user",
+  "verification_performed": false,
+  "date": "2026-08-24",
+  "stopped_during": "temporary Stage 18 exact reproduction run",
+  "retained_outputs_affected": false,
+  "note": "The separate deterministic reproduction run was stopped at the user's request. The retained analytical run was not changed; exact numerical reproducibility remains unverified."
+}

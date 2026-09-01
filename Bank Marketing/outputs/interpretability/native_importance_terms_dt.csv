@@ -1,0 +1,48 @@
+encoded_term,original_feature,display_term,term_importance
+quantitative__age,age,Age (years),0.11714104303513129
+quantitative__balance,balance,Average yearly balance (EUR),0.0
+quantitative__day,day,Day of month of planned contact,0.0
+quantitative__campaign,campaign,Contacts this campaign,0.0
+quantitative__pdays,pdays,Days since previous contact,0.0
+quantitative__previous,previous,Contacts before this campaign,0.0
+binary__default,default,Credit in default,0.0
+binary__housing,housing,Housing loan,0.0
+binary__loan,loan,Personal loan,0.0
+nominal__job_admin.,job,Occupation = admin.,0.0
+nominal__job_blue-collar,job,Occupation = blue-collar,0.0
+nominal__job_entrepreneur,job,Occupation = entrepreneur,0.0
+nominal__job_housemaid,job,Occupation = housemaid,0.0
+nominal__job_management,job,Occupation = management,0.0
+nominal__job_retired,job,Occupation = retired,0.0
+nominal__job_self-employed,job,Occupation = self-employed,0.0
+nominal__job_services,job,Occupation = services,0.0
+nominal__job_student,job,Occupation = student,0.0
+nominal__job_technician,job,Occupation = technician,0.0
+nominal__job_unemployed,job,Occupation = unemployed,0.0
+nominal__job_unknown,job,Occupation = unknown,0.0
+nominal__marital_divorced,marital,Marital status = divorced,0.0
+nominal__marital_married,marital,Marital status = married,0.0
+nominal__marital_single,marital,Marital status = single,0.0
+nominal__education_primary,education,Education level = primary,0.0
+nominal__education_secondary,education,Education level = secondary,0.0
+nominal__education_tertiary,education,Education level = tertiary,0.0
+nominal__education_unknown,education,Education level = unknown,0.0
+nominal__contact_cellular,contact,Contact channel = cellular,0.0
+nominal__contact_telephone,contact,Contact channel = telephone,0.0
+nominal__contact_unknown,contact,Contact channel = unknown,0.08178901246611403
+nominal__month_apr,month,Month of planned contact = apr,0.0
+nominal__month_aug,month,Month of planned contact = aug,0.0
+nominal__month_dec,month,Month of planned contact = dec,0.0
+nominal__month_feb,month,Month of planned contact = feb,0.0
+nominal__month_jan,month,Month of planned contact = jan,0.0
+nominal__month_jul,month,Month of planned contact = jul,0.0
+nominal__month_jun,month,Month of planned contact = jun,0.07899425851052129
+nominal__month_mar,month,Month of planned contact = mar,0.0
+nominal__month_may,month,Month of planned contact = may,0.0
+nominal__month_nov,month,Month of planned contact = nov,0.0
+nominal__month_oct,month,Month of planned contact = oct,0.0
+nominal__month_sep,month,Month of planned contact = sep,0.0
+nominal__poutcome_failure,poutcome,Previous campaign outcome = failure,0.0
+nominal__poutcome_other,poutcome,Previous campaign outcome = other,0.0
+nominal__poutcome_success,poutcome,Previous campaign outcome = success,0.7220756859882334
+nominal__poutcome_unknown,poutcome,Previous campaign outcome = unknown,0.0

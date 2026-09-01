@@ -1,0 +1,40 @@
+|--- Checking account status <= 2.5000
+|   |--- Credit duration (months) <= 11.5000
+|   |   |--- Most valuable property <= 1.5000
+|   |   |   |--- class: 0
+|   |   |--- Most valuable property >  1.5000
+|   |   |   |--- class: 0
+|   |--- Credit duration (months) >  11.5000
+|   |   |--- Savings <= 2.5000
+|   |   |   |--- Credit duration (months) <= 47.5000
+|   |   |   |   |--- Purpose = car (new) <= 0.5000
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Purpose = car (new) >  0.5000
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- Credit duration (months) >  47.5000
+|   |   |   |   |--- class: 1
+|   |   |--- Savings >  2.5000
+|   |   |   |--- Checking account status <= 1.5000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Checking account status >  1.5000
+|   |   |   |   |--- class: 0
+|--- Checking account status >  2.5000
+|   |--- Employment duration <= 3.5000
+|   |   |--- Credit amount (DM) <= 4158.0000
+|   |   |   |--- Instalment rate (% of income) <= 1.5000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Instalment rate (% of income) >  1.5000
+|   |   |   |   |--- Credit history <= 2.5000
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Credit history >  2.5000
+|   |   |   |   |   |--- class: 0
+|   |   |--- Credit amount (DM) >  4158.0000
+|   |   |   |--- class: 0
+|   |--- Employment duration >  3.5000
+|   |   |--- Most valuable property <= 3.5000
+|   |   |   |--- Age (years) <= 31.5000
+|   |   |   |   |--- class: 0
+|   |   |   |--- Age (years) >  31.5000
+|   |   |   |   |--- class: 0
+|   |   |--- Most valuable property >  3.5000
+|   |   |   |--- class: 0

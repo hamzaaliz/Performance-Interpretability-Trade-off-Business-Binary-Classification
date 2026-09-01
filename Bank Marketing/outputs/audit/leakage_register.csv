@@ -1,0 +1,2 @@
+feature,display_name,availability_issue,action
+duration,Last contact duration (s),Observed only after the marketing call ends,Excluded from every model and interpretability input; development-only Stage 5 association retained

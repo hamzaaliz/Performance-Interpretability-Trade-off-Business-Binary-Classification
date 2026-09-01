@@ -1,0 +1,7 @@
+{
+  "status": "skipped_by_user",
+  "requested_utc": "2026-08-24",
+  "note": "The separate exact reproduction stage was skipped at the user's explicit direction. The completed canonical run and its invariant results were not altered.",
+  "partial_verification_directory": "/private/tmp/bank-marketing-verification-20260824",
+  "partial_verification_retained": true
+}

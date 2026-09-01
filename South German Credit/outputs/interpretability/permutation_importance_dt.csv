@@ -1,0 +1,21 @@
+feature,display_name,importance_mean,importance_sd,n_measurements,rank
+laufkont,Checking account status,0.09796640390677623,0.04130012898326783,150,1
+laufzeit,Credit duration (months),0.02908580089276015,0.03790255718032194,150,2
+sparkont,Savings,0.014990551520281578,0.028742250516962026,150,3
+hoehe,Credit amount (DM),0.008196964944200868,0.014805663861960737,150,4
+verm,Most valuable property,0.007664064694584806,0.009546021806971582,150,5
+moral,Credit history,0.007574362016376219,0.019920658103259166,150,6
+beszeit,Employment duration,0.003986985697397515,0.005810393425918939,150,7
+rate,Instalment rate (% of income),0.003431548269189905,0.009724549741232357,150,8
+verw,Purpose,0.001430131367563552,0.011154603284980191,150,9
+alter,Age (years),8.11165371792714e-05,0.002003552974245383,150,10
+telef,Telephone registered,0.0,0.0,150,11
+buerge,Other debtors or guarantor,0.0,0.0,150,12
+gastarb,Foreign worker,0.0,0.0,150,13
+bishkred,Number of credits at this bank,0.0,0.0,150,14
+pers,Three or more dependants,0.0,0.0,150,15
+beruf,Job quality,0.0,0.0,150,16
+wohnzeit,Time at present residence,0.0,0.0,150,17
+famges,Personal status and sex,-9.155560968824306e-05,0.0032728464738285092,150,18
+wohn,Housing,-0.0013621983114090255,0.0037691515919328006,150,19
+weitkred,Other instalment plans,-0.00199437978398418,0.009534453483916615,150,20

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "verification_outputs": "/private/tmp/sgc_reproduction.8E39oM/outputs",
+  "compared_csv_files": 48,
+  "maximum_absolute_numeric_difference": 0.0,
+  "tolerance": 5e-06,
+  "mismatches": []
+}

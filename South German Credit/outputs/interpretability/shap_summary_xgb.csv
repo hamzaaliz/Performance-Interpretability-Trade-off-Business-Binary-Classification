@@ -1,0 +1,21 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+laufkont,Checking account status,0.6646532838308071,-0.062235987926155936,-0.9471758211084403,negative,800,200,raw margin (log-odds),1
+laufzeit,Credit duration (months),0.34598484125112294,-0.00831380911602173,0.9373182511944922,positive,800,200,raw margin (log-odds),2
+sparkont,Savings,0.3196374482886858,-0.01061838553954949,-0.8790187922998828,negative,800,200,raw margin (log-odds),3
+hoehe,Credit amount (DM),0.30227782575542733,-0.0058401186734561615,0.026094013719062017,mixed/weak,800,200,raw margin (log-odds),4
+moral,Credit history,0.3021757370596111,-0.029194334737362812,-0.9054686057448168,negative,800,200,raw margin (log-odds),5
+verw,Purpose,0.28619999983640226,0.04065010559655712,,category-dependent,800,200,raw margin (log-odds),6
+beszeit,Employment duration,0.1791900083003827,-0.0006209977849299318,-0.8593282580528012,negative,800,200,raw margin (log-odds),7
+famges,Personal status and sex,0.16388497167589375,-0.0046266763129271605,,category-dependent,800,200,raw margin (log-odds),8
+verm,Most valuable property,0.1348523326410417,0.0031465664032686636,0.8723653879915575,positive,800,200,raw margin (log-odds),9
+rate,Instalment rate (% of income),0.10433631815617117,0.005864069286531595,0.922125952557155,positive,800,200,raw margin (log-odds),10
+alter,Age (years),0.10130095665658448,-0.02054504615115438,-0.44031431093073914,negative,800,200,raw margin (log-odds),11
+telef,Telephone registered,0.09331904915090852,-0.012366476378314839,-0.8555599919472818,negative,800,200,raw margin (log-odds),12
+weitkred,Other instalment plans,0.0833434407900895,0.007638061708526949,,category-dependent,800,200,raw margin (log-odds),13
+wohn,Housing,0.07953084270603722,-0.00626478486150736,,category-dependent,800,200,raw margin (log-odds),14
+beruf,Job quality,0.06719962027076107,0.005915381262244772,0.7008847818444907,positive,800,200,raw margin (log-odds),15
+wohnzeit,Time at present residence,0.05347415989723231,0.00836027490849665,-0.36554449224267455,negative,800,200,raw margin (log-odds),16
+bishkred,Number of credits at this bank,0.04255247560428979,0.0034245200039615155,0.8246578496690253,positive,800,200,raw margin (log-odds),17
+buerge,Other debtors or guarantor,0.03994233566670446,0.005665538530424237,,category-dependent,800,200,raw margin (log-odds),18
+pers,Three or more dependants,0.010229147282755004,-0.0018283785804174843,0.6776808929866376,positive,800,200,raw margin (log-odds),19
+gastarb,Foreign worker,0.0,0.0,,mixed/weak,800,200,raw margin (log-odds),20

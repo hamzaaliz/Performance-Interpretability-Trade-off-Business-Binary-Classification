@@ -1,0 +1,14 @@
+model,feature_group,treatment,expected_encoded_terms
+Logistic regression,Quantitative,"age, day and campaign standardised; balance signed-log then standardised; pdays_clean and previous_log1p standardised",42
+Logistic regression,Derived binary,"previously_contacted indicator, unscaled",42
+Logistic regression,Binary,"default, housing and loan mapped to explicit 0/1 indicators",42
+Logistic regression,Nominal,drop-reference one-hot with locked references and handle_unknown='ignore',42
+Decision tree,Quantitative,"age, balance, day, campaign, pdays and previous retained raw",47
+Decision tree,Binary,"default, housing and loan mapped to explicit 0/1 indicators",47
+Decision tree,Nominal,full one-hot with no dropped level and handle_unknown='ignore',47
+Random forest,Quantitative,"age, balance, day, campaign, pdays and previous retained raw",47
+Random forest,Binary,"default, housing and loan mapped to explicit 0/1 indicators",47
+Random forest,Nominal,full one-hot with no dropped level and handle_unknown='ignore',47
+XGBoost,Quantitative,"age, balance, day, campaign, pdays and previous retained raw",47
+XGBoost,Binary,"default, housing and loan mapped to explicit 0/1 indicators",47
+XGBoost,Nominal,full one-hot with no dropped level and handle_unknown='ignore',47

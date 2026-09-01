@@ -1,0 +1,15 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+quantitative__frequency_of_use,Number of calls,frequency_of_use,1.2972962403601402,-0.06754794608126793,1
+quantitative__frequency_of_sms,Number of text messages,frequency_of_sms,1.1636309804986051,-0.06301939321257949,2
+quantitative__call_failure,Call failures,call_failure,0.5833884926354047,0.08049651994353567,3
+binary__complains,Complaint registered,complains,0.4929936511735654,0.0672963252382022,4
+binary__status,Account inactive,status,0.38893374599731273,-0.018140566511068205,5
+age_group__age_group_5,Age band = Band 5,age_group,0.32408222741463844,0.09895640531744618,6
+ordinal__charge_amount,Charge amount band,charge_amount,0.2411902356523223,-0.03687068714374591,7
+quantitative__distinct_called_numbers,Distinct called numbers,distinct_called_numbers,0.16990242612909323,-0.005233849882621275,8
+age_group__age_group_1,Age band = Band 1,age_group,0.16718463050978719,-0.016897840123054085,9
+quantitative__subscription_length,Subscription length (months),subscription_length,0.159840949685003,-0.013262843654408392,10
+binary__tariff_plan,Contractual plan,tariff_plan,0.0893697597207047,0.018706186357601573,11
+quantitative__mean_call_duration,Mean call duration (seconds),mean_call_duration,0.02203215882770117,0.005118317000358977,12
+age_group__age_group_2,Age band = Band 2,age_group,0.01582112836902664,-0.0015129351800493593,13
+age_group__age_group_4,Age band = Band 4,age_group,0.003645434144707031,-0.0003607979877408194,14

@@ -1,0 +1,29 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+ordinal__repayment_status_september,"Repayment status, September",repayment_status_september,0.08054491921044889,-0.010939005452021963,1
+ordinal__repayment_status_august,"Repayment status, August",repayment_status_august,0.032737387459986125,0.01146828426416982,2
+quantitative__payment_amount_july,"Payment made, July (NT$)",payment_amount_july,0.02461764629337983,-0.0011009549054876039,3
+ordinal__repayment_status_may,"Repayment status, May",repayment_status_may,0.021785246733873883,-0.0011884255239181147,4
+quantitative__bill_amount_september,"Bill amount, September (NT$)",bill_amount_september,0.009954834670764379,0.0005348603311507074,5
+quantitative__credit_limit,Credit limit (NT$),credit_limit,0.003663396543683442,0.000525477777132764,6
+quantitative__bill_amount_may,"Bill amount, May (NT$)",bill_amount_may,0.0,0.0,7
+quantitative__bill_amount_april,"Bill amount, April (NT$)",bill_amount_april,0.0,0.0,8
+nominal__marital_status_2,Marital status = single,marital_status,0.0,0.0,9
+nominal__marital_status_1,Marital status = married,marital_status,0.0,0.0,10
+nominal__education_level_4,Education level = other or undocumented,education_level,0.0,0.0,11
+nominal__education_level_3,Education level = high school,education_level,0.0,0.0,12
+nominal__education_level_2,Education level = university,education_level,0.0,0.0,13
+nominal__education_level_1,Education level = graduate school,education_level,0.0,0.0,14
+binary__sex,Sex,sex,0.0,0.0,15
+ordinal__repayment_status_april,"Repayment status, April",repayment_status_april,0.0,0.0,16
+quantitative__bill_amount_august,"Bill amount, August (NT$)",bill_amount_august,0.0,0.0,17
+ordinal__repayment_status_june,"Repayment status, June",repayment_status_june,0.0,0.0,18
+ordinal__repayment_status_july,"Repayment status, July",repayment_status_july,0.0,0.0,19
+quantitative__bill_amount_july,"Bill amount, July (NT$)",bill_amount_july,0.0,0.0,20
+quantitative__age,Age (years),age,0.0,0.0,21
+quantitative__payment_amount_april,"Payment made, April (NT$)",payment_amount_april,0.0,0.0,22
+quantitative__payment_amount_may,"Payment made, May (NT$)",payment_amount_may,0.0,0.0,23
+quantitative__payment_amount_june,"Payment made, June (NT$)",payment_amount_june,0.0,0.0,24
+quantitative__bill_amount_june,"Bill amount, June (NT$)",bill_amount_june,0.0,0.0,25
+quantitative__payment_amount_august,"Payment made, August (NT$)",payment_amount_august,0.0,0.0,26
+quantitative__payment_amount_september,"Payment made, September (NT$)",payment_amount_september,0.0,0.0,27
+nominal__marital_status_3,Marital status = other or undocumented,marital_status,0.0,0.0,28

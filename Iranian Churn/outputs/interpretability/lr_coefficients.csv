@@ -1,0 +1,15 @@
+encoded_term,display_term,coefficient,sign,odds_ratio,absolute_coefficient,locked_reference_metadata
+binary__complains,Complaint registered,3.8455042993258366,positive,46.78227067069007,3.8455042993258366,Age band 3 is the omitted reference level
+age_group__age_group_1,Age band = Band 1,-2.5996677112391633,negative,0.0742982625905449,2.5996677112391633,Age band 3 is the omitted reference level
+age_group__age_group_5,Age band = Band 5,-2.473910132936255,negative,0.08425476673137185,2.473910132936255,Age band 3 is the omitted reference level
+quantitative__frequency_of_use,Number of calls,-1.6923327290301056,negative,0.18408959159560262,1.6923327290301056,Age band 3 is the omitted reference level
+quantitative__frequency_of_sms,Number of text messages,-1.5893827874250064,negative,0.20405151603700158,1.5893827874250064,Age band 3 is the omitted reference level
+binary__status,Account inactive,1.0078092506148961,positive,2.739592675068079,1.0078092506148961,Age band 3 is the omitted reference level
+quantitative__call_failure,Call failures,0.7683231499408465,positive,2.156147684361573,0.7683231499408465,Age band 3 is the omitted reference level
+binary__tariff_plan,Contractual plan,0.7635178105143604,positive,2.145811517170055,0.7635178105143604,Age band 3 is the omitted reference level
+ordinal__charge_amount,Charge amount band,-0.32288963156788403,negative,0.724053762636709,0.32288963156788403,Age band 3 is the omitted reference level
+quantitative__distinct_called_numbers,Distinct called numbers,-0.2196903264806926,negative,0.8027673552667751,0.2196903264806926,Age band 3 is the omitted reference level
+quantitative__subscription_length,Subscription length (months),-0.2030130564055707,negative,0.8162675838354064,0.2030130564055707,Age band 3 is the omitted reference level
+quantitative__mean_call_duration,Mean call duration (seconds),0.03620864192035175,positive,1.0368721589226153,0.03620864192035175,Age band 3 is the omitted reference level
+age_group__age_group_2,Age band = Band 2,0.034780119081593494,positive,1.035392020819971,0.034780119081593494,Age band 3 is the omitted reference level
+age_group__age_group_4,Age band = Band 4,-0.01718085655908671,negative,0.9829658927289195,0.01718085655908671,Age band 3 is the omitted reference level

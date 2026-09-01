@@ -1,0 +1,6 @@
+{
+  "exact_rerun_performed": false,
+  "waiver_date": "2026-08-25",
+  "reason": "The locked decisions file applies workflow amendment 8, which waives the separate exact-reproduction run while retaining deterministic settings and all other verification checks.",
+  "status": "waived by locked pre-execution specification"
+}

@@ -1,0 +1,24 @@
+feature,display_name,lr_perm_rank,lr_shap_rank,lr_direction,dt_perm_rank,dt_shap_rank,dt_direction,rf_perm_rank,rf_shap_rank,rf_direction,xgb_perm_rank,xgb_shap_rank,xgb_direction
+credit_limit,Credit limit (NT$),2,2.0,negative,10,6,negative,4,2,negative,3,2,negative
+sex,Sex,12,8.0,negative,13,19,mixed/weak,23,22,negative,22,19,negative
+education_level,Education level,8,10.0,category-dependent,21,11,category-dependent,18,23,category-dependent,12,20,category-dependent
+marital_status,Marital status,11,9.0,category-dependent,20,21,category-dependent,22,21,category-dependent,21,14,category-dependent
+age,Age (years),16,16.0,positive,12,7,mixed/weak,11,19,positive,13,21,positive
+repayment_status_september,"Repayment status, September",1,1.0,positive,1,1,positive,1,1,positive,1,1,positive
+repayment_status_august,"Repayment status, August",13,18.0,positive,2,2,positive,2,3,positive,4,5,positive
+repayment_status_july,"Repayment status, July",4,7.0,positive,11,16,mixed/weak,3,5,positive,6,8,positive
+repayment_status_june,"Repayment status, June",10,15.0,positive,6,22,mixed/weak,6,7,positive,9,9,positive
+repayment_status_may,"Repayment status, May",7,13.0,positive,4,4,positive,9,10,positive,11,10,positive
+repayment_status_april,"Repayment status, April",3,5.0,positive,8,20,mixed/weak,8,12,positive,10,13,positive
+bill_amount_september,"Bill amount, September (NT$)",5,4.0,positive,5,5,positive,5,4,negative,2,3,negative
+bill_amount_august,"Bill amount, August (NT$)",22,,,14,18,mixed/weak,19,15,positive,18,15,positive
+bill_amount_july,"Bill amount, July (NT$)",21,,,15,17,mixed/weak,17,18,positive,19,17,positive
+bill_amount_june,"Bill amount, June (NT$)",23,,,16,15,mixed/weak,21,17,positive,16,23,positive
+bill_amount_may,"Bill amount, May (NT$)",20,,,17,8,mixed/weak,20,20,negative,23,22,negative
+bill_amount_april,"Bill amount, April (NT$)",19,,,18,14,mixed/weak,15,16,positive,17,18,positive
+payment_amount_september,"Payment made, September (NT$)",6,3.0,negative,19,13,mixed/weak,14,9,negative,7,6,negative
+payment_amount_august,"Payment made, August (NT$)",14,12.0,negative,7,12,mixed/weak,12,8,negative,8,4,negative
+payment_amount_july,"Payment made, July (NT$)",9,6.0,negative,3,3,negative,7,6,negative,5,7,negative
+payment_amount_june,"Payment made, June (NT$)",17,11.0,negative,22,10,mixed/weak,16,14,negative,14,16,negative
+payment_amount_may,"Payment made, May (NT$)",18,17.0,negative,23,9,mixed/weak,10,13,negative,15,12,negative
+payment_amount_april,"Payment made, April (NT$)",15,14.0,negative,9,23,mixed/weak,13,11,negative,20,11,negative

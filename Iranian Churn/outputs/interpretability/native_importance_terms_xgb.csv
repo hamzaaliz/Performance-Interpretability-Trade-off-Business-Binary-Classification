@@ -1,0 +1,12 @@
+encoded_term,original_feature,display_term,term_importance
+raw__call_failure,call_failure,Call failures,0.03215283900499344
+raw__complains,complains,Complaint registered,0.40640437602996826
+raw__subscription_length,subscription_length,Subscription length (months),0.02577083371579647
+raw__charge_amount,charge_amount,Charge amount band,0.028412332758307457
+raw__seconds_of_use,seconds_of_use,Seconds of use,0.042205289006233215
+raw__frequency_of_use,frequency_of_use,Number of calls,0.03395456448197365
+raw__frequency_of_sms,frequency_of_sms,Number of text messages,0.02567443437874317
+raw__distinct_called_numbers,distinct_called_numbers,Distinct called numbers,0.033825669437646866
+raw__age_group,age_group,Age band,0.030506333336234093
+raw__tariff_plan,tariff_plan,Contractual plan,0.027888527140021324
+raw__status,status,Account inactive,0.3132048547267914

@@ -1,0 +1,29 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+ordinal__repayment_status_september,"Repayment status, September",repayment_status_september,0.34481497792908816,-0.03963575909184126,1
+quantitative__credit_limit,Credit limit (NT$),credit_limit,0.21280437253790055,-0.03868521983997405,2
+quantitative__bill_amount_september,"Bill amount, September (NT$)",bill_amount_september,0.13036287955985915,0.0012687951192114815,3
+quantitative__payment_amount_august,"Payment made, August (NT$)",payment_amount_august,0.09576595862020151,-0.009287482067469452,4
+ordinal__repayment_status_august,"Repayment status, August",repayment_status_august,0.09354073186042851,0.029951565506709844,5
+quantitative__payment_amount_september,"Payment made, September (NT$)",payment_amount_september,0.09339838939796984,-0.007507522409284031,6
+quantitative__payment_amount_july,"Payment made, July (NT$)",payment_amount_july,0.08524831654045244,-0.008148658548614414,7
+ordinal__repayment_status_july,"Repayment status, July",repayment_status_july,0.06732603045335117,0.011051019796901143,8
+ordinal__repayment_status_june,"Repayment status, June",repayment_status_june,0.059771541024505284,0.0017315592725520026,9
+ordinal__repayment_status_may,"Repayment status, May",repayment_status_may,0.058361187707927906,-0.005650037688886587,10
+quantitative__payment_amount_april,"Payment made, April (NT$)",payment_amount_april,0.05683828160568982,-0.001195738201381156,11
+quantitative__payment_amount_may,"Payment made, May (NT$)",payment_amount_may,0.052562448534713695,-0.0050421915426094605,12
+ordinal__repayment_status_april,"Repayment status, April",repayment_status_april,0.047690978428538755,-0.004116493182144589,13
+quantitative__bill_amount_august,"Bill amount, August (NT$)",bill_amount_august,0.042319802722325155,0.004745405410497689,14
+quantitative__payment_amount_june,"Payment made, June (NT$)",payment_amount_june,0.040181331185845784,0.006083954743260692,15
+quantitative__bill_amount_july,"Bill amount, July (NT$)",bill_amount_july,0.03513258396477624,0.002654527546641621,16
+quantitative__bill_amount_april,"Bill amount, April (NT$)",bill_amount_april,0.034979672222830625,0.0016180860089196796,17
+binary__sex,Sex,sex,0.0340121785017698,-0.0035453003473639158,18
+quantitative__age,Age (years),age,0.02922687303658736,-0.002562035553744648,19
+nominal__marital_status_2,Marital status = single,marital_status,0.02618109976384551,-0.0014727605096793788,20
+quantitative__bill_amount_may,"Bill amount, May (NT$)",bill_amount_may,0.025867414484456112,0.004078537835126697,21
+quantitative__bill_amount_june,"Bill amount, June (NT$)",bill_amount_june,0.025502758990646135,0.0008063558548486252,22
+nominal__education_level_4,Education level = other or undocumented,education_level,0.02335955925758757,0.0029823627324350012,23
+nominal__marital_status_1,Marital status = married,marital_status,0.019112752412373188,-0.0019655910212866712,24
+nominal__education_level_2,Education level = university,education_level,0.01096883053259895,0.0009629380602007603,25
+nominal__education_level_1,Education level = graduate school,education_level,0.00867612128887541,0.0004992124408573366,26
+nominal__education_level_3,Education level = high school,education_level,0.0033728823601811013,0.0005930400638301216,27
+nominal__marital_status_3,Marital status = other or undocumented,marital_status,8.624864131677893e-05,-8.624864131677893e-05,28

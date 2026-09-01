@@ -1,0 +1,29 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+repayment__repayment_status_september_delay_2m,"Repayment status, September = two-month delay",repayment_status_september,0.31368060674506215,-0.023368057119701233,1
+numeric__credit_limit,Credit limit (NT$),credit_limit,0.2065918354840648,-0.03972113187958262,2
+repayment__repayment_status_september_delay_1m,"Repayment status, September = one-month delay",repayment_status_september,0.11082525192166039,0.005704520541092177,3
+payment__payment_amount_september,"Payment made, September (NT$)",payment_amount_september,0.10210411115979583,-0.00039611602338194575,4
+numeric__bill_amount_september,"Bill amount, September (NT$)",bill_amount_september,0.09496938260063176,0.009824817633482275,5
+payment__payment_amount_july,"Payment made, July (NT$)",payment_amount_july,0.07874929975379262,-0.004877345313081444,6
+repayment__repayment_status_september_delay_3m_plus,"Repayment status, September = delay of three months or more",repayment_status_september,0.07349279742448239,-0.023909480876261612,7
+repayment__repayment_status_july_delay_1_2m,"Repayment status, July = delay of one or two months",repayment_status_july,0.07076654412755533,0.013022716896627137,8
+binary__sex,Sex,sex,0.06944454474122504,-0.0050806449277939515,9
+nominal__marital_status_1,Marital status = married,marital_status,0.06777314404223594,-0.007914104490230396,10
+repayment__repayment_status_april_delay_1_2m,"Repayment status, April = delay of one or two months",repayment_status_april,0.06552503943595726,-0.011418572555864275,11
+payment__payment_amount_june,"Payment made, June (NT$)",payment_amount_june,0.058504585515603225,0.0015814738644022558,12
+payment__payment_amount_august,"Payment made, August (NT$)",payment_amount_august,0.05463493636721538,-0.0023097947031857635,13
+repayment__repayment_status_may_delay_1_2m,"Repayment status, May = delay of one or two months",repayment_status_may,0.04678397651778259,-0.0025780033463976507,14
+nominal__education_level_4,Education level = other or undocumented,education_level,0.04150894724817355,0.00469558226789275,15
+repayment__repayment_status_june_delay_1_2m,"Repayment status, June = delay of one or two months",repayment_status_june,0.04025603480725347,0.002451646455983868,16
+payment__payment_amount_april,"Payment made, April (NT$)",payment_amount_april,0.039944349171173454,-0.0023244641046280805,17
+numeric__age,Age (years),age,0.03668284273392598,-0.0035303594926727614,18
+nominal__education_level_3,Education level = high school,education_level,0.028873649185983254,0.0029951918242719657,19
+payment__payment_amount_may,"Payment made, May (NT$)",payment_amount_may,0.02781640119345197,-0.0020885766143688266,20
+repayment__repayment_status_august_delay_1_2m,"Repayment status, August = delay of one or two months",repayment_status_august,0.026710938535173267,0.010368184757115326,21
+repayment__repayment_status_april_delay_3m_plus,"Repayment status, April = delay of three months or more",repayment_status_april,0.015741477463348565,0.0023717249729537622,22
+repayment__repayment_status_may_delay_3m_plus,"Repayment status, May = delay of three months or more",repayment_status_may,0.00883188880389124,0.0019034243111834112,23
+repayment__repayment_status_june_delay_3m_plus,"Repayment status, June = delay of three months or more",repayment_status_june,0.005791889073480393,0.0010392145466771021,24
+nominal__education_level_1,Education level = graduate school,education_level,0.0038660435949372496,0.00013509905185942015,25
+nominal__marital_status_3,Marital status = other or undocumented,marital_status,0.0019082345570714035,0.0019082345570714035,26
+repayment__repayment_status_august_delay_3m_plus,"Repayment status, August = delay of three months or more",repayment_status_august,0.0006789559111267661,0.00023093738473698287,27
+repayment__repayment_status_july_delay_3m_plus,"Repayment status, July = delay of three months or more",repayment_status_july,0.0003052793643418386,-4.027432247253741e-05,28

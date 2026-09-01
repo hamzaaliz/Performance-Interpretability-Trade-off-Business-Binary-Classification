@@ -1,0 +1,21 @@
+feature,importance,display_name,rank
+verw,0.15150411054491997,Purpose,1
+laufkont,0.14777587354183197,Checking account status,2
+famges,0.08750745840370655,Personal status and sex,3
+wohn,0.08407290652394295,Housing,4
+moral,0.058432068675756454,Credit history,5
+sparkont,0.05326482281088829,Savings,6
+weitkred,0.05326232127845287,Other instalment plans,7
+laufzeit,0.051557354629039764,Credit duration (months),8
+verm,0.04560164362192154,Most valuable property,9
+hoehe,0.03415411710739136,Credit amount (DM),10
+beszeit,0.03146176412701607,Employment duration,11
+rate,0.029492953792214394,Instalment rate (% of income),12
+buerge,0.02936786226928234,Other debtors or guarantor,13
+telef,0.02823401242494583,Telephone registered,14
+beruf,0.02703464776277542,Job quality,15
+alter,0.025956356897950172,Age (years),16
+bishkred,0.022532347589731216,Number of credits at this bank,17
+wohnzeit,0.020898446440696716,Time at present residence,18
+pers,0.01788894087076187,Three or more dependants,19
+gastarb,0.0,Foreign worker,20

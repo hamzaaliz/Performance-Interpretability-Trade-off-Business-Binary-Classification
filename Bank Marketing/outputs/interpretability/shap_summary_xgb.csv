@@ -1,0 +1,16 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+contact,Contact channel,0.5140494846868553,0.13456505531246143,,category-dependent,2000,200,raw margin (log-odds),1
+month,Month of planned contact,0.30534533041519263,-0.016728664784137495,,category-dependent,2000,200,raw margin (log-odds),2
+poutcome,Previous campaign outcome,0.2224443962878249,-0.1321967254720953,,category-dependent,2000,200,raw margin (log-odds),3
+day,Day of month of planned contact,0.18702417834790572,-0.003995278668492809,-0.009138482955044033,mixed/weak,2000,200,raw margin (log-odds),4
+balance,Average yearly balance (EUR),0.1591660672469058,-0.025161222694647385,0.8147680037268985,positive,2000,200,raw margin (log-odds),5
+marital,Marital status,0.1553228547741727,0.0010203523300032612,,category-dependent,2000,200,raw margin (log-odds),6
+housing,Housing loan,0.15020934648687476,-0.003077003637716516,-0.8604786081628403,negative,2000,200,raw margin (log-odds),7
+campaign,Contacts this campaign,0.12023973066882433,0.012648367358503328,-0.7741022644802061,negative,2000,200,raw margin (log-odds),8
+pdays,Days since previous contact,0.11898097529836338,-0.05218967623421856,0.1268112789255056,positive,2000,200,raw margin (log-odds),9
+age,Age (years),0.10195172034230097,0.0010105518958042003,-0.5522863364402748,negative,2000,200,raw margin (log-odds),10
+education,Education level,0.07031888636478502,-0.004553202949657756,,category-dependent,2000,200,raw margin (log-odds),11
+loan,Personal loan,0.05195903821572371,-0.01791042017760819,-0.6373800683762695,negative,2000,200,raw margin (log-odds),12
+previous,Contacts before this campaign,0.04887110963677167,-0.00798364572028664,0.659319522260249,positive,2000,200,raw margin (log-odds),13
+job,Occupation,0.04053323431876204,-0.0004660546161990346,,category-dependent,2000,200,raw margin (log-odds),14
+default,Credit in default,0.0008116634052910376,0.00024526433705934325,0.23226873619370814,positive,2000,200,raw margin (log-odds),15

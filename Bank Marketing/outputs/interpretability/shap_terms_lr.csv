@@ -1,0 +1,43 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+nominal__contact_unknown,Contact channel = unknown,contact,0.5735601686230636,0.13843223647727654,1
+binary__housing,Housing loan,housing,0.2621468037490267,-0.013988623465796685,2
+nominal__poutcome_success,Previous campaign outcome = success,poutcome,0.1864214145899124,-0.09881514855636114,3
+numeric__campaign,Contacts this campaign,campaign,0.14949793282868076,0.018240517810901517,4
+nominal__marital_single,Marital status = single,marital,0.13114158782079569,-0.007357479203066968,5
+balance_signed_log__balance,"Average yearly balance (signed-log, standardised)",balance,0.12288013002234147,-0.036777934564069414,6
+nominal__month_jun,Month of planned contact = jun,month,0.1134874962024397,-0.010342116907878085,7
+nominal__poutcome_failure,Previous campaign outcome = failure,poutcome,0.09992458902309236,-0.04855946550798302,8
+previous_log1p__previous,Contacts before this campaign (log1p),previous,0.09861022040829462,-0.01321388415568468,9
+previously_contacted__pdays,Previously contacted,pdays,0.09613882618364665,-0.010966640948296707,10
+nominal__month_aug,Month of planned contact = aug,month,0.09228237417761048,-0.007837712518709954,11
+binary__loan,Personal loan,loan,0.07304532899846643,-0.02760453636917109,12
+nominal__month_nov,Month of planned contact = nov,month,0.06259591602810806,-0.006561416774435085,13
+nominal__education_tertiary,Education level = tertiary,education,0.06180206647381854,-0.0070956106784761585,14
+nominal__month_mar,Month of planned contact = mar,month,0.05668206641508197,-0.023758949994345423,15
+nominal__month_jul,Month of planned contact = jul,month,0.05445931282138842,-0.013378180557666968,16
+nominal__month_jan,Month of planned contact = jan,month,0.04834082872542104,0.012945617098250458,17
+nominal__marital_divorced,Marital status = divorced,marital,0.04724970943046564,0.0032260831018701857,18
+nominal__poutcome_other,Previous campaign outcome = other,poutcome,0.04480786698676917,0.016254365291452934,19
+nominal__month_apr,Month of planned contact = apr,month,0.0447189006693849,0.005448413389896667,20
+nominal__education_primary,Education level = primary,education,0.04311550313215989,-0.00172560618596411,21
+nominal__month_oct,Month of planned contact = oct,month,0.04271235414188569,-0.015173997002046134,22
+nominal__job_retired,Occupation = retired,job,0.042664239083412374,0.003109638417158459,23
+numeric__day,Day of month of planned contact,day,0.027064041765087123,-0.003254474322620841,24
+nominal__job_student,Occupation = student,job,0.023851508162078424,-0.007126944669943357,25
+nominal__contact_telephone,Contact channel = telephone,contact,0.023828960819609214,0.0019923880283955102,26
+nominal__job_management,Occupation = management,job,0.023232209994309944,-0.0036698162175088766,27
+nominal__job_admin.,Occupation = admin.,job,0.02189977531938091,5.581266965538051e-05,28
+nominal__month_dec,Month of planned contact = dec,month,0.014567292604626034,-0.0031145708073419755,29
+nominal__job_unemployed,Occupation = unemployed,job,0.012897506050695463,-0.0011837586745202119,30
+nominal__month_sep,Month of planned contact = sep,month,0.012515764703645842,0.012515764703645842,31
+pdays_clean__pdays,Days since previous contact (cleaned),pdays,0.010553487883523492,-0.00043679714516392396,32
+nominal__job_technician,Occupation = technician,job,0.009978074906059823,0.0018148315229937694,33
+nominal__job_housemaid,Occupation = housemaid,job,0.008561781907621323,-0.0041759284284473225,34
+numeric__age,Age (years),age,0.007305496021172571,-7.519332314290169e-05,35
+nominal__month_feb,Month of planned contact = feb,month,0.007116926792303459,0.0024987483269859395,36
+nominal__job_services,Occupation = services,job,0.005085217456152448,-0.0002956521776833004,37
+nominal__job_self-employed,Occupation = self-employed,job,0.003489191034141569,0.0006421823989217411,38
+nominal__job_entrepreneur,Occupation = entrepreneur,job,0.003314201595745739,-0.0010562257210237748,39
+nominal__education_unknown,Education level = unknown,education,0.0011929975212297335,-4.4984823575780884e-05,40
+binary__default,Credit in default,default,0.0008632940163089945,0.00024986802208651766,41
+nominal__job_unknown,Occupation = unknown,job,0.00035384373657587094,-0.00035384373657587094,42

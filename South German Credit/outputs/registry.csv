@@ -1,0 +1,329 @@
+dataset,stage,model,scope,metric,value,source_file,seed_applicable,seed,code_version
+South German Credit,4,,split,development_rows,800.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,4,,split,development_positives,240.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,4,,split,test_rows,200.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,4,,split,test_positives,60.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,4,,split,outer_folds,5.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,4,,split,inner_folds,3.0,outputs/split/split_spec.json,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,lr,outer-fold CV,pr_auc_mean,0.6253901149328783,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,lr,outer-fold CV,pr_auc_sd,0.0531958951696183,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,dt,outer-fold CV,pr_auc_mean,0.45694083067650243,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,dt,outer-fold CV,pr_auc_sd,0.05589455434910366,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,rf,outer-fold CV,pr_auc_mean,0.6122823172073405,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,rf,outer-fold CV,pr_auc_sd,0.09188281900030779,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,xgb,outer-fold CV,pr_auc_mean,0.6101584098505098,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,xgb,outer-fold CV,pr_auc_sd,0.06749423798110905,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,dummy,outer-fold CV,pr_auc_mean,0.3,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,8,dummy,outer-fold CV,pr_auc_sd,0.0,outputs/modelling/baseline_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_mean,0.6333699929870681,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_sd,0.06447696555891252,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_fold_1,0.6631610779082624,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_fold_2,0.7105679398195283,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_fold_3,0.5736952817498365,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_fold_4,0.5592069370799363,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,pr_auc_fold_5,0.6602187283777766,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,search_score,0.62081885169214,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,lr,nested development CV,final_fit_search_score,0.6314189674303493,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_mean,0.4797264255637802,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_sd,0.040311053883700994,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_fold_1,0.4939562652299647,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_fold_2,0.5341440624504664,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_fold_3,0.4740884823920501,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_fold_4,0.42253830173342155,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,pr_auc_fold_5,0.4739050160129983,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,search_score,0.4898766956357988,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,dt,nested development CV,final_fit_search_score,0.48422265745306664,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_mean,0.6141861730187973,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_sd,0.06319531063894976,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_fold_1,0.6512765251578843,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_fold_2,0.6767790636706855,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_fold_3,0.5505418502718245,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_fold_4,0.5414811423763716,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,pr_auc_fold_5,0.6508522836172206,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,search_score,0.6116372282671935,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,rf,nested development CV,final_fit_search_score,0.6354174304874519,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_mean,0.6404126092440519,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_sd,0.057466307817271606,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_fold_1,0.6740620382106374,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_fold_2,0.7002677926067432,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_fold_3,0.6095675132712202,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_fold_4,0.5562621560171368,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,pr_auc_fold_5,0.6619035461145222,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,search_score,0.6053765083246072,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,9,xgb,nested development CV,final_fit_search_score,0.641854680101729,outputs/modelling/nested_cv.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,lr,nested OOF development,slope,0.9595366307420369,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,lr,nested OOF development,intercept,-0.03861823089659559,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,lr,nested OOF development,brier,0.1609901857651683,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,lr,nested OOF development,log_loss,0.488606871728591,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,dt,nested OOF development,slope,0.43766762067339854,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,dt,nested OOF development,intercept,-0.3860111744121914,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,dt,nested OOF development,brier,0.18681006707012188,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,dt,nested OOF development,log_loss,0.5933159404801783,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,rf,nested OOF development,slope,1.3883811774754982,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,rf,nested OOF development,intercept,0.2350234039360641,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,rf,nested OOF development,brier,0.16866251308360675,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,rf,nested OOF development,log_loss,0.5073559396000552,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,xgb,nested OOF development,slope,0.723084272240575,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,xgb,nested OOF development,intercept,-0.1948613533369473,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,xgb,nested OOF development,brier,0.167700233974233,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,11,xgb,nested OOF development,log_loss,0.5107591528419227,outputs/modelling/calibration.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,threshold,0.28832057530235305,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,precision,0.5389221556886228,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,recall,0.75,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,fp,154.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,fn,60.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,precision_at_050,0.6373626373626373,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,lr,nested OOF development,recall_at_050,0.48333333333333334,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,threshold,0.2631578947368421,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,precision,0.4639175257731959,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,recall,0.75,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,fp,208.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,fn,60.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,precision_at_050,0.519774011299435,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,dt,nested OOF development,recall_at_050,0.38333333333333336,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,threshold,0.33115122734103086,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,precision,0.5357142857142857,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,recall,0.75,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,fp,156.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,fn,60.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,precision_at_050,0.6260869565217392,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,rf,nested OOF development,recall_at_050,0.3,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,threshold,0.29568660259246826,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,precision,0.5373134328358209,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,recall,0.75,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,fp,155.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,fn,60.0,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,precision_at_050,0.6210526315789474,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,12,xgb,nested OOF development,recall_at_050,0.49166666666666664,outputs/modelling/thresholds_selected.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,pr_auc,0.5938666287908727,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,pr_auc_ci_low,0.49115963492185183,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,pr_auc_ci_high,0.7054294637555769,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,roc_auc,0.7461904761904763,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,calibration_slope,0.8494977746445959,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,precision,0.47058823529411764,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,recall,0.6666666666666666,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,threshold,0.28832057530235305,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,pr_auc,0.4719855840678341,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,pr_auc_ci_low,0.39476975903333794,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,pr_auc_ci_high,0.5615221165006549,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,roc_auc,0.6917857142857142,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,calibration_slope,0.19761629695534105,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,precision,0.4536082474226804,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,recall,0.7333333333333333,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,threshold,0.2631578947368421,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,pr_auc,0.6454371848033107,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,pr_auc_ci_low,0.5477135394961438,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,pr_auc_ci_high,0.7485953157739078,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,roc_auc,0.7559523809523809,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,calibration_slope,1.4957313037904911,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,precision,0.48148148148148145,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,recall,0.65,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,threshold,0.33115122734103086,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,pr_auc,0.6390258355121107,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,pr_auc_ci_low,0.5340750609212372,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,pr_auc_ci_high,0.7471129479361278,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,roc_auc,0.7522619047619048,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,calibration_slope,0.7848971820490387,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,precision,0.45454545454545453,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,recall,0.6666666666666666,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,threshold,0.29568660259246826,outputs/modelling/test_results.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,tp,40.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,fp,45.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,tn,95.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,lr,locked holdout test,fn,20.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,tp,44.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,fp,53.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,tn,87.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,dt,locked holdout test,fn,16.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,tp,39.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,fp,42.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,tn,98.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,rf,locked holdout test,fn,21.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,tp,40.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,fp,48.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,tn,92.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,13,xgb,locked holdout test,fn,20.0,outputs/modelling/confusion_matrices.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_dt,paired outer folds,mean_diff,0.15364356742328783,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_dt,paired outer folds,sd_diff,0.035484341150660896,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_dt,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_dt,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_rf,paired outer folds,mean_diff,0.019183819968270743,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_rf,paired outer folds,sd_diff,0.009757708198338752,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_xgb,paired outer folds,mean_diff,-0.007042616256983924,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_xgb,paired outer folds,sd_diff,0.017855384972333643,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_xgb,paired outer folds,folds_agreeing_in_sign,3.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,lr_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_rf,paired outer folds,mean_diff,-0.13445974745501704,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_rf,paired outer folds,sd_diff,0.038730290605415704,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_xgb,paired outer folds,mean_diff,-0.1606861836802717,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_xgb,paired outer folds,sd_diff,0.02507498447724319,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,dt_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,rf_vs_xgb,paired outer folds,mean_diff,-0.026226436225254668,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,rf_vs_xgb,paired outer folds,sd_diff,0.019081456091405928,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,rf_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,14,rf_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::laufkont,0.11165580532484178,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::moral,0.06310349412186937,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::laufzeit,0.04333001302393868,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::sparkont,0.035597544658628334,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::verw,0.024374133280357424,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::rate,0.017848852544096606,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::famges,0.014754863097456251,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::bishkred,0.005241782475070821,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::beszeit,0.0034996353973961434,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::verm,0.00337267371458185,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::gastarb,0.00300751274160148,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::buerge,0.0020857411788601735,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::wohn,0.001073673230306793,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::telef,0.0008827108007293857,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::hoehe,0.0004975511719424919,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::weitkred,-0.0006993962472829307,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::pers,-0.0027380647867359846,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::alter,-0.0028038716892993553,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::wohnzeit,-0.004865715317230849,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,cross-fitted development,permutation::beruf,-0.010269635851805672,outputs/interpretability/permutation_importance_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::laufkont,0.6070077191255939,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::moral,0.3606158415637309,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::sparkont,0.2903722365378053,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::laufzeit,0.28049713022003536,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::verw,0.18969402289155599,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::rate,0.16066862373920873,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::beszeit,0.14841232498567433,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::verm,0.1478936928545379,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::famges,0.14701788223493545,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::bishkred,0.11408521115845044,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::telef,0.10018448496459065,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::hoehe,0.07462334445416038,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::wohn,0.06471099695484883,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::beruf,0.062093374121064804,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::weitkred,0.05475935237073227,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::buerge,0.027438277273034953,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::alter,0.022855088993885487,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::wohnzeit,0.019268201515702018,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::gastarb,0.01826076708378288,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,lr,final-refit development,shap::pers,0.000943601833445951,outputs/interpretability/shap_summary_lr.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::laufkont,0.09796640390677623,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::laufzeit,0.02908580089276015,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::sparkont,0.014990551520281578,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::hoehe,0.008196964944200868,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::verm,0.007664064694584806,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::moral,0.007574362016376219,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::beszeit,0.003986985697397515,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::rate,0.003431548269189905,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::verw,0.001430131367563552,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::alter,8.11165371792714e-05,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::telef,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::buerge,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::gastarb,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::bishkred,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::pers,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::beruf,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::wohnzeit,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::famges,-9.155560968824306e-05,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::wohn,-0.0013621983114090255,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,cross-fitted development,permutation::weitkred,-0.00199437978398418,outputs/interpretability/permutation_importance_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::laufkont,0.13465861164568924,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::sparkont,0.04460023854221218,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::laufzeit,0.037163448774069546,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::beszeit,0.02563750212471932,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::verw,0.024301699041575194,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::hoehe,0.022104258283879612,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::verm,0.021505259159766137,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::moral,0.010713213116512632,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::rate,0.009086497874150518,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::alter,0.00831503067180747,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::gastarb,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::weitkred,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::buerge,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::famges,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::bishkred,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::telef,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::pers,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::beruf,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::wohnzeit,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,dt,final-refit development,shap::wohn,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::laufkont,0.11993561275560556,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::laufzeit,0.038258988910964534,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::sparkont,0.03349035470268089,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::hoehe,0.03062462620895334,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::moral,0.02903552918788644,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::verw,0.016832641382962647,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::rate,0.007749144713092967,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::wohnzeit,0.0036796537799421675,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::buerge,0.0021811371719628837,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::gastarb,0.0016924738669419237,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::beszeit,0.001261666907730054,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::pers,0.001159153765556027,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::beruf,0.0005887597455249842,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::telef,0.0002221088206500658,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::verm,0.0001871494751586685,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::famges,-0.00215447691524224,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::bishkred,-0.003847817276790683,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::wohn,-0.004432178585468316,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::weitkred,-0.005487289679832724,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,cross-fitted development,permutation::alter,-0.005840212438567688,outputs/interpretability/permutation_importance_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::laufkont,0.07965407629795522,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::sparkont,0.031526311170513646,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::laufzeit,0.028380155570644768,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::moral,0.027589300213404513,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::hoehe,0.023682841364719022,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::verw,0.016998842350165716,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::famges,0.015371759203662023,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::alter,0.014879500889553079,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::beszeit,0.01288723191678285,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::verm,0.012213361123920798,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::wohn,0.011531815849215098,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::weitkred,0.008900581253638948,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::rate,0.007862999682984689,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::telef,0.006719539572595046,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::beruf,0.0028991218917502,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::wohnzeit,0.0027484765638321794,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::buerge,0.0021695869752405123,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::bishkred,0.0013232858005410189,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::pers,0.0009530038306600098,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,rf,final-refit development,shap::gastarb,0.0008825399120351394,outputs/interpretability/shap_summary_rf.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::laufkont,0.12046850395807458,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::moral,0.05516076434027504,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::hoehe,0.05484003506950223,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::sparkont,0.0475111919951279,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::laufzeit,0.042287543894171345,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::rate,0.022869883242086594,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::verw,0.020350095368740006,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::verm,0.011998682493968274,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::telef,0.009106492170251682,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::beszeit,0.007294052922183939,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::beruf,0.006020120279668467,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::famges,0.005635729028301176,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::alter,0.00512629857816716,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::buerge,0.0050876589770876834,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::wohnzeit,0.003265903952943268,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::weitkred,0.0030384078341367813,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::bishkred,0.0022131413497607478,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::wohn,0.0018653900844336558,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::gastarb,0.0011851464408395374,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,cross-fitted development,permutation::pers,-0.000643292196482063,outputs/interpretability/permutation_importance_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::laufkont,0.6646532838308071,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::laufzeit,0.34598484125112294,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::sparkont,0.3196374482886858,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::hoehe,0.30227782575542733,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::moral,0.3021757370596111,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::verw,0.28619999983640226,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::beszeit,0.1791900083003827,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::famges,0.16388497167589375,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::verm,0.1348523326410417,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::rate,0.10433631815617117,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::alter,0.10130095665658448,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::telef,0.09331904915090852,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::weitkred,0.0833434407900895,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::wohn,0.07953084270603722,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::beruf,0.06719962027076107,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::wohnzeit,0.05347415989723231,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::bishkred,0.04255247560428979,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::buerge,0.03994233566670446,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::pers,0.010229147282755004,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356
+South German Credit,16,xgb,final-refit development,shap::gastarb,0.0,outputs/interpretability/shap_summary_xgb.csv,True,42,sgc-workflow-2026-08-22-v1:e29a20a66fc69356

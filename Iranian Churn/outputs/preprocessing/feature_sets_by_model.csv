@@ -1,0 +1,21 @@
+model,feature_group,treatment,expected_encoded_terms
+Logistic regression,Quantitative,Six standardised terms: five retained raw quantities plus mean call duration; Seconds of Use excluded,14
+Logistic regression,Ordinal,"Collapsed Charge Amount score 0-5, standardised",14
+Logistic regression,Binary,"Complaint registered, contractual plan and account inactive as explicit 0/1 indicators",14
+Logistic regression,Categorical,Age Group one-hot encoded with explicit levels 1-5; band 3 dropped,14
+Logistic regression,Excluded,Age and Customer Value; raw Seconds of Use replaced by mean call duration,14
+Decision tree,Quantitative,Six raw quantities including Seconds of Use; no mean call duration,11
+Decision tree,Ordinal,Collapsed Charge Amount code 0-5 retained raw,11
+Decision tree,Binary,"Complaint registered, contractual plan and account inactive as explicit 0/1 indicators",11
+Decision tree,Categorical,Age Group retained as raw integer code 1-5,11
+Decision tree,Excluded,Age and Customer Value,11
+Random forest,Quantitative,Six raw quantities including Seconds of Use; no mean call duration,11
+Random forest,Ordinal,Collapsed Charge Amount code 0-5 retained raw,11
+Random forest,Binary,"Complaint registered, contractual plan and account inactive as explicit 0/1 indicators",11
+Random forest,Categorical,Age Group retained as raw integer code 1-5,11
+Random forest,Excluded,Age and Customer Value,11
+XGBoost,Quantitative,Six raw quantities including Seconds of Use; no mean call duration,11
+XGBoost,Ordinal,Collapsed Charge Amount code 0-5 retained raw,11
+XGBoost,Binary,"Complaint registered, contractual plan and account inactive as explicit 0/1 indicators",11
+XGBoost,Categorical,Age Group retained as raw integer code 1-5,11
+XGBoost,Excluded,Age and Customer Value,11

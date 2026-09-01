@@ -1,0 +1,24 @@
+feature,display_name,importance_mean,importance_sd,n_measurements,rank
+repayment_status_september,"Repayment status, September",0.1691942871781504,0.014073648625256275,150,1
+repayment_status_august,"Repayment status, August",0.043401695603001424,0.006946918981710343,150,2
+payment_amount_july,"Payment made, July (NT$)",0.014430195458997885,0.008078691084283753,150,3
+repayment_status_may,"Repayment status, May",0.010956403823289664,0.007474058506173914,150,4
+bill_amount_september,"Bill amount, September (NT$)",0.00839169458521548,0.0035091840276307035,150,5
+repayment_status_june,"Repayment status, June",0.00448583493236235,0.0059462585980747445,150,6
+payment_amount_august,"Payment made, August (NT$)",0.0029589488161393712,0.006009546710998192,150,7
+repayment_status_april,"Repayment status, April",0.0012000666844393807,0.002583398680440067,150,8
+payment_amount_april,"Payment made, April (NT$)",0.00022360444896951326,0.0006566629585948494,150,9
+credit_limit,Credit limit (NT$),0.0002087074067464608,0.0006161765385980913,150,10
+repayment_status_july,"Repayment status, July",0.0,0.0,150,11
+age,Age (years),0.0,0.0,150,12
+sex,Sex,0.0,0.0,150,13
+bill_amount_august,"Bill amount, August (NT$)",0.0,0.0,150,14
+bill_amount_july,"Bill amount, July (NT$)",0.0,0.0,150,15
+bill_amount_june,"Bill amount, June (NT$)",0.0,0.0,150,16
+bill_amount_may,"Bill amount, May (NT$)",0.0,0.0,150,17
+bill_amount_april,"Bill amount, April (NT$)",0.0,0.0,150,18
+payment_amount_september,"Payment made, September (NT$)",0.0,0.0,150,19
+marital_status,Marital status,0.0,0.0,150,20
+education_level,Education level,0.0,0.0,150,21
+payment_amount_june,"Payment made, June (NT$)",0.0,0.0,150,22
+payment_amount_may,"Payment made, May (NT$)",0.0,0.0,150,23

@@ -1,0 +1,38 @@
+audit_item,observed_value,verification_note
+source_filename,bank-full.csv,Locked 17-column source variant
+retrieval_date,2026-08-24,Recorded local-project date
+licence,CC BY 4.0,UCI dataset licence
+sha256,d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d,Matches locked source hash
+file_size_bytes,4610348,"Expected 4,610,348"
+rows,45211,"Expected 45,211"
+columns,17,Expected 17
+predictors_used,15,Expected 15 after duration exclusion
+int64_columns,7,Expected seven
+string_columns,10,Expected ten
+positive_count,5289,Subscribed
+negative_count,39922,Did not subscribe
+positive_rate,0.11698480458295547,Pooled delivered-sample rate
+missing_values,0,Expected zero
+blank_or_whitespace_cells,0,Asserted across string columns
+exact_duplicate_rows,0,Expected zero
+feature_identical_duplicates,0,Expected zero
+constant_columns,0,Expected zero
+undocumented_category_levels,0,All observed levels match bank-names.txt
+unknown_job,288,Retained category
+unknown_education,1857,Retained category
+unknown_contact,13020,Retained category
+unknown_poutcome,36959,Retained category
+rare_levels_below_1000,7,job=student:938; job=unknown:288; month=oct:738; month=sep:579; month=mar:477; month=dec:214; default=yes:815
+previously_contacted_rows,8257,pdays >= 0
+never_contacted_rows,36954,pdays = -1 and previous = 0
+pdays_previous_full_spearman,0.9856446382444941,Structural reference
+pdays_previous_contacted_spearman,-0.10127327886194193,Within previously-contacted rows
+poutcome_unknown_previously_contacted_rows,5,Indices asserted under R11
+negative_balance_rows,3766,Retained
+minimum_balance,-8019,Retained
+maximum_balance,102127,Retained
+maximum_campaign,63,Retained
+maximum_previous,275,Retained
+maximum_pdays,871,Retained
+identifier_columns,0,No identifier present
+candidate_leakage_variables,1,duration excluded before modelling

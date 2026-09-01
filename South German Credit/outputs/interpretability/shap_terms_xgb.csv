@@ -1,0 +1,39 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+ordinal__laufkont,Checking account status,laufkont,0.6646532838308069,-0.062235987926156006,1
+quant__laufzeit,Credit duration (months),laufzeit,0.3459848412511228,-0.008313809116021727,2
+ordinal__sparkont,Savings,sparkont,0.31963744828868546,-0.010618385539549495,3
+quant__hoehe,Credit amount (DM),hoehe,0.3022778257554274,-0.005840118673456181,4
+ordinal__moral,Credit history,moral,0.3021757370596115,-0.029194334737362774,5
+nominal__verw_1,Purpose = car (new),verw,0.20016321834462,0.012512734775908753,6
+ordinal__beszeit,Employment duration,beszeit,0.17919000830038276,-0.000620997784929933,7
+nominal__verw_0,Purpose = others,verw,0.14713879240090688,0.020413241245797697,8
+ordinal__verm,Most valuable property,verm,0.13485233264104182,0.0031465664032686623,9
+ordinal__rate,Instalment rate (% of income),rate,0.10433631815617117,0.0058640692865315905,10
+quant__alter,Age (years),alter,0.1013009566565844,-0.02054504615115438,11
+nominal__famges_2,Personal status and sex = female: non-single or male: single,famges,0.09857350741567508,-0.007595083145043481,12
+binary__telef,Telephone registered,telef,0.09331904915090856,-0.012366476378314844,13
+nominal__famges_3,Personal status and sex = male: married/widowed,famges,0.08768703165569165,0.0036751124858710672,14
+nominal__verw_3,Purpose = furniture/equipment,verw,0.07989902482058389,0.007818863233609592,15
+nominal__weitkred_3,Other instalment plans = none,weitkred,0.078664505520113,0.007260550103837886,16
+ordinal__beruf,Job quality,beruf,0.06719962027076112,0.005915381262244774,17
+nominal__wohn_2,Housing = rent,wohn,0.06001410459929607,-0.0043551174305728624,18
+ordinal__wohnzeit,Time at present residence,wohnzeit,0.0534741598972323,0.008360274908496647,19
+ordinal__bishkred,Number of credits at this bank,bishkred,0.04255247560428969,0.0034245200039615164,20
+nominal__buerge_1,Other debtors or guarantor = none,buerge,0.03994233566670452,0.00566553853042422,21
+nominal__wohn_1,Housing = for free,wohn,0.017775141232123176,-0.0017124204164370915,22
+nominal__famges_4,Personal status and sex = female: single,famges,0.010476399933762107,-0.0007067056537547582,23
+binary__pers,Three or more dependants,pers,0.010229147282755018,-0.0018283785804174776,24
+nominal__verw_9,Purpose = retraining,verw,0.005406345677282658,0.0001101769655011597,25
+nominal__wohn_3,Housing = own,wohn,0.005112927730544503,-0.00019724701449740794,26
+nominal__weitkred_1,Other instalment plans = bank,weitkred,0.0049593249680939784,0.0003775116046890612,27
+nominal__verw_2,Purpose = car (used),verw,0.001431135225063205,-0.00020491062426008556,28
+nominal__famges_1,Personal status and sex = male: divorced/separated,famges,0.0,0.0,29
+nominal__verw_10,Purpose = business,verw,0.0,0.0,30
+nominal__verw_8,Purpose = vacation,verw,0.0,0.0,31
+nominal__verw_6,Purpose = repairs,verw,0.0,0.0,32
+nominal__buerge_2,Other debtors or guarantor = co-applicant,buerge,0.0,0.0,33
+nominal__buerge_3,Other debtors or guarantor = guarantor,buerge,0.0,0.0,34
+nominal__weitkred_2,Other instalment plans = stores,weitkred,0.0,0.0,35
+nominal__verw_5,Purpose = domestic appliances,verw,0.0,0.0,36
+binary__gastarb,Foreign worker,gastarb,0.0,0.0,37
+nominal__verw_4,Purpose = radio/television,verw,0.0,0.0,38

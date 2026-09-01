@@ -1,0 +1,21 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+laufkont,Checking account status,0.07965407629795522,-0.006963655573156865,-0.9447586285935515,negative,800,200,raw class-1 probability output,1
+sparkont,Savings,0.031526311170513646,-0.00025378433109309305,-0.8701973787153141,negative,800,200,raw class-1 probability output,2
+laufzeit,Credit duration (months),0.028380155570644768,-0.0016103862442579011,0.9594678585258807,positive,800,200,raw class-1 probability output,3
+moral,Credit history,0.027589300213404513,-0.00271180129759339,-0.9057556604699488,negative,800,200,raw class-1 probability output,4
+hoehe,Credit amount (DM),0.023682841364719022,-0.00029755862973928536,0.23171383499693704,positive,800,200,raw class-1 probability output,5
+verw,Purpose,0.016998842350165716,0.002441050915155123,,category-dependent,800,200,raw class-1 probability output,6
+famges,Personal status and sex,0.015371759203662023,-0.00019436771062059197,,category-dependent,800,200,raw class-1 probability output,7
+alter,Age (years),0.014879500889553079,-0.003894713627565818,-0.7584848473593965,negative,800,200,raw class-1 probability output,8
+beszeit,Employment duration,0.01288723191678285,-0.0004732636069730145,-0.8932831941275584,negative,800,200,raw class-1 probability output,9
+verm,Most valuable property,0.012213361123920798,-0.000322545784539892,0.8818681316107106,positive,800,200,raw class-1 probability output,10
+wohn,Housing,0.011531815849215098,-0.0008875785989394626,,category-dependent,800,200,raw class-1 probability output,11
+weitkred,Other instalment plans,0.008900581253638948,0.0008828381488983517,,category-dependent,800,200,raw class-1 probability output,12
+rate,Instalment rate (% of income),0.007862999682984689,0.0003212249951140017,0.9174046490899648,positive,800,200,raw class-1 probability output,13
+telef,Telephone registered,0.006719539572595046,-0.0006820887090340801,-0.8555377806644112,negative,800,200,raw class-1 probability output,14
+beruf,Job quality,0.0028991218917502,0.00023116529295681503,0.7375660693189778,positive,800,200,raw class-1 probability output,15
+wohnzeit,Time at present residence,0.0027484765638321794,0.0006259816806946725,-0.5768869981493363,negative,800,200,raw class-1 probability output,16
+buerge,Other debtors or guarantor,0.0021695869752405123,0.0004746258134687531,,category-dependent,800,200,raw class-1 probability output,17
+bishkred,Number of credits at this bank,0.0013232858005410189,6.132227390851256e-06,0.23990139219588294,positive,800,200,raw class-1 probability output,18
+pers,Three or more dependants,0.0009530038306600098,-0.0002589847333011939,0.4230906354726281,positive,800,200,raw class-1 probability output,19
+gastarb,Foreign worker,0.0008825399120351394,-0.00016797700990343854,-0.3342835449313099,negative,800,200,raw class-1 probability output,20

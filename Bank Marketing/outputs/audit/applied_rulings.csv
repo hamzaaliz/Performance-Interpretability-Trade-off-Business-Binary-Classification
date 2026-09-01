@@ -1,0 +1,19 @@
+ruling,display_name,issue,action,verified
+R1,y,Target polarity,Map yes to one,True
+R2,All variables,Missing values,Assert zero; no imputation,True
+R3,Documented unknown levels,Disguised missingness,Retain as explicit categories,True
+R4,"job, education, contact, poutcome",Unknown handling,Retain explicit levels,True
+R5,All variables,Duplicates,Retain all rows; none observed,True
+R6,All variables,Identifier,No identifier exclusion,True
+R7,duration,Outcome-contemporaneous variable,Exclude from modelling,True
+R8,day,Campaign calendar variable,Retain and constrain interpretation,True
+R9,"pdays, previous",Shared never-contacted state,Decompose only inside logistic regression,True
+R10,"pdays, previous",Sentinel and structural zero,Use cleaned continuous terms and indicator for LR; raw for trees,True
+R11,poutcome,Five inconsistent unknown rows,Retain unmodified,True
+R12,balance,Negative values and skew,Signed-log and standardise only for LR,True
+R13,education,Unvalidated ordering,Treat as nominal,True
+R14,"month, day",Campaign-period confounding,Retain as campaign-timing indicators,True
+R15,Row position,Date ordering,Exclude position and shuffle split,True
+R16,All variables,Extreme observations,Remove no rows,True
+R17,"job, month, default",Sparse levels,Do not collapse; ignore unknown encoder inputs,True
+R18,Mixed feature types,Correlation measure,Long form Spearman and Cramer's V only,True

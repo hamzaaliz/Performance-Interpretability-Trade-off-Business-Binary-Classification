@@ -1,0 +1,12 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+status,Account inactive,0.10853348575525856,-0.004572751422774824,0.7519895579901772,positive,2000,200,raw class-1 probability output,1
+complains,Complaint registered,0.054254106141997945,0.009453242505955252,0.46312132537045975,positive,2000,200,raw class-1 probability output,2
+frequency_of_use,Number of calls,0.03519854417015458,-0.0016213191814932095,-0.6072634457703173,negative,2000,200,raw class-1 probability output,3
+seconds_of_use,Seconds of use,0.03213958500340548,-0.0012012293566601277,-0.4239732925222188,negative,2000,200,raw class-1 probability output,4
+subscription_length,Subscription length (months),0.02250009533380734,0.007138408143650421,0.02116317522293832,mixed/weak,2000,200,raw class-1 probability output,5
+call_failure,Call failures,0.021963304917358473,-0.00010942566497813155,0.9154918239308345,positive,2000,200,raw class-1 probability output,6
+distinct_called_numbers,Distinct called numbers,0.01893133400134812,-0.0010975117934078585,0.11428959767818991,positive,2000,200,raw class-1 probability output,7
+frequency_of_sms,Number of text messages,0.017122002493755124,-0.001308750571576867,-0.7217435748482802,negative,2000,200,raw class-1 probability output,8
+age_group,Age band,0.010579791432404447,0.0014627696403493487,,category-dependent,2000,200,raw class-1 probability output,9
+charge_amount,Charge amount band,0.008529161680025679,-0.0011894835486296173,-0.7517988336873952,negative,2000,200,raw class-1 probability output,10
+tariff_plan,Contractual plan,0.0004638053206416565,-0.0001942586190823603,-0.45480697078771365,negative,2000,200,raw class-1 probability output,11

@@ -1,0 +1,48 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+nominal__poutcome_success,Previous campaign outcome = success,poutcome,0.03966181413021557,-0.02129515317739167,1
+nominal__contact_unknown,Contact channel = unknown,contact,0.023413031988769928,0.005854773112450828,2
+nominal__month_jun,Month of planned contact = jun,month,0.018708516529160734,-0.002195066623235878,3
+quantitative__pdays,Days since previous contact,pdays,0.016957041070138564,-0.006238540861226947,4
+binary__housing,Housing loan,housing,0.014673817356945293,0.0007867777011018053,5
+nominal__contact_cellular,Contact channel = cellular,contact,0.01369739482332197,0.0034618077606474577,6
+quantitative__age,Age (years),age,0.01086355338602547,0.0009347024767680312,7
+nominal__month_mar,Month of planned contact = mar,month,0.009178994677174193,-0.00369166747409081,8
+quantitative__balance,Average yearly balance (EUR),balance,0.008279301766270696,-0.0017124392584747052,9
+nominal__month_may,Month of planned contact = may,month,0.007666876693561106,0.001417564306557873,10
+quantitative__previous,Contacts before this campaign,previous,0.006182794430001326,-0.001688709571707447,11
+nominal__month_oct,Month of planned contact = oct,month,0.006037801604088652,-0.0013001492567689685,12
+nominal__month_apr,Month of planned contact = apr,month,0.005029933938672467,0.0011597846981122942,13
+nominal__poutcome_unknown,Previous campaign outcome = unknown,poutcome,0.004188207150202042,-0.0010558137568988152,14
+nominal__marital_married,Marital status = married,marital,0.004127412303233894,0.00010259425143375565,15
+quantitative__day,Day of month of planned contact,day,0.00410772340212068,0.00034286066820947935,16
+quantitative__campaign,Contacts this campaign,campaign,0.0027482282146513645,-0.0006035996725597915,17
+nominal__marital_single,Marital status = single,marital,0.002677449550960081,-0.0003622040999830373,18
+nominal__poutcome_failure,Previous campaign outcome = failure,poutcome,0.0021624814916379196,-0.0011605541342424863,19
+nominal__month_sep,Month of planned contact = sep,month,0.0012270483682119302,0.0012270483682119302,20
+nominal__education_tertiary,Education level = tertiary,education,0.0010578471476270575,-0.0001341587478256045,21
+nominal__job_student,Occupation = student,job,0.0007277691396198401,-0.0002927153107219466,22
+nominal__month_dec,Month of planned contact = dec,month,0.0006507018210954826,-6.530794389665741e-05,23
+nominal__poutcome_other,Previous campaign outcome = other,poutcome,0.0006497613357279656,0.00021648296132730738,24
+binary__loan,Personal loan,loan,0.0006336542129386792,-0.00024323089810280668,25
+nominal__month_aug,Month of planned contact = aug,month,0.0006233681818395508,-0.00012550525229731692,26
+nominal__job_management,Occupation = management,job,0.0005554501936245337,-0.0001755663335310518,27
+nominal__education_secondary,Education level = secondary,education,0.0005189761859677851,5.665530662953045e-05,28
+nominal__month_jul,Month of planned contact = jul,month,0.00047514677771284954,-0.00022396163166156768,29
+nominal__month_jan,Month of planned contact = jan,month,0.0004330576995344256,8.754548709062133e-05,30
+nominal__job_blue-collar,Occupation = blue-collar,job,0.00041979645425398746,-9.22169080326436e-06,31
+nominal__marital_divorced,Marital status = divorced,marital,0.0003982007871897958,0.00012720139186631562,32
+nominal__month_nov,Month of planned contact = nov,month,0.0003846438466447491,2.148147470703959e-05,33
+nominal__month_feb,Month of planned contact = feb,month,0.0003110376352080544,0.0001324783998136893,34
+nominal__job_technician,Occupation = technician,job,0.00028848394605859336,-0.00015145241373575236,35
+nominal__job_admin.,Occupation = admin.,job,0.0002638438144371011,-0.00013154885518218225,36
+nominal__job_retired,Occupation = retired,job,0.00023910252316999608,5.216318704028547e-05,37
+nominal__contact_telephone,Contact channel = telephone,contact,0.00021000199656088345,3.399934151568916e-05,38
+nominal__education_primary,Education level = primary,education,0.0001624407938270185,1.897715145769127e-05,39
+nominal__job_unemployed,Occupation = unemployed,job,0.00011400031944480736,1.6284598955237222e-06,40
+nominal__job_self-employed,Occupation = self-employed,job,0.00011092357263343234,-1.3725569548395054e-05,41
+nominal__job_services,Occupation = services,job,6.320302607690231e-05,2.5819389064342593e-05,42
+nominal__education_unknown,Education level = unknown,education,4.345871634874296e-05,-1.460224978778539e-07,43
+nominal__job_entrepreneur,Occupation = entrepreneur,job,3.164317504226173e-05,1.0932594530853401e-05,44
+binary__default,Credit in default,default,2.3469300841675842e-05,1.333709823719078e-05,45
+nominal__job_housemaid,Occupation = housemaid,job,5.7401337514414825e-06,6.434054506813971e-07,46
+nominal__job_unknown,Occupation = unknown,job,8.042286077488826e-07,8.042286077488826e-07,47

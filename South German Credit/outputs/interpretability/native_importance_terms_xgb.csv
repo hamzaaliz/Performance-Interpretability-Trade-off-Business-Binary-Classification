@@ -1,0 +1,39 @@
+encoded_term,original_feature,display_term,term_importance
+quant__laufzeit,laufzeit,Credit duration (months),0.051557354629039764
+quant__hoehe,hoehe,Credit amount (DM),0.03415411710739136
+quant__alter,alter,Age (years),0.025956356897950172
+ordinal__laufkont,laufkont,Checking account status,0.14777587354183197
+ordinal__moral,moral,Credit history,0.058432068675756454
+ordinal__sparkont,sparkont,Savings,0.05326482281088829
+ordinal__beszeit,beszeit,Employment duration,0.03146176412701607
+ordinal__rate,rate,Instalment rate (% of income),0.029492953792214394
+ordinal__wohnzeit,wohnzeit,Time at present residence,0.020898446440696716
+ordinal__verm,verm,Most valuable property,0.04560164362192154
+ordinal__bishkred,bishkred,Number of credits at this bank,0.022532347589731216
+ordinal__beruf,beruf,Job quality,0.02703464776277542
+binary__pers,pers,Three or more dependants,0.01788894087076187
+binary__telef,telef,Telephone registered,0.02823401242494583
+binary__gastarb,gastarb,Foreign worker,0.0
+nominal__verw_0,verw,Purpose = others,0.036027777940034866
+nominal__verw_1,verw,Purpose = car (new),0.0444425567984581
+nominal__verw_2,verw,Purpose = car (used),0.019637053832411766
+nominal__verw_3,verw,Purpose = furniture/equipment,0.026745295152068138
+nominal__verw_4,verw,Purpose = radio/television,0.0
+nominal__verw_5,verw,Purpose = domestic appliances,0.0
+nominal__verw_6,verw,Purpose = repairs,0.0
+nominal__verw_8,verw,Purpose = vacation,0.0
+nominal__verw_9,verw,Purpose = retraining,0.024651426821947098
+nominal__verw_10,verw,Purpose = business,0.0
+nominal__famges_1,famges,Personal status and sex = male: divorced/separated,0.0
+nominal__famges_2,famges,Personal status and sex = female: non-single or male: single,0.039233870804309845
+nominal__famges_3,famges,Personal status and sex = male: married/widowed,0.029412750154733658
+nominal__famges_4,famges,Personal status and sex = female: single,0.018860837444663048
+nominal__buerge_1,buerge,Other debtors or guarantor = none,0.02936786226928234
+nominal__buerge_2,buerge,Other debtors or guarantor = co-applicant,0.0
+nominal__buerge_3,buerge,Other debtors or guarantor = guarantor,0.0
+nominal__weitkred_1,weitkred,Other instalment plans = bank,0.01891873963177204
+nominal__weitkred_2,weitkred,Other instalment plans = stores,0.0
+nominal__weitkred_3,weitkred,Other instalment plans = none,0.03434358164668083
+nominal__wohn_1,wohn,Housing = for free,0.015480540692806244
+nominal__wohn_2,wohn,Housing = rent,0.045865561813116074
+nominal__wohn_3,wohn,Housing = own,0.02272680401802063

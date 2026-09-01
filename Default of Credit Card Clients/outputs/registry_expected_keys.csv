@@ -1,0 +1,1267 @@
+stage,model,scope,metric
+2,,full-file structural audit,candidate_leakage_variables
+2,,full-file structural audit,columns
+2,,full-file structural audit,conflicting_label_groups
+2,,full-file structural audit,constant_columns
+2,,full-file structural audit,duplicate_identifiers
+2,,full-file structural audit,exact_duplicate_rows
+2,,full-file structural audit,feature_target_repeated_rows
+2,,full-file structural audit,file_size_bytes
+2,,full-file structural audit,identifier_columns_dropped
+2,,full-file structural audit,largest_categorical_majority_rate
+2,,full-file structural audit,maximum_bill_amount
+2,,full-file structural audit,maximum_bill_to_limit_ratio
+2,,full-file structural audit,maximum_payment_amount
+2,,full-file structural audit,missing_values
+2,,full-file structural audit,negative_bill_cells
+2,,full-file structural audit,negative_count
+2,,full-file structural audit,off_grid_credit_limit_rows
+2,,full-file structural audit,positive_count
+2,,full-file structural audit,positive_rate
+2,,full-file structural audit,predictors
+2,,full-file structural audit,redundant_feature_only_copies
+2,,full-file structural audit,redundant_feature_target_copies
+2,,full-file structural audit,repeated_feature_groups
+2,,full-file structural audit,repeated_feature_rows
+2,,full-file structural audit,rows
+2,,full-file structural audit,rows_with_bill_above_credit_limit
+2,,full-file structural audit,undocumented_education_or_marriage_cells
+2,,full-file structural audit,undocumented_repayment_status_cells
+2,,full-file structural audit,zero_recorded_bill_and_payment_rows
+2,,source position decile 1,positive_count
+2,,source position decile 1,positive_rate
+2,,source position decile 1,rows
+2,,source position decile 10,positive_count
+2,,source position decile 10,positive_rate
+2,,source position decile 10,rows
+2,,source position decile 2,positive_count
+2,,source position decile 2,positive_rate
+2,,source position decile 2,rows
+2,,source position decile 3,positive_count
+2,,source position decile 3,positive_rate
+2,,source position decile 3,rows
+2,,source position decile 4,positive_count
+2,,source position decile 4,positive_rate
+2,,source position decile 4,rows
+2,,source position decile 5,positive_count
+2,,source position decile 5,positive_rate
+2,,source position decile 5,rows
+2,,source position decile 6,positive_count
+2,,source position decile 6,positive_rate
+2,,source position decile 6,rows
+2,,source position decile 7,positive_count
+2,,source position decile 7,positive_rate
+2,,source position decile 7,rows
+2,,source position decile 8,positive_count
+2,,source position decile 8,positive_rate
+2,,source position decile 8,rows
+2,,source position decile 9,positive_count
+2,,source position decile 9,positive_rate
+2,,source position decile 9,rows
+4,,split,development_positives
+4,,split,development_rows
+4,,split,inner_folds
+4,,split,outer_folds
+4,,split,test_positives
+4,,split,test_rows
+5,,development EDA,age_quintile_1_default_rate
+5,,development EDA,age_quintile_2_default_rate
+5,,development EDA,age_quintile_3_default_rate
+5,,development EDA,age_quintile_4_default_rate
+5,,development EDA,age_quintile_5_default_rate
+5,,development EDA,audit_bill_to_limit_decile_10_default_rate
+5,,development EDA,audit_bill_to_limit_decile_1_default_rate
+5,,development EDA,audit_bill_to_limit_decile_2_default_rate
+5,,development EDA,audit_bill_to_limit_decile_3_default_rate
+5,,development EDA,audit_bill_to_limit_decile_4_default_rate
+5,,development EDA,audit_bill_to_limit_decile_5_default_rate
+5,,development EDA,audit_bill_to_limit_decile_6_default_rate
+5,,development EDA,audit_bill_to_limit_decile_7_default_rate
+5,,development EDA,audit_bill_to_limit_decile_8_default_rate
+5,,development EDA,audit_bill_to_limit_decile_9_default_rate
+5,,development EDA,bill_block_max_absolute_pearson
+5,,development EDA,bill_block_mean_absolute_pearson
+5,,development EDA,credit_limit_quintile_1_default_rate
+5,,development EDA,credit_limit_quintile_2_default_rate
+5,,development EDA,credit_limit_quintile_3_default_rate
+5,,development EDA,credit_limit_quintile_4_default_rate
+5,,development EDA,credit_limit_quintile_5_default_rate
+5,,development EDA,development_positive_rate
+5,,development EDA,development_positives
+5,,development EDA,development_rows
+5,,development EDA,largest_absolute_spearman
+5,,development EDA,largest_spearman_signed
+5,,development EDA,latest_repayment_delay_of_three_months_or_more_default_rate
+5,,development EDA,latest_repayment_delay_of_three_months_or_more_rows
+5,,development EDA,latest_repayment_non_positive_status_default_rate
+5,,development EDA,latest_repayment_non_positive_status_rows
+5,,development EDA,latest_repayment_one_month_delay_default_rate
+5,,development EDA,latest_repayment_one_month_delay_rows
+5,,development EDA,latest_repayment_two_month_delay_default_rate
+5,,development EDA,latest_repayment_two_month_delay_rows
+5,,development EDA,naive_any_delay_flagged
+5,,development EDA,naive_any_delay_precision
+5,,development EDA,naive_any_delay_recall
+5,,development EDA,nonzero_segment_default_rate
+5,,development EDA,repayment_block_max_absolute_pearson
+5,,development EDA,repayment_block_mean_absolute_pearson
+5,,development EDA,source_last_position_decile_default_rate
+5,,development EDA,zero_segment_default_rate
+5,,development EDA,zero_segment_rows
+8,dt,outer-fold CV,pr_auc_mean
+8,dt,outer-fold CV,pr_auc_sd
+8,dummy,outer-fold CV,pr_auc_mean
+8,dummy,outer-fold CV,pr_auc_sd
+8,lr,outer-fold CV,pr_auc_mean
+8,lr,outer-fold CV,pr_auc_sd
+8,rf,outer-fold CV,pr_auc_mean
+8,rf,outer-fold CV,pr_auc_sd
+8,xgb,outer-fold CV,pr_auc_mean
+8,xgb,outer-fold CV,pr_auc_sd
+9,dt,nested development CV,final_fit_search_score
+9,dt,nested development CV,pr_auc_fold_1
+9,dt,nested development CV,pr_auc_fold_2
+9,dt,nested development CV,pr_auc_fold_3
+9,dt,nested development CV,pr_auc_fold_4
+9,dt,nested development CV,pr_auc_fold_5
+9,dt,nested development CV,pr_auc_mean
+9,dt,nested development CV,pr_auc_sd
+9,dt,nested development CV,search_score
+9,lr,nested development CV,final_fit_search_score
+9,lr,nested development CV,pr_auc_fold_1
+9,lr,nested development CV,pr_auc_fold_2
+9,lr,nested development CV,pr_auc_fold_3
+9,lr,nested development CV,pr_auc_fold_4
+9,lr,nested development CV,pr_auc_fold_5
+9,lr,nested development CV,pr_auc_mean
+9,lr,nested development CV,pr_auc_sd
+9,lr,nested development CV,search_score
+9,rf,nested development CV,final_fit_search_score
+9,rf,nested development CV,pr_auc_fold_1
+9,rf,nested development CV,pr_auc_fold_2
+9,rf,nested development CV,pr_auc_fold_3
+9,rf,nested development CV,pr_auc_fold_4
+9,rf,nested development CV,pr_auc_fold_5
+9,rf,nested development CV,pr_auc_mean
+9,rf,nested development CV,pr_auc_sd
+9,rf,nested development CV,search_score
+9,xgb,nested development CV,final_fit_search_score
+9,xgb,nested development CV,pr_auc_fold_1
+9,xgb,nested development CV,pr_auc_fold_2
+9,xgb,nested development CV,pr_auc_fold_3
+9,xgb,nested development CV,pr_auc_fold_4
+9,xgb,nested development CV,pr_auc_fold_5
+9,xgb,nested development CV,pr_auc_mean
+9,xgb,nested development CV,pr_auc_sd
+9,xgb,nested development CV,search_score
+11,dt,OOF reliability bin 1,mean_score
+11,dt,OOF reliability bin 1,n
+11,dt,OOF reliability bin 1,observed_rate
+11,dt,OOF reliability bin 2,mean_score
+11,dt,OOF reliability bin 2,n
+11,dt,OOF reliability bin 2,observed_rate
+11,dt,OOF reliability bin 3,mean_score
+11,dt,OOF reliability bin 3,n
+11,dt,OOF reliability bin 3,observed_rate
+11,dt,OOF reliability bin 4,mean_score
+11,dt,OOF reliability bin 4,n
+11,dt,OOF reliability bin 4,observed_rate
+11,dt,OOF reliability bin 5,mean_score
+11,dt,OOF reliability bin 5,n
+11,dt,OOF reliability bin 5,observed_rate
+11,dt,OOF reliability bin 6,mean_score
+11,dt,OOF reliability bin 6,n
+11,dt,OOF reliability bin 6,observed_rate
+11,dt,OOF reliability bin 7,mean_score
+11,dt,OOF reliability bin 7,n
+11,dt,OOF reliability bin 7,observed_rate
+11,dt,OOF reliability bin 8,mean_score
+11,dt,OOF reliability bin 8,n
+11,dt,OOF reliability bin 8,observed_rate
+11,dt,OOF reliability bin 9,mean_score
+11,dt,OOF reliability bin 9,n
+11,dt,OOF reliability bin 9,observed_rate
+11,dt,nested OOF development,brier
+11,dt,nested OOF development,intercept
+11,dt,nested OOF development,log_loss
+11,dt,nested OOF development,slope
+11,lr,OOF reliability bin 1,mean_score
+11,lr,OOF reliability bin 1,n
+11,lr,OOF reliability bin 1,observed_rate
+11,lr,OOF reliability bin 10,mean_score
+11,lr,OOF reliability bin 10,n
+11,lr,OOF reliability bin 10,observed_rate
+11,lr,OOF reliability bin 2,mean_score
+11,lr,OOF reliability bin 2,n
+11,lr,OOF reliability bin 2,observed_rate
+11,lr,OOF reliability bin 3,mean_score
+11,lr,OOF reliability bin 3,n
+11,lr,OOF reliability bin 3,observed_rate
+11,lr,OOF reliability bin 4,mean_score
+11,lr,OOF reliability bin 4,n
+11,lr,OOF reliability bin 4,observed_rate
+11,lr,OOF reliability bin 5,mean_score
+11,lr,OOF reliability bin 5,n
+11,lr,OOF reliability bin 5,observed_rate
+11,lr,OOF reliability bin 6,mean_score
+11,lr,OOF reliability bin 6,n
+11,lr,OOF reliability bin 6,observed_rate
+11,lr,OOF reliability bin 7,mean_score
+11,lr,OOF reliability bin 7,n
+11,lr,OOF reliability bin 7,observed_rate
+11,lr,OOF reliability bin 8,mean_score
+11,lr,OOF reliability bin 8,n
+11,lr,OOF reliability bin 8,observed_rate
+11,lr,OOF reliability bin 9,mean_score
+11,lr,OOF reliability bin 9,n
+11,lr,OOF reliability bin 9,observed_rate
+11,lr,nested OOF development,brier
+11,lr,nested OOF development,intercept
+11,lr,nested OOF development,log_loss
+11,lr,nested OOF development,slope
+11,rf,OOF reliability bin 1,mean_score
+11,rf,OOF reliability bin 1,n
+11,rf,OOF reliability bin 1,observed_rate
+11,rf,OOF reliability bin 10,mean_score
+11,rf,OOF reliability bin 10,n
+11,rf,OOF reliability bin 10,observed_rate
+11,rf,OOF reliability bin 2,mean_score
+11,rf,OOF reliability bin 2,n
+11,rf,OOF reliability bin 2,observed_rate
+11,rf,OOF reliability bin 3,mean_score
+11,rf,OOF reliability bin 3,n
+11,rf,OOF reliability bin 3,observed_rate
+11,rf,OOF reliability bin 4,mean_score
+11,rf,OOF reliability bin 4,n
+11,rf,OOF reliability bin 4,observed_rate
+11,rf,OOF reliability bin 5,mean_score
+11,rf,OOF reliability bin 5,n
+11,rf,OOF reliability bin 5,observed_rate
+11,rf,OOF reliability bin 6,mean_score
+11,rf,OOF reliability bin 6,n
+11,rf,OOF reliability bin 6,observed_rate
+11,rf,OOF reliability bin 7,mean_score
+11,rf,OOF reliability bin 7,n
+11,rf,OOF reliability bin 7,observed_rate
+11,rf,OOF reliability bin 8,mean_score
+11,rf,OOF reliability bin 8,n
+11,rf,OOF reliability bin 8,observed_rate
+11,rf,OOF reliability bin 9,mean_score
+11,rf,OOF reliability bin 9,n
+11,rf,OOF reliability bin 9,observed_rate
+11,rf,nested OOF development,brier
+11,rf,nested OOF development,intercept
+11,rf,nested OOF development,log_loss
+11,rf,nested OOF development,slope
+11,xgb,OOF reliability bin 1,mean_score
+11,xgb,OOF reliability bin 1,n
+11,xgb,OOF reliability bin 1,observed_rate
+11,xgb,OOF reliability bin 10,mean_score
+11,xgb,OOF reliability bin 10,n
+11,xgb,OOF reliability bin 10,observed_rate
+11,xgb,OOF reliability bin 2,mean_score
+11,xgb,OOF reliability bin 2,n
+11,xgb,OOF reliability bin 2,observed_rate
+11,xgb,OOF reliability bin 3,mean_score
+11,xgb,OOF reliability bin 3,n
+11,xgb,OOF reliability bin 3,observed_rate
+11,xgb,OOF reliability bin 4,mean_score
+11,xgb,OOF reliability bin 4,n
+11,xgb,OOF reliability bin 4,observed_rate
+11,xgb,OOF reliability bin 5,mean_score
+11,xgb,OOF reliability bin 5,n
+11,xgb,OOF reliability bin 5,observed_rate
+11,xgb,OOF reliability bin 6,mean_score
+11,xgb,OOF reliability bin 6,n
+11,xgb,OOF reliability bin 6,observed_rate
+11,xgb,OOF reliability bin 7,mean_score
+11,xgb,OOF reliability bin 7,n
+11,xgb,OOF reliability bin 7,observed_rate
+11,xgb,OOF reliability bin 8,mean_score
+11,xgb,OOF reliability bin 8,n
+11,xgb,OOF reliability bin 8,observed_rate
+11,xgb,OOF reliability bin 9,mean_score
+11,xgb,OOF reliability bin 9,n
+11,xgb,OOF reliability bin 9,observed_rate
+11,xgb,nested OOF development,brier
+11,xgb,nested OOF development,intercept
+11,xgb,nested OOF development,log_loss
+11,xgb,nested OOF development,slope
+12,dt,nested OOF development,fn
+12,dt,nested OOF development,fp
+12,dt,nested OOF development,precision
+12,dt,nested OOF development,precision_at_050
+12,dt,nested OOF development,recall
+12,dt,nested OOF development,recall_at_050
+12,dt,nested OOF development,threshold
+12,lr,nested OOF development,fn
+12,lr,nested OOF development,fp
+12,lr,nested OOF development,precision
+12,lr,nested OOF development,precision_at_050
+12,lr,nested OOF development,recall
+12,lr,nested OOF development,recall_at_050
+12,lr,nested OOF development,threshold
+12,rf,nested OOF development,fn
+12,rf,nested OOF development,fp
+12,rf,nested OOF development,precision
+12,rf,nested OOF development,precision_at_050
+12,rf,nested OOF development,recall
+12,rf,nested OOF development,recall_at_050
+12,rf,nested OOF development,threshold
+12,xgb,nested OOF development,fn
+12,xgb,nested OOF development,fp
+12,xgb,nested OOF development,precision
+12,xgb,nested OOF development,precision_at_050
+12,xgb,nested OOF development,recall
+12,xgb,nested OOF development,recall_at_050
+12,xgb,nested OOF development,threshold
+13,dt,locked holdout test,calibration_slope
+13,dt,locked holdout test,fn
+13,dt,locked holdout test,fp
+13,dt,locked holdout test,pr_auc
+13,dt,locked holdout test,pr_auc_ci_high
+13,dt,locked holdout test,pr_auc_ci_low
+13,dt,locked holdout test,precision
+13,dt,locked holdout test,recall
+13,dt,locked holdout test,roc_auc
+13,dt,locked holdout test,threshold
+13,dt,locked holdout test,tn
+13,dt,locked holdout test,tp
+13,lr,locked holdout test,calibration_slope
+13,lr,locked holdout test,fn
+13,lr,locked holdout test,fp
+13,lr,locked holdout test,pr_auc
+13,lr,locked holdout test,pr_auc_ci_high
+13,lr,locked holdout test,pr_auc_ci_low
+13,lr,locked holdout test,precision
+13,lr,locked holdout test,recall
+13,lr,locked holdout test,roc_auc
+13,lr,locked holdout test,threshold
+13,lr,locked holdout test,tn
+13,lr,locked holdout test,tp
+13,rf,locked holdout test,calibration_slope
+13,rf,locked holdout test,fn
+13,rf,locked holdout test,fp
+13,rf,locked holdout test,pr_auc
+13,rf,locked holdout test,pr_auc_ci_high
+13,rf,locked holdout test,pr_auc_ci_low
+13,rf,locked holdout test,precision
+13,rf,locked holdout test,recall
+13,rf,locked holdout test,roc_auc
+13,rf,locked holdout test,threshold
+13,rf,locked holdout test,tn
+13,rf,locked holdout test,tp
+13,xgb,locked holdout test,calibration_slope
+13,xgb,locked holdout test,fn
+13,xgb,locked holdout test,fp
+13,xgb,locked holdout test,pr_auc
+13,xgb,locked holdout test,pr_auc_ci_high
+13,xgb,locked holdout test,pr_auc_ci_low
+13,xgb,locked holdout test,precision
+13,xgb,locked holdout test,recall
+13,xgb,locked holdout test,roc_auc
+13,xgb,locked holdout test,threshold
+13,xgb,locked holdout test,tn
+13,xgb,locked holdout test,tp
+14,dt_vs_rf,paired outer folds,fold_diff_1
+14,dt_vs_rf,paired outer folds,fold_diff_2
+14,dt_vs_rf,paired outer folds,fold_diff_3
+14,dt_vs_rf,paired outer folds,fold_diff_4
+14,dt_vs_rf,paired outer folds,fold_diff_5
+14,dt_vs_rf,paired outer folds,folds_agreeing_in_sign
+14,dt_vs_rf,paired outer folds,mean_diff
+14,dt_vs_rf,paired outer folds,n_folds
+14,dt_vs_rf,paired outer folds,sd_diff
+14,dt_vs_xgb,paired outer folds,fold_diff_1
+14,dt_vs_xgb,paired outer folds,fold_diff_2
+14,dt_vs_xgb,paired outer folds,fold_diff_3
+14,dt_vs_xgb,paired outer folds,fold_diff_4
+14,dt_vs_xgb,paired outer folds,fold_diff_5
+14,dt_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,dt_vs_xgb,paired outer folds,mean_diff
+14,dt_vs_xgb,paired outer folds,n_folds
+14,dt_vs_xgb,paired outer folds,sd_diff
+14,lr_vs_dt,paired outer folds,fold_diff_1
+14,lr_vs_dt,paired outer folds,fold_diff_2
+14,lr_vs_dt,paired outer folds,fold_diff_3
+14,lr_vs_dt,paired outer folds,fold_diff_4
+14,lr_vs_dt,paired outer folds,fold_diff_5
+14,lr_vs_dt,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_dt,paired outer folds,mean_diff
+14,lr_vs_dt,paired outer folds,n_folds
+14,lr_vs_dt,paired outer folds,sd_diff
+14,lr_vs_rf,paired outer folds,fold_diff_1
+14,lr_vs_rf,paired outer folds,fold_diff_2
+14,lr_vs_rf,paired outer folds,fold_diff_3
+14,lr_vs_rf,paired outer folds,fold_diff_4
+14,lr_vs_rf,paired outer folds,fold_diff_5
+14,lr_vs_rf,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_rf,paired outer folds,mean_diff
+14,lr_vs_rf,paired outer folds,n_folds
+14,lr_vs_rf,paired outer folds,sd_diff
+14,lr_vs_xgb,paired outer folds,fold_diff_1
+14,lr_vs_xgb,paired outer folds,fold_diff_2
+14,lr_vs_xgb,paired outer folds,fold_diff_3
+14,lr_vs_xgb,paired outer folds,fold_diff_4
+14,lr_vs_xgb,paired outer folds,fold_diff_5
+14,lr_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,lr_vs_xgb,paired outer folds,mean_diff
+14,lr_vs_xgb,paired outer folds,n_folds
+14,lr_vs_xgb,paired outer folds,sd_diff
+14,rf_vs_xgb,paired outer folds,fold_diff_1
+14,rf_vs_xgb,paired outer folds,fold_diff_2
+14,rf_vs_xgb,paired outer folds,fold_diff_3
+14,rf_vs_xgb,paired outer folds,fold_diff_4
+14,rf_vs_xgb,paired outer folds,fold_diff_5
+14,rf_vs_xgb,paired outer folds,folds_agreeing_in_sign
+14,rf_vs_xgb,paired outer folds,mean_diff
+14,rf_vs_xgb,paired outer folds,n_folds
+14,rf_vs_xgb,paired outer folds,sd_diff
+15,dt,pooled nested OOF development,Calibration slope proximity to one
+15,dt,pooled nested OOF development,PR-AUC
+15,dt,pooled nested OOF development,Precision at operating threshold
+15,dt,pooled nested OOF development,ROC-AUC
+15,dt,pooled nested OOF development,Recall at operating threshold
+15,lr,pooled nested OOF development,Calibration slope proximity to one
+15,lr,pooled nested OOF development,PR-AUC
+15,lr,pooled nested OOF development,Precision at operating threshold
+15,lr,pooled nested OOF development,ROC-AUC
+15,lr,pooled nested OOF development,Recall at operating threshold
+15,rf,pooled nested OOF development,Calibration slope proximity to one
+15,rf,pooled nested OOF development,PR-AUC
+15,rf,pooled nested OOF development,Precision at operating threshold
+15,rf,pooled nested OOF development,ROC-AUC
+15,rf,pooled nested OOF development,Recall at operating threshold
+15,xgb,pooled nested OOF development,Calibration slope proximity to one
+15,xgb,pooled nested OOF development,PR-AUC
+15,xgb,pooled nested OOF development,Precision at operating threshold
+15,xgb,pooled nested OOF development,ROC-AUC
+15,xgb,pooled nested OOF development,Recall at operating threshold
+16,dt,cross-fitted development,permutation::age::mean
+16,dt,cross-fitted development,permutation::age::rank
+16,dt,cross-fitted development,permutation::age::sd
+16,dt,cross-fitted development,permutation::bill_amount_april::mean
+16,dt,cross-fitted development,permutation::bill_amount_april::rank
+16,dt,cross-fitted development,permutation::bill_amount_april::sd
+16,dt,cross-fitted development,permutation::bill_amount_august::mean
+16,dt,cross-fitted development,permutation::bill_amount_august::rank
+16,dt,cross-fitted development,permutation::bill_amount_august::sd
+16,dt,cross-fitted development,permutation::bill_amount_july::mean
+16,dt,cross-fitted development,permutation::bill_amount_july::rank
+16,dt,cross-fitted development,permutation::bill_amount_july::sd
+16,dt,cross-fitted development,permutation::bill_amount_june::mean
+16,dt,cross-fitted development,permutation::bill_amount_june::rank
+16,dt,cross-fitted development,permutation::bill_amount_june::sd
+16,dt,cross-fitted development,permutation::bill_amount_may::mean
+16,dt,cross-fitted development,permutation::bill_amount_may::rank
+16,dt,cross-fitted development,permutation::bill_amount_may::sd
+16,dt,cross-fitted development,permutation::bill_amount_september::mean
+16,dt,cross-fitted development,permutation::bill_amount_september::rank
+16,dt,cross-fitted development,permutation::bill_amount_september::sd
+16,dt,cross-fitted development,permutation::credit_limit::mean
+16,dt,cross-fitted development,permutation::credit_limit::rank
+16,dt,cross-fitted development,permutation::credit_limit::sd
+16,dt,cross-fitted development,permutation::education_level::mean
+16,dt,cross-fitted development,permutation::education_level::rank
+16,dt,cross-fitted development,permutation::education_level::sd
+16,dt,cross-fitted development,permutation::marital_status::mean
+16,dt,cross-fitted development,permutation::marital_status::rank
+16,dt,cross-fitted development,permutation::marital_status::sd
+16,dt,cross-fitted development,permutation::payment_amount_april::mean
+16,dt,cross-fitted development,permutation::payment_amount_april::rank
+16,dt,cross-fitted development,permutation::payment_amount_april::sd
+16,dt,cross-fitted development,permutation::payment_amount_august::mean
+16,dt,cross-fitted development,permutation::payment_amount_august::rank
+16,dt,cross-fitted development,permutation::payment_amount_august::sd
+16,dt,cross-fitted development,permutation::payment_amount_july::mean
+16,dt,cross-fitted development,permutation::payment_amount_july::rank
+16,dt,cross-fitted development,permutation::payment_amount_july::sd
+16,dt,cross-fitted development,permutation::payment_amount_june::mean
+16,dt,cross-fitted development,permutation::payment_amount_june::rank
+16,dt,cross-fitted development,permutation::payment_amount_june::sd
+16,dt,cross-fitted development,permutation::payment_amount_may::mean
+16,dt,cross-fitted development,permutation::payment_amount_may::rank
+16,dt,cross-fitted development,permutation::payment_amount_may::sd
+16,dt,cross-fitted development,permutation::payment_amount_september::mean
+16,dt,cross-fitted development,permutation::payment_amount_september::rank
+16,dt,cross-fitted development,permutation::payment_amount_september::sd
+16,dt,cross-fitted development,permutation::repayment_status_april::mean
+16,dt,cross-fitted development,permutation::repayment_status_april::rank
+16,dt,cross-fitted development,permutation::repayment_status_april::sd
+16,dt,cross-fitted development,permutation::repayment_status_august::mean
+16,dt,cross-fitted development,permutation::repayment_status_august::rank
+16,dt,cross-fitted development,permutation::repayment_status_august::sd
+16,dt,cross-fitted development,permutation::repayment_status_july::mean
+16,dt,cross-fitted development,permutation::repayment_status_july::rank
+16,dt,cross-fitted development,permutation::repayment_status_july::sd
+16,dt,cross-fitted development,permutation::repayment_status_june::mean
+16,dt,cross-fitted development,permutation::repayment_status_june::rank
+16,dt,cross-fitted development,permutation::repayment_status_june::sd
+16,dt,cross-fitted development,permutation::repayment_status_may::mean
+16,dt,cross-fitted development,permutation::repayment_status_may::rank
+16,dt,cross-fitted development,permutation::repayment_status_may::sd
+16,dt,cross-fitted development,permutation::repayment_status_september::mean
+16,dt,cross-fitted development,permutation::repayment_status_september::rank
+16,dt,cross-fitted development,permutation::repayment_status_september::sd
+16,dt,cross-fitted development,permutation::sex::mean
+16,dt,cross-fitted development,permutation::sex::rank
+16,dt,cross-fitted development,permutation::sex::sd
+16,dt,final-refit development,native::age::importance
+16,dt,final-refit development,native::bill_amount_april::importance
+16,dt,final-refit development,native::bill_amount_august::importance
+16,dt,final-refit development,native::bill_amount_july::importance
+16,dt,final-refit development,native::bill_amount_june::importance
+16,dt,final-refit development,native::bill_amount_may::importance
+16,dt,final-refit development,native::bill_amount_september::importance
+16,dt,final-refit development,native::credit_limit::importance
+16,dt,final-refit development,native::education_level::importance
+16,dt,final-refit development,native::marital_status::importance
+16,dt,final-refit development,native::payment_amount_april::importance
+16,dt,final-refit development,native::payment_amount_august::importance
+16,dt,final-refit development,native::payment_amount_july::importance
+16,dt,final-refit development,native::payment_amount_june::importance
+16,dt,final-refit development,native::payment_amount_may::importance
+16,dt,final-refit development,native::payment_amount_september::importance
+16,dt,final-refit development,native::repayment_status_april::importance
+16,dt,final-refit development,native::repayment_status_august::importance
+16,dt,final-refit development,native::repayment_status_july::importance
+16,dt,final-refit development,native::repayment_status_june::importance
+16,dt,final-refit development,native::repayment_status_may::importance
+16,dt,final-refit development,native::repayment_status_september::importance
+16,dt,final-refit development,native::sex::importance
+16,dt,final-refit development,shap::age::direction_rho
+16,dt,final-refit development,shap::age::mean_absolute
+16,dt,final-refit development,shap::age::mean_signed
+16,dt,final-refit development,shap::age::rank
+16,dt,final-refit development,shap::bill_amount_april::direction_rho
+16,dt,final-refit development,shap::bill_amount_april::mean_absolute
+16,dt,final-refit development,shap::bill_amount_april::mean_signed
+16,dt,final-refit development,shap::bill_amount_april::rank
+16,dt,final-refit development,shap::bill_amount_august::direction_rho
+16,dt,final-refit development,shap::bill_amount_august::mean_absolute
+16,dt,final-refit development,shap::bill_amount_august::mean_signed
+16,dt,final-refit development,shap::bill_amount_august::rank
+16,dt,final-refit development,shap::bill_amount_july::direction_rho
+16,dt,final-refit development,shap::bill_amount_july::mean_absolute
+16,dt,final-refit development,shap::bill_amount_july::mean_signed
+16,dt,final-refit development,shap::bill_amount_july::rank
+16,dt,final-refit development,shap::bill_amount_june::direction_rho
+16,dt,final-refit development,shap::bill_amount_june::mean_absolute
+16,dt,final-refit development,shap::bill_amount_june::mean_signed
+16,dt,final-refit development,shap::bill_amount_june::rank
+16,dt,final-refit development,shap::bill_amount_may::direction_rho
+16,dt,final-refit development,shap::bill_amount_may::mean_absolute
+16,dt,final-refit development,shap::bill_amount_may::mean_signed
+16,dt,final-refit development,shap::bill_amount_may::rank
+16,dt,final-refit development,shap::bill_amount_september::direction_rho
+16,dt,final-refit development,shap::bill_amount_september::mean_absolute
+16,dt,final-refit development,shap::bill_amount_september::mean_signed
+16,dt,final-refit development,shap::bill_amount_september::rank
+16,dt,final-refit development,shap::credit_limit::direction_rho
+16,dt,final-refit development,shap::credit_limit::mean_absolute
+16,dt,final-refit development,shap::credit_limit::mean_signed
+16,dt,final-refit development,shap::credit_limit::rank
+16,dt,final-refit development,shap::education_level::direction_rho
+16,dt,final-refit development,shap::education_level::mean_absolute
+16,dt,final-refit development,shap::education_level::mean_signed
+16,dt,final-refit development,shap::education_level::rank
+16,dt,final-refit development,shap::marital_status::direction_rho
+16,dt,final-refit development,shap::marital_status::mean_absolute
+16,dt,final-refit development,shap::marital_status::mean_signed
+16,dt,final-refit development,shap::marital_status::rank
+16,dt,final-refit development,shap::payment_amount_april::direction_rho
+16,dt,final-refit development,shap::payment_amount_april::mean_absolute
+16,dt,final-refit development,shap::payment_amount_april::mean_signed
+16,dt,final-refit development,shap::payment_amount_april::rank
+16,dt,final-refit development,shap::payment_amount_august::direction_rho
+16,dt,final-refit development,shap::payment_amount_august::mean_absolute
+16,dt,final-refit development,shap::payment_amount_august::mean_signed
+16,dt,final-refit development,shap::payment_amount_august::rank
+16,dt,final-refit development,shap::payment_amount_july::direction_rho
+16,dt,final-refit development,shap::payment_amount_july::mean_absolute
+16,dt,final-refit development,shap::payment_amount_july::mean_signed
+16,dt,final-refit development,shap::payment_amount_july::rank
+16,dt,final-refit development,shap::payment_amount_june::direction_rho
+16,dt,final-refit development,shap::payment_amount_june::mean_absolute
+16,dt,final-refit development,shap::payment_amount_june::mean_signed
+16,dt,final-refit development,shap::payment_amount_june::rank
+16,dt,final-refit development,shap::payment_amount_may::direction_rho
+16,dt,final-refit development,shap::payment_amount_may::mean_absolute
+16,dt,final-refit development,shap::payment_amount_may::mean_signed
+16,dt,final-refit development,shap::payment_amount_may::rank
+16,dt,final-refit development,shap::payment_amount_september::direction_rho
+16,dt,final-refit development,shap::payment_amount_september::mean_absolute
+16,dt,final-refit development,shap::payment_amount_september::mean_signed
+16,dt,final-refit development,shap::payment_amount_september::rank
+16,dt,final-refit development,shap::repayment_status_april::direction_rho
+16,dt,final-refit development,shap::repayment_status_april::mean_absolute
+16,dt,final-refit development,shap::repayment_status_april::mean_signed
+16,dt,final-refit development,shap::repayment_status_april::rank
+16,dt,final-refit development,shap::repayment_status_august::direction_rho
+16,dt,final-refit development,shap::repayment_status_august::mean_absolute
+16,dt,final-refit development,shap::repayment_status_august::mean_signed
+16,dt,final-refit development,shap::repayment_status_august::rank
+16,dt,final-refit development,shap::repayment_status_july::direction_rho
+16,dt,final-refit development,shap::repayment_status_july::mean_absolute
+16,dt,final-refit development,shap::repayment_status_july::mean_signed
+16,dt,final-refit development,shap::repayment_status_july::rank
+16,dt,final-refit development,shap::repayment_status_june::direction_rho
+16,dt,final-refit development,shap::repayment_status_june::mean_absolute
+16,dt,final-refit development,shap::repayment_status_june::mean_signed
+16,dt,final-refit development,shap::repayment_status_june::rank
+16,dt,final-refit development,shap::repayment_status_may::direction_rho
+16,dt,final-refit development,shap::repayment_status_may::mean_absolute
+16,dt,final-refit development,shap::repayment_status_may::mean_signed
+16,dt,final-refit development,shap::repayment_status_may::rank
+16,dt,final-refit development,shap::repayment_status_september::direction_rho
+16,dt,final-refit development,shap::repayment_status_september::mean_absolute
+16,dt,final-refit development,shap::repayment_status_september::mean_signed
+16,dt,final-refit development,shap::repayment_status_september::rank
+16,dt,final-refit development,shap::sex::direction_rho
+16,dt,final-refit development,shap::sex::mean_absolute
+16,dt,final-refit development,shap::sex::mean_signed
+16,dt,final-refit development,shap::sex::rank
+16,dt,interpretability summary,calibration_slope
+16,dt,interpretability summary,n_features_used
+16,dt,interpretability summary,n_leaves
+16,dt,interpretability summary,n_nonzero_coef
+16,dt,interpretability summary,native_vs_perm_rank_corr
+16,dt,interpretability summary,perm_vs_shap_rank_corr
+16,dt,interpretability summary,top10_overlap_dt
+16,dt,interpretability summary,top10_overlap_lr
+16,dt,interpretability summary,top10_overlap_rf
+16,dt,interpretability summary,top10_overlap_xgb
+16,dt,interpretability summary,tree_depth
+16,lr,cross-fitted development,permutation::age::mean
+16,lr,cross-fitted development,permutation::age::rank
+16,lr,cross-fitted development,permutation::age::sd
+16,lr,cross-fitted development,permutation::bill_amount_april::mean
+16,lr,cross-fitted development,permutation::bill_amount_april::rank
+16,lr,cross-fitted development,permutation::bill_amount_april::sd
+16,lr,cross-fitted development,permutation::bill_amount_august::mean
+16,lr,cross-fitted development,permutation::bill_amount_august::rank
+16,lr,cross-fitted development,permutation::bill_amount_august::sd
+16,lr,cross-fitted development,permutation::bill_amount_july::mean
+16,lr,cross-fitted development,permutation::bill_amount_july::rank
+16,lr,cross-fitted development,permutation::bill_amount_july::sd
+16,lr,cross-fitted development,permutation::bill_amount_june::mean
+16,lr,cross-fitted development,permutation::bill_amount_june::rank
+16,lr,cross-fitted development,permutation::bill_amount_june::sd
+16,lr,cross-fitted development,permutation::bill_amount_may::mean
+16,lr,cross-fitted development,permutation::bill_amount_may::rank
+16,lr,cross-fitted development,permutation::bill_amount_may::sd
+16,lr,cross-fitted development,permutation::bill_amount_september::mean
+16,lr,cross-fitted development,permutation::bill_amount_september::rank
+16,lr,cross-fitted development,permutation::bill_amount_september::sd
+16,lr,cross-fitted development,permutation::credit_limit::mean
+16,lr,cross-fitted development,permutation::credit_limit::rank
+16,lr,cross-fitted development,permutation::credit_limit::sd
+16,lr,cross-fitted development,permutation::education_level::mean
+16,lr,cross-fitted development,permutation::education_level::rank
+16,lr,cross-fitted development,permutation::education_level::sd
+16,lr,cross-fitted development,permutation::marital_status::mean
+16,lr,cross-fitted development,permutation::marital_status::rank
+16,lr,cross-fitted development,permutation::marital_status::sd
+16,lr,cross-fitted development,permutation::payment_amount_april::mean
+16,lr,cross-fitted development,permutation::payment_amount_april::rank
+16,lr,cross-fitted development,permutation::payment_amount_april::sd
+16,lr,cross-fitted development,permutation::payment_amount_august::mean
+16,lr,cross-fitted development,permutation::payment_amount_august::rank
+16,lr,cross-fitted development,permutation::payment_amount_august::sd
+16,lr,cross-fitted development,permutation::payment_amount_july::mean
+16,lr,cross-fitted development,permutation::payment_amount_july::rank
+16,lr,cross-fitted development,permutation::payment_amount_july::sd
+16,lr,cross-fitted development,permutation::payment_amount_june::mean
+16,lr,cross-fitted development,permutation::payment_amount_june::rank
+16,lr,cross-fitted development,permutation::payment_amount_june::sd
+16,lr,cross-fitted development,permutation::payment_amount_may::mean
+16,lr,cross-fitted development,permutation::payment_amount_may::rank
+16,lr,cross-fitted development,permutation::payment_amount_may::sd
+16,lr,cross-fitted development,permutation::payment_amount_september::mean
+16,lr,cross-fitted development,permutation::payment_amount_september::rank
+16,lr,cross-fitted development,permutation::payment_amount_september::sd
+16,lr,cross-fitted development,permutation::repayment_status_april::mean
+16,lr,cross-fitted development,permutation::repayment_status_april::rank
+16,lr,cross-fitted development,permutation::repayment_status_april::sd
+16,lr,cross-fitted development,permutation::repayment_status_august::mean
+16,lr,cross-fitted development,permutation::repayment_status_august::rank
+16,lr,cross-fitted development,permutation::repayment_status_august::sd
+16,lr,cross-fitted development,permutation::repayment_status_july::mean
+16,lr,cross-fitted development,permutation::repayment_status_july::rank
+16,lr,cross-fitted development,permutation::repayment_status_july::sd
+16,lr,cross-fitted development,permutation::repayment_status_june::mean
+16,lr,cross-fitted development,permutation::repayment_status_june::rank
+16,lr,cross-fitted development,permutation::repayment_status_june::sd
+16,lr,cross-fitted development,permutation::repayment_status_may::mean
+16,lr,cross-fitted development,permutation::repayment_status_may::rank
+16,lr,cross-fitted development,permutation::repayment_status_may::sd
+16,lr,cross-fitted development,permutation::repayment_status_september::mean
+16,lr,cross-fitted development,permutation::repayment_status_september::rank
+16,lr,cross-fitted development,permutation::repayment_status_september::sd
+16,lr,cross-fitted development,permutation::sex::mean
+16,lr,cross-fitted development,permutation::sex::rank
+16,lr,cross-fitted development,permutation::sex::sd
+16,lr,final-refit development,encoded::binary__sex::absolute_coefficient
+16,lr,final-refit development,encoded::binary__sex::coefficient
+16,lr,final-refit development,encoded::binary__sex::odds_ratio
+16,lr,final-refit development,encoded::nominal__education_level_1::absolute_coefficient
+16,lr,final-refit development,encoded::nominal__education_level_1::coefficient
+16,lr,final-refit development,encoded::nominal__education_level_1::odds_ratio
+16,lr,final-refit development,encoded::nominal__education_level_3::absolute_coefficient
+16,lr,final-refit development,encoded::nominal__education_level_3::coefficient
+16,lr,final-refit development,encoded::nominal__education_level_3::odds_ratio
+16,lr,final-refit development,encoded::nominal__education_level_4::absolute_coefficient
+16,lr,final-refit development,encoded::nominal__education_level_4::coefficient
+16,lr,final-refit development,encoded::nominal__education_level_4::odds_ratio
+16,lr,final-refit development,encoded::nominal__marital_status_1::absolute_coefficient
+16,lr,final-refit development,encoded::nominal__marital_status_1::coefficient
+16,lr,final-refit development,encoded::nominal__marital_status_1::odds_ratio
+16,lr,final-refit development,encoded::nominal__marital_status_3::absolute_coefficient
+16,lr,final-refit development,encoded::nominal__marital_status_3::coefficient
+16,lr,final-refit development,encoded::nominal__marital_status_3::odds_ratio
+16,lr,final-refit development,encoded::numeric__age::absolute_coefficient
+16,lr,final-refit development,encoded::numeric__age::coefficient
+16,lr,final-refit development,encoded::numeric__age::odds_ratio
+16,lr,final-refit development,encoded::numeric__bill_amount_september::absolute_coefficient
+16,lr,final-refit development,encoded::numeric__bill_amount_september::coefficient
+16,lr,final-refit development,encoded::numeric__bill_amount_september::odds_ratio
+16,lr,final-refit development,encoded::numeric__credit_limit::absolute_coefficient
+16,lr,final-refit development,encoded::numeric__credit_limit::coefficient
+16,lr,final-refit development,encoded::numeric__credit_limit::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_april::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_april::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_april::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_august::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_august::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_august::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_july::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_july::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_july::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_june::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_june::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_june::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_may::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_may::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_may::odds_ratio
+16,lr,final-refit development,encoded::payment__payment_amount_september::absolute_coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_september::coefficient
+16,lr,final-refit development,encoded::payment__payment_amount_september::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_1_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_1_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_1_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_april_delay_3m_plus::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_1_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_1_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_1_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_august_delay_3m_plus::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_1_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_1_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_1_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_july_delay_3m_plus::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_1_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_1_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_1_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_june_delay_3m_plus::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_1_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_1_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_1_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_may_delay_3m_plus::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_1m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_1m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_1m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_2m::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_2m::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_2m::odds_ratio
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_3m_plus::absolute_coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_3m_plus::coefficient
+16,lr,final-refit development,encoded::repayment__repayment_status_september_delay_3m_plus::odds_ratio
+16,lr,final-refit development,shap::age::direction_rho
+16,lr,final-refit development,shap::age::mean_absolute
+16,lr,final-refit development,shap::age::mean_signed
+16,lr,final-refit development,shap::age::rank
+16,lr,final-refit development,shap::bill_amount_september::direction_rho
+16,lr,final-refit development,shap::bill_amount_september::mean_absolute
+16,lr,final-refit development,shap::bill_amount_september::mean_signed
+16,lr,final-refit development,shap::bill_amount_september::rank
+16,lr,final-refit development,shap::credit_limit::direction_rho
+16,lr,final-refit development,shap::credit_limit::mean_absolute
+16,lr,final-refit development,shap::credit_limit::mean_signed
+16,lr,final-refit development,shap::credit_limit::rank
+16,lr,final-refit development,shap::education_level::direction_rho
+16,lr,final-refit development,shap::education_level::mean_absolute
+16,lr,final-refit development,shap::education_level::mean_signed
+16,lr,final-refit development,shap::education_level::rank
+16,lr,final-refit development,shap::marital_status::direction_rho
+16,lr,final-refit development,shap::marital_status::mean_absolute
+16,lr,final-refit development,shap::marital_status::mean_signed
+16,lr,final-refit development,shap::marital_status::rank
+16,lr,final-refit development,shap::payment_amount_april::direction_rho
+16,lr,final-refit development,shap::payment_amount_april::mean_absolute
+16,lr,final-refit development,shap::payment_amount_april::mean_signed
+16,lr,final-refit development,shap::payment_amount_april::rank
+16,lr,final-refit development,shap::payment_amount_august::direction_rho
+16,lr,final-refit development,shap::payment_amount_august::mean_absolute
+16,lr,final-refit development,shap::payment_amount_august::mean_signed
+16,lr,final-refit development,shap::payment_amount_august::rank
+16,lr,final-refit development,shap::payment_amount_july::direction_rho
+16,lr,final-refit development,shap::payment_amount_july::mean_absolute
+16,lr,final-refit development,shap::payment_amount_july::mean_signed
+16,lr,final-refit development,shap::payment_amount_july::rank
+16,lr,final-refit development,shap::payment_amount_june::direction_rho
+16,lr,final-refit development,shap::payment_amount_june::mean_absolute
+16,lr,final-refit development,shap::payment_amount_june::mean_signed
+16,lr,final-refit development,shap::payment_amount_june::rank
+16,lr,final-refit development,shap::payment_amount_may::direction_rho
+16,lr,final-refit development,shap::payment_amount_may::mean_absolute
+16,lr,final-refit development,shap::payment_amount_may::mean_signed
+16,lr,final-refit development,shap::payment_amount_may::rank
+16,lr,final-refit development,shap::payment_amount_september::direction_rho
+16,lr,final-refit development,shap::payment_amount_september::mean_absolute
+16,lr,final-refit development,shap::payment_amount_september::mean_signed
+16,lr,final-refit development,shap::payment_amount_september::rank
+16,lr,final-refit development,shap::repayment_status_april::direction_rho
+16,lr,final-refit development,shap::repayment_status_april::mean_absolute
+16,lr,final-refit development,shap::repayment_status_april::mean_signed
+16,lr,final-refit development,shap::repayment_status_april::rank
+16,lr,final-refit development,shap::repayment_status_august::direction_rho
+16,lr,final-refit development,shap::repayment_status_august::mean_absolute
+16,lr,final-refit development,shap::repayment_status_august::mean_signed
+16,lr,final-refit development,shap::repayment_status_august::rank
+16,lr,final-refit development,shap::repayment_status_july::direction_rho
+16,lr,final-refit development,shap::repayment_status_july::mean_absolute
+16,lr,final-refit development,shap::repayment_status_july::mean_signed
+16,lr,final-refit development,shap::repayment_status_july::rank
+16,lr,final-refit development,shap::repayment_status_june::direction_rho
+16,lr,final-refit development,shap::repayment_status_june::mean_absolute
+16,lr,final-refit development,shap::repayment_status_june::mean_signed
+16,lr,final-refit development,shap::repayment_status_june::rank
+16,lr,final-refit development,shap::repayment_status_may::direction_rho
+16,lr,final-refit development,shap::repayment_status_may::mean_absolute
+16,lr,final-refit development,shap::repayment_status_may::mean_signed
+16,lr,final-refit development,shap::repayment_status_may::rank
+16,lr,final-refit development,shap::repayment_status_september::direction_rho
+16,lr,final-refit development,shap::repayment_status_september::mean_absolute
+16,lr,final-refit development,shap::repayment_status_september::mean_signed
+16,lr,final-refit development,shap::repayment_status_september::rank
+16,lr,final-refit development,shap::sex::direction_rho
+16,lr,final-refit development,shap::sex::mean_absolute
+16,lr,final-refit development,shap::sex::mean_signed
+16,lr,final-refit development,shap::sex::rank
+16,lr,interpretability summary,calibration_slope
+16,lr,interpretability summary,n_features_used
+16,lr,interpretability summary,n_leaves
+16,lr,interpretability summary,n_nonzero_coef
+16,lr,interpretability summary,native_vs_perm_rank_corr
+16,lr,interpretability summary,perm_vs_shap_rank_corr
+16,lr,interpretability summary,top10_overlap_dt
+16,lr,interpretability summary,top10_overlap_lr
+16,lr,interpretability summary,top10_overlap_rf
+16,lr,interpretability summary,top10_overlap_xgb
+16,lr,interpretability summary,tree_depth
+16,rf,cross-fitted development,permutation::age::mean
+16,rf,cross-fitted development,permutation::age::rank
+16,rf,cross-fitted development,permutation::age::sd
+16,rf,cross-fitted development,permutation::bill_amount_april::mean
+16,rf,cross-fitted development,permutation::bill_amount_april::rank
+16,rf,cross-fitted development,permutation::bill_amount_april::sd
+16,rf,cross-fitted development,permutation::bill_amount_august::mean
+16,rf,cross-fitted development,permutation::bill_amount_august::rank
+16,rf,cross-fitted development,permutation::bill_amount_august::sd
+16,rf,cross-fitted development,permutation::bill_amount_july::mean
+16,rf,cross-fitted development,permutation::bill_amount_july::rank
+16,rf,cross-fitted development,permutation::bill_amount_july::sd
+16,rf,cross-fitted development,permutation::bill_amount_june::mean
+16,rf,cross-fitted development,permutation::bill_amount_june::rank
+16,rf,cross-fitted development,permutation::bill_amount_june::sd
+16,rf,cross-fitted development,permutation::bill_amount_may::mean
+16,rf,cross-fitted development,permutation::bill_amount_may::rank
+16,rf,cross-fitted development,permutation::bill_amount_may::sd
+16,rf,cross-fitted development,permutation::bill_amount_september::mean
+16,rf,cross-fitted development,permutation::bill_amount_september::rank
+16,rf,cross-fitted development,permutation::bill_amount_september::sd
+16,rf,cross-fitted development,permutation::credit_limit::mean
+16,rf,cross-fitted development,permutation::credit_limit::rank
+16,rf,cross-fitted development,permutation::credit_limit::sd
+16,rf,cross-fitted development,permutation::education_level::mean
+16,rf,cross-fitted development,permutation::education_level::rank
+16,rf,cross-fitted development,permutation::education_level::sd
+16,rf,cross-fitted development,permutation::marital_status::mean
+16,rf,cross-fitted development,permutation::marital_status::rank
+16,rf,cross-fitted development,permutation::marital_status::sd
+16,rf,cross-fitted development,permutation::payment_amount_april::mean
+16,rf,cross-fitted development,permutation::payment_amount_april::rank
+16,rf,cross-fitted development,permutation::payment_amount_april::sd
+16,rf,cross-fitted development,permutation::payment_amount_august::mean
+16,rf,cross-fitted development,permutation::payment_amount_august::rank
+16,rf,cross-fitted development,permutation::payment_amount_august::sd
+16,rf,cross-fitted development,permutation::payment_amount_july::mean
+16,rf,cross-fitted development,permutation::payment_amount_july::rank
+16,rf,cross-fitted development,permutation::payment_amount_july::sd
+16,rf,cross-fitted development,permutation::payment_amount_june::mean
+16,rf,cross-fitted development,permutation::payment_amount_june::rank
+16,rf,cross-fitted development,permutation::payment_amount_june::sd
+16,rf,cross-fitted development,permutation::payment_amount_may::mean
+16,rf,cross-fitted development,permutation::payment_amount_may::rank
+16,rf,cross-fitted development,permutation::payment_amount_may::sd
+16,rf,cross-fitted development,permutation::payment_amount_september::mean
+16,rf,cross-fitted development,permutation::payment_amount_september::rank
+16,rf,cross-fitted development,permutation::payment_amount_september::sd
+16,rf,cross-fitted development,permutation::repayment_status_april::mean
+16,rf,cross-fitted development,permutation::repayment_status_april::rank
+16,rf,cross-fitted development,permutation::repayment_status_april::sd
+16,rf,cross-fitted development,permutation::repayment_status_august::mean
+16,rf,cross-fitted development,permutation::repayment_status_august::rank
+16,rf,cross-fitted development,permutation::repayment_status_august::sd
+16,rf,cross-fitted development,permutation::repayment_status_july::mean
+16,rf,cross-fitted development,permutation::repayment_status_july::rank
+16,rf,cross-fitted development,permutation::repayment_status_july::sd
+16,rf,cross-fitted development,permutation::repayment_status_june::mean
+16,rf,cross-fitted development,permutation::repayment_status_june::rank
+16,rf,cross-fitted development,permutation::repayment_status_june::sd
+16,rf,cross-fitted development,permutation::repayment_status_may::mean
+16,rf,cross-fitted development,permutation::repayment_status_may::rank
+16,rf,cross-fitted development,permutation::repayment_status_may::sd
+16,rf,cross-fitted development,permutation::repayment_status_september::mean
+16,rf,cross-fitted development,permutation::repayment_status_september::rank
+16,rf,cross-fitted development,permutation::repayment_status_september::sd
+16,rf,cross-fitted development,permutation::sex::mean
+16,rf,cross-fitted development,permutation::sex::rank
+16,rf,cross-fitted development,permutation::sex::sd
+16,rf,final-refit development,native::age::importance
+16,rf,final-refit development,native::bill_amount_april::importance
+16,rf,final-refit development,native::bill_amount_august::importance
+16,rf,final-refit development,native::bill_amount_july::importance
+16,rf,final-refit development,native::bill_amount_june::importance
+16,rf,final-refit development,native::bill_amount_may::importance
+16,rf,final-refit development,native::bill_amount_september::importance
+16,rf,final-refit development,native::credit_limit::importance
+16,rf,final-refit development,native::education_level::importance
+16,rf,final-refit development,native::marital_status::importance
+16,rf,final-refit development,native::payment_amount_april::importance
+16,rf,final-refit development,native::payment_amount_august::importance
+16,rf,final-refit development,native::payment_amount_july::importance
+16,rf,final-refit development,native::payment_amount_june::importance
+16,rf,final-refit development,native::payment_amount_may::importance
+16,rf,final-refit development,native::payment_amount_september::importance
+16,rf,final-refit development,native::repayment_status_april::importance
+16,rf,final-refit development,native::repayment_status_august::importance
+16,rf,final-refit development,native::repayment_status_july::importance
+16,rf,final-refit development,native::repayment_status_june::importance
+16,rf,final-refit development,native::repayment_status_may::importance
+16,rf,final-refit development,native::repayment_status_september::importance
+16,rf,final-refit development,native::sex::importance
+16,rf,final-refit development,shap::age::direction_rho
+16,rf,final-refit development,shap::age::mean_absolute
+16,rf,final-refit development,shap::age::mean_signed
+16,rf,final-refit development,shap::age::rank
+16,rf,final-refit development,shap::bill_amount_april::direction_rho
+16,rf,final-refit development,shap::bill_amount_april::mean_absolute
+16,rf,final-refit development,shap::bill_amount_april::mean_signed
+16,rf,final-refit development,shap::bill_amount_april::rank
+16,rf,final-refit development,shap::bill_amount_august::direction_rho
+16,rf,final-refit development,shap::bill_amount_august::mean_absolute
+16,rf,final-refit development,shap::bill_amount_august::mean_signed
+16,rf,final-refit development,shap::bill_amount_august::rank
+16,rf,final-refit development,shap::bill_amount_july::direction_rho
+16,rf,final-refit development,shap::bill_amount_july::mean_absolute
+16,rf,final-refit development,shap::bill_amount_july::mean_signed
+16,rf,final-refit development,shap::bill_amount_july::rank
+16,rf,final-refit development,shap::bill_amount_june::direction_rho
+16,rf,final-refit development,shap::bill_amount_june::mean_absolute
+16,rf,final-refit development,shap::bill_amount_june::mean_signed
+16,rf,final-refit development,shap::bill_amount_june::rank
+16,rf,final-refit development,shap::bill_amount_may::direction_rho
+16,rf,final-refit development,shap::bill_amount_may::mean_absolute
+16,rf,final-refit development,shap::bill_amount_may::mean_signed
+16,rf,final-refit development,shap::bill_amount_may::rank
+16,rf,final-refit development,shap::bill_amount_september::direction_rho
+16,rf,final-refit development,shap::bill_amount_september::mean_absolute
+16,rf,final-refit development,shap::bill_amount_september::mean_signed
+16,rf,final-refit development,shap::bill_amount_september::rank
+16,rf,final-refit development,shap::credit_limit::direction_rho
+16,rf,final-refit development,shap::credit_limit::mean_absolute
+16,rf,final-refit development,shap::credit_limit::mean_signed
+16,rf,final-refit development,shap::credit_limit::rank
+16,rf,final-refit development,shap::education_level::direction_rho
+16,rf,final-refit development,shap::education_level::mean_absolute
+16,rf,final-refit development,shap::education_level::mean_signed
+16,rf,final-refit development,shap::education_level::rank
+16,rf,final-refit development,shap::marital_status::direction_rho
+16,rf,final-refit development,shap::marital_status::mean_absolute
+16,rf,final-refit development,shap::marital_status::mean_signed
+16,rf,final-refit development,shap::marital_status::rank
+16,rf,final-refit development,shap::payment_amount_april::direction_rho
+16,rf,final-refit development,shap::payment_amount_april::mean_absolute
+16,rf,final-refit development,shap::payment_amount_april::mean_signed
+16,rf,final-refit development,shap::payment_amount_april::rank
+16,rf,final-refit development,shap::payment_amount_august::direction_rho
+16,rf,final-refit development,shap::payment_amount_august::mean_absolute
+16,rf,final-refit development,shap::payment_amount_august::mean_signed
+16,rf,final-refit development,shap::payment_amount_august::rank
+16,rf,final-refit development,shap::payment_amount_july::direction_rho
+16,rf,final-refit development,shap::payment_amount_july::mean_absolute
+16,rf,final-refit development,shap::payment_amount_july::mean_signed
+16,rf,final-refit development,shap::payment_amount_july::rank
+16,rf,final-refit development,shap::payment_amount_june::direction_rho
+16,rf,final-refit development,shap::payment_amount_june::mean_absolute
+16,rf,final-refit development,shap::payment_amount_june::mean_signed
+16,rf,final-refit development,shap::payment_amount_june::rank
+16,rf,final-refit development,shap::payment_amount_may::direction_rho
+16,rf,final-refit development,shap::payment_amount_may::mean_absolute
+16,rf,final-refit development,shap::payment_amount_may::mean_signed
+16,rf,final-refit development,shap::payment_amount_may::rank
+16,rf,final-refit development,shap::payment_amount_september::direction_rho
+16,rf,final-refit development,shap::payment_amount_september::mean_absolute
+16,rf,final-refit development,shap::payment_amount_september::mean_signed
+16,rf,final-refit development,shap::payment_amount_september::rank
+16,rf,final-refit development,shap::repayment_status_april::direction_rho
+16,rf,final-refit development,shap::repayment_status_april::mean_absolute
+16,rf,final-refit development,shap::repayment_status_april::mean_signed
+16,rf,final-refit development,shap::repayment_status_april::rank
+16,rf,final-refit development,shap::repayment_status_august::direction_rho
+16,rf,final-refit development,shap::repayment_status_august::mean_absolute
+16,rf,final-refit development,shap::repayment_status_august::mean_signed
+16,rf,final-refit development,shap::repayment_status_august::rank
+16,rf,final-refit development,shap::repayment_status_july::direction_rho
+16,rf,final-refit development,shap::repayment_status_july::mean_absolute
+16,rf,final-refit development,shap::repayment_status_july::mean_signed
+16,rf,final-refit development,shap::repayment_status_july::rank
+16,rf,final-refit development,shap::repayment_status_june::direction_rho
+16,rf,final-refit development,shap::repayment_status_june::mean_absolute
+16,rf,final-refit development,shap::repayment_status_june::mean_signed
+16,rf,final-refit development,shap::repayment_status_june::rank
+16,rf,final-refit development,shap::repayment_status_may::direction_rho
+16,rf,final-refit development,shap::repayment_status_may::mean_absolute
+16,rf,final-refit development,shap::repayment_status_may::mean_signed
+16,rf,final-refit development,shap::repayment_status_may::rank
+16,rf,final-refit development,shap::repayment_status_september::direction_rho
+16,rf,final-refit development,shap::repayment_status_september::mean_absolute
+16,rf,final-refit development,shap::repayment_status_september::mean_signed
+16,rf,final-refit development,shap::repayment_status_september::rank
+16,rf,final-refit development,shap::sex::direction_rho
+16,rf,final-refit development,shap::sex::mean_absolute
+16,rf,final-refit development,shap::sex::mean_signed
+16,rf,final-refit development,shap::sex::rank
+16,rf,interpretability summary,calibration_slope
+16,rf,interpretability summary,n_features_used
+16,rf,interpretability summary,n_leaves
+16,rf,interpretability summary,n_nonzero_coef
+16,rf,interpretability summary,native_vs_perm_rank_corr
+16,rf,interpretability summary,perm_vs_shap_rank_corr
+16,rf,interpretability summary,top10_overlap_dt
+16,rf,interpretability summary,top10_overlap_lr
+16,rf,interpretability summary,top10_overlap_rf
+16,rf,interpretability summary,top10_overlap_xgb
+16,rf,interpretability summary,tree_depth
+16,xgb,cross-fitted development,permutation::age::mean
+16,xgb,cross-fitted development,permutation::age::rank
+16,xgb,cross-fitted development,permutation::age::sd
+16,xgb,cross-fitted development,permutation::bill_amount_april::mean
+16,xgb,cross-fitted development,permutation::bill_amount_april::rank
+16,xgb,cross-fitted development,permutation::bill_amount_april::sd
+16,xgb,cross-fitted development,permutation::bill_amount_august::mean
+16,xgb,cross-fitted development,permutation::bill_amount_august::rank
+16,xgb,cross-fitted development,permutation::bill_amount_august::sd
+16,xgb,cross-fitted development,permutation::bill_amount_july::mean
+16,xgb,cross-fitted development,permutation::bill_amount_july::rank
+16,xgb,cross-fitted development,permutation::bill_amount_july::sd
+16,xgb,cross-fitted development,permutation::bill_amount_june::mean
+16,xgb,cross-fitted development,permutation::bill_amount_june::rank
+16,xgb,cross-fitted development,permutation::bill_amount_june::sd
+16,xgb,cross-fitted development,permutation::bill_amount_may::mean
+16,xgb,cross-fitted development,permutation::bill_amount_may::rank
+16,xgb,cross-fitted development,permutation::bill_amount_may::sd
+16,xgb,cross-fitted development,permutation::bill_amount_september::mean
+16,xgb,cross-fitted development,permutation::bill_amount_september::rank
+16,xgb,cross-fitted development,permutation::bill_amount_september::sd
+16,xgb,cross-fitted development,permutation::credit_limit::mean
+16,xgb,cross-fitted development,permutation::credit_limit::rank
+16,xgb,cross-fitted development,permutation::credit_limit::sd
+16,xgb,cross-fitted development,permutation::education_level::mean
+16,xgb,cross-fitted development,permutation::education_level::rank
+16,xgb,cross-fitted development,permutation::education_level::sd
+16,xgb,cross-fitted development,permutation::marital_status::mean
+16,xgb,cross-fitted development,permutation::marital_status::rank
+16,xgb,cross-fitted development,permutation::marital_status::sd
+16,xgb,cross-fitted development,permutation::payment_amount_april::mean
+16,xgb,cross-fitted development,permutation::payment_amount_april::rank
+16,xgb,cross-fitted development,permutation::payment_amount_april::sd
+16,xgb,cross-fitted development,permutation::payment_amount_august::mean
+16,xgb,cross-fitted development,permutation::payment_amount_august::rank
+16,xgb,cross-fitted development,permutation::payment_amount_august::sd
+16,xgb,cross-fitted development,permutation::payment_amount_july::mean
+16,xgb,cross-fitted development,permutation::payment_amount_july::rank
+16,xgb,cross-fitted development,permutation::payment_amount_july::sd
+16,xgb,cross-fitted development,permutation::payment_amount_june::mean
+16,xgb,cross-fitted development,permutation::payment_amount_june::rank
+16,xgb,cross-fitted development,permutation::payment_amount_june::sd
+16,xgb,cross-fitted development,permutation::payment_amount_may::mean
+16,xgb,cross-fitted development,permutation::payment_amount_may::rank
+16,xgb,cross-fitted development,permutation::payment_amount_may::sd
+16,xgb,cross-fitted development,permutation::payment_amount_september::mean
+16,xgb,cross-fitted development,permutation::payment_amount_september::rank
+16,xgb,cross-fitted development,permutation::payment_amount_september::sd
+16,xgb,cross-fitted development,permutation::repayment_status_april::mean
+16,xgb,cross-fitted development,permutation::repayment_status_april::rank
+16,xgb,cross-fitted development,permutation::repayment_status_april::sd
+16,xgb,cross-fitted development,permutation::repayment_status_august::mean
+16,xgb,cross-fitted development,permutation::repayment_status_august::rank
+16,xgb,cross-fitted development,permutation::repayment_status_august::sd
+16,xgb,cross-fitted development,permutation::repayment_status_july::mean
+16,xgb,cross-fitted development,permutation::repayment_status_july::rank
+16,xgb,cross-fitted development,permutation::repayment_status_july::sd
+16,xgb,cross-fitted development,permutation::repayment_status_june::mean
+16,xgb,cross-fitted development,permutation::repayment_status_june::rank
+16,xgb,cross-fitted development,permutation::repayment_status_june::sd
+16,xgb,cross-fitted development,permutation::repayment_status_may::mean
+16,xgb,cross-fitted development,permutation::repayment_status_may::rank
+16,xgb,cross-fitted development,permutation::repayment_status_may::sd
+16,xgb,cross-fitted development,permutation::repayment_status_september::mean
+16,xgb,cross-fitted development,permutation::repayment_status_september::rank
+16,xgb,cross-fitted development,permutation::repayment_status_september::sd
+16,xgb,cross-fitted development,permutation::sex::mean
+16,xgb,cross-fitted development,permutation::sex::rank
+16,xgb,cross-fitted development,permutation::sex::sd
+16,xgb,final-refit development,native::age::importance
+16,xgb,final-refit development,native::bill_amount_april::importance
+16,xgb,final-refit development,native::bill_amount_august::importance
+16,xgb,final-refit development,native::bill_amount_july::importance
+16,xgb,final-refit development,native::bill_amount_june::importance
+16,xgb,final-refit development,native::bill_amount_may::importance
+16,xgb,final-refit development,native::bill_amount_september::importance
+16,xgb,final-refit development,native::credit_limit::importance
+16,xgb,final-refit development,native::education_level::importance
+16,xgb,final-refit development,native::marital_status::importance
+16,xgb,final-refit development,native::payment_amount_april::importance
+16,xgb,final-refit development,native::payment_amount_august::importance
+16,xgb,final-refit development,native::payment_amount_july::importance
+16,xgb,final-refit development,native::payment_amount_june::importance
+16,xgb,final-refit development,native::payment_amount_may::importance
+16,xgb,final-refit development,native::payment_amount_september::importance
+16,xgb,final-refit development,native::repayment_status_april::importance
+16,xgb,final-refit development,native::repayment_status_august::importance
+16,xgb,final-refit development,native::repayment_status_july::importance
+16,xgb,final-refit development,native::repayment_status_june::importance
+16,xgb,final-refit development,native::repayment_status_may::importance
+16,xgb,final-refit development,native::repayment_status_september::importance
+16,xgb,final-refit development,native::sex::importance
+16,xgb,final-refit development,shap::age::direction_rho
+16,xgb,final-refit development,shap::age::mean_absolute
+16,xgb,final-refit development,shap::age::mean_signed
+16,xgb,final-refit development,shap::age::rank
+16,xgb,final-refit development,shap::bill_amount_april::direction_rho
+16,xgb,final-refit development,shap::bill_amount_april::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_april::mean_signed
+16,xgb,final-refit development,shap::bill_amount_april::rank
+16,xgb,final-refit development,shap::bill_amount_august::direction_rho
+16,xgb,final-refit development,shap::bill_amount_august::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_august::mean_signed
+16,xgb,final-refit development,shap::bill_amount_august::rank
+16,xgb,final-refit development,shap::bill_amount_july::direction_rho
+16,xgb,final-refit development,shap::bill_amount_july::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_july::mean_signed
+16,xgb,final-refit development,shap::bill_amount_july::rank
+16,xgb,final-refit development,shap::bill_amount_june::direction_rho
+16,xgb,final-refit development,shap::bill_amount_june::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_june::mean_signed
+16,xgb,final-refit development,shap::bill_amount_june::rank
+16,xgb,final-refit development,shap::bill_amount_may::direction_rho
+16,xgb,final-refit development,shap::bill_amount_may::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_may::mean_signed
+16,xgb,final-refit development,shap::bill_amount_may::rank
+16,xgb,final-refit development,shap::bill_amount_september::direction_rho
+16,xgb,final-refit development,shap::bill_amount_september::mean_absolute
+16,xgb,final-refit development,shap::bill_amount_september::mean_signed
+16,xgb,final-refit development,shap::bill_amount_september::rank
+16,xgb,final-refit development,shap::credit_limit::direction_rho
+16,xgb,final-refit development,shap::credit_limit::mean_absolute
+16,xgb,final-refit development,shap::credit_limit::mean_signed
+16,xgb,final-refit development,shap::credit_limit::rank
+16,xgb,final-refit development,shap::education_level::direction_rho
+16,xgb,final-refit development,shap::education_level::mean_absolute
+16,xgb,final-refit development,shap::education_level::mean_signed
+16,xgb,final-refit development,shap::education_level::rank
+16,xgb,final-refit development,shap::marital_status::direction_rho
+16,xgb,final-refit development,shap::marital_status::mean_absolute
+16,xgb,final-refit development,shap::marital_status::mean_signed
+16,xgb,final-refit development,shap::marital_status::rank
+16,xgb,final-refit development,shap::payment_amount_april::direction_rho
+16,xgb,final-refit development,shap::payment_amount_april::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_april::mean_signed
+16,xgb,final-refit development,shap::payment_amount_april::rank
+16,xgb,final-refit development,shap::payment_amount_august::direction_rho
+16,xgb,final-refit development,shap::payment_amount_august::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_august::mean_signed
+16,xgb,final-refit development,shap::payment_amount_august::rank
+16,xgb,final-refit development,shap::payment_amount_july::direction_rho
+16,xgb,final-refit development,shap::payment_amount_july::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_july::mean_signed
+16,xgb,final-refit development,shap::payment_amount_july::rank
+16,xgb,final-refit development,shap::payment_amount_june::direction_rho
+16,xgb,final-refit development,shap::payment_amount_june::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_june::mean_signed
+16,xgb,final-refit development,shap::payment_amount_june::rank
+16,xgb,final-refit development,shap::payment_amount_may::direction_rho
+16,xgb,final-refit development,shap::payment_amount_may::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_may::mean_signed
+16,xgb,final-refit development,shap::payment_amount_may::rank
+16,xgb,final-refit development,shap::payment_amount_september::direction_rho
+16,xgb,final-refit development,shap::payment_amount_september::mean_absolute
+16,xgb,final-refit development,shap::payment_amount_september::mean_signed
+16,xgb,final-refit development,shap::payment_amount_september::rank
+16,xgb,final-refit development,shap::repayment_status_april::direction_rho
+16,xgb,final-refit development,shap::repayment_status_april::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_april::mean_signed
+16,xgb,final-refit development,shap::repayment_status_april::rank
+16,xgb,final-refit development,shap::repayment_status_august::direction_rho
+16,xgb,final-refit development,shap::repayment_status_august::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_august::mean_signed
+16,xgb,final-refit development,shap::repayment_status_august::rank
+16,xgb,final-refit development,shap::repayment_status_july::direction_rho
+16,xgb,final-refit development,shap::repayment_status_july::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_july::mean_signed
+16,xgb,final-refit development,shap::repayment_status_july::rank
+16,xgb,final-refit development,shap::repayment_status_june::direction_rho
+16,xgb,final-refit development,shap::repayment_status_june::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_june::mean_signed
+16,xgb,final-refit development,shap::repayment_status_june::rank
+16,xgb,final-refit development,shap::repayment_status_may::direction_rho
+16,xgb,final-refit development,shap::repayment_status_may::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_may::mean_signed
+16,xgb,final-refit development,shap::repayment_status_may::rank
+16,xgb,final-refit development,shap::repayment_status_september::direction_rho
+16,xgb,final-refit development,shap::repayment_status_september::mean_absolute
+16,xgb,final-refit development,shap::repayment_status_september::mean_signed
+16,xgb,final-refit development,shap::repayment_status_september::rank
+16,xgb,final-refit development,shap::sex::direction_rho
+16,xgb,final-refit development,shap::sex::mean_absolute
+16,xgb,final-refit development,shap::sex::mean_signed
+16,xgb,final-refit development,shap::sex::rank
+16,xgb,interpretability summary,calibration_slope
+16,xgb,interpretability summary,n_features_used
+16,xgb,interpretability summary,n_leaves
+16,xgb,interpretability summary,n_nonzero_coef
+16,xgb,interpretability summary,native_vs_perm_rank_corr
+16,xgb,interpretability summary,perm_vs_shap_rank_corr
+16,xgb,interpretability summary,top10_overlap_dt
+16,xgb,interpretability summary,top10_overlap_lr
+16,xgb,interpretability summary,top10_overlap_rf
+16,xgb,interpretability summary,top10_overlap_xgb
+16,xgb,interpretability summary,tree_depth
+17,dt,structural findings,dt_best_older_bill_permutation_rank
+17,dt,structural findings,dt_top3_positive_permutation_share
+17,lr,structural findings,lr_top3_positive_permutation_share
+17,rf,structural findings,rf_best_older_bill_permutation_rank
+17,rf,structural findings,rf_top3_positive_permutation_share
+17,xgb,structural findings,xgb_best_older_bill_permutation_rank
+17,xgb,structural findings,xgb_top3_positive_permutation_share

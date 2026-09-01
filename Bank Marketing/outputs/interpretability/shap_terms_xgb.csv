@@ -1,0 +1,48 @@
+encoded_term,display_term,original_feature,mean_absolute_shap,mean_signed_shap,rank
+nominal__contact_unknown,Contact channel = unknown,contact,0.32606067327052,0.07944721486089765,1
+nominal__contact_cellular,Contact channel = cellular,contact,0.21040346136461496,0.053970344834773226,2
+nominal__poutcome_success,Previous campaign outcome = success,poutcome,0.19644720828358725,-0.10719491306759606,3
+quantitative__day,Day of month of planned contact,day,0.18702417834790552,-0.003995278668492796,4
+quantitative__balance,Average yearly balance (EUR),balance,0.15916606724690577,-0.02516122269464738,5
+binary__housing,Housing loan,housing,0.15020934648687465,-0.0030770036377165133,6
+quantitative__campaign,Contacts this campaign,campaign,0.12023973066882417,0.012648367358503304,7
+quantitative__pdays,Days since previous contact,pdays,0.11898097529836325,-0.05218967623421857,8
+nominal__marital_married,Marital status = married,marital,0.11021523649752688,7.562925038109883e-05,9
+quantitative__age,Age (years),age,0.10195172034230081,0.0010105518958042055,10
+nominal__month_may,Month of planned contact = may,month,0.10132791647005375,0.018203888204663624,11
+nominal__month_jun,Month of planned contact = jun,month,0.09533719365663527,-0.009917473915573424,12
+nominal__month_aug,Month of planned contact = aug,month,0.06112757531198841,-0.006980513958679971,13
+nominal__education_tertiary,Education level = tertiary,education,0.059434055032818824,-0.005917325559796299,14
+binary__loan,Personal loan,loan,0.051959038215723743,-0.017910420177608168,15
+nominal__month_mar,Month of planned contact = mar,month,0.05054291261886893,-0.02027714171039925,16
+quantitative__previous,Contacts before this campaign,previous,0.04887110963677165,-0.007983645720286632,17
+nominal__poutcome_failure,Previous campaign outcome = failure,poutcome,0.03970594109430307,-0.021039701116524482,18
+nominal__month_oct,Month of planned contact = oct,month,0.03861544372352083,-0.010358718625727225,19
+nominal__month_apr,Month of planned contact = apr,month,0.03787700573446943,0.011370904015242194,20
+nominal__month_jul,Month of planned contact = jul,month,0.03458839056238131,-0.0160595446769948,21
+nominal__month_nov,Month of planned contact = nov,month,0.032626312055524104,-0.005979362647760493,22
+nominal__marital_single,Marital status = single,marital,0.03094756753644915,-0.003107547752599965,23
+nominal__month_feb,Month of planned contact = feb,month,0.02708034813235887,0.011411897143952342,24
+nominal__marital_divorced,Marital status = divorced,marital,0.026432914635424985,0.004052270832222136,25
+nominal__education_primary,Education level = primary,education,0.026326294982737142,6.880645294077556e-05,26
+nominal__month_jan,Month of planned contact = jan,month,0.020608143060022788,0.0056603667074526685,27
+nominal__job_blue-collar,Occupation = blue-collar,job,0.01763830790299934,0.0014667687830536673,28
+nominal__month_dec,Month of planned contact = dec,month,0.014868246557505337,-0.0033312212557229273,29
+nominal__education_secondary,Education level = secondary,education,0.013417869773468129,0.0008225305148729617,30
+nominal__job_housemaid,Occupation = housemaid,job,0.009654554345385143,-0.004200678205014293,31
+nominal__month_sep,Month of planned contact = sep,month,0.0095282559354098,0.0095282559354098,32
+nominal__job_management,Occupation = management,job,0.008955017114045694,0.002355436305933545,33
+nominal__job_technician,Occupation = technician,job,0.0065636279553537395,-0.0001056692179974925,34
+nominal__job_unemployed,Occupation = unemployed,job,0.006307722436417691,0.00019647501111962027,35
+nominal__job_self-employed,Occupation = self-employed,job,0.005391919003477962,0.002058657923272112,36
+nominal__poutcome_other,Previous campaign outcome = other,poutcome,0.005074566348764206,-0.0030795305447184353,37
+nominal__job_admin.,Occupation = admin.,job,0.004995445704513622,-0.000416496105695769,38
+nominal__contact_telephone,Contact channel = telephone,contact,0.004705802707968328,0.0011474956167906202,39
+nominal__poutcome_unknown,Previous campaign outcome = unknown,poutcome,0.0041283157042929855,-0.0008825807432563297,40
+nominal__education_unknown,Education level = unknown,education,0.00385715035397625,0.0004727856423248156,41
+nominal__job_services,Occupation = services,job,0.003773094101711543,0.0004309091523796811,42
+nominal__job_student,Occupation = student,job,0.0035110820075491948,-0.0016975794286131713,43
+nominal__job_retired,Occupation = retired,job,0.001528616618225058,-0.0002610694478685037,44
+nominal__job_entrepreneur,Occupation = entrepreneur,job,0.0008148636458730463,-0.00029280938676842175,45
+binary__default,Credit in default,default,0.0008116634052910489,0.0002452643370593433,46
+nominal__job_unknown,Occupation = unknown,job,0.0,0.0,47

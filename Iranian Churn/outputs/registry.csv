@@ -1,0 +1,506 @@
+dataset,stage,model,scope,metric,value,source_file,seed_applicable,seed,code_version
+Iranian Churn,4,,split,development_rows,2520.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,development_positives,396.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,test_rows,630.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,test_positives,99.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,test_rows_with_development_feature_pattern,100.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,outer_folds,5.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,4,,split,inner_folds,3.0,outputs/split/split_spec.json,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,lr,outer-fold CV,pr_auc_mean,0.741458901028709,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,lr,outer-fold CV,pr_auc_sd,0.03941634380968825,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,dt,outer-fold CV,pr_auc_mean,0.7882418428655251,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,dt,outer-fold CV,pr_auc_sd,0.020630357195314527,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,rf,outer-fold CV,pr_auc_mean,0.9268238401524883,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,rf,outer-fold CV,pr_auc_sd,0.026604958080306263,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,xgb,outer-fold CV,pr_auc_mean,0.9487559507671438,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,xgb,outer-fold CV,pr_auc_sd,0.01914755446893851,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,dummy,outer-fold CV,pr_auc_mean,0.15714285714285714,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,8,dummy,outer-fold CV,pr_auc_sd,0.0008873285624999133,outputs/modelling/baseline_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_mean,0.7462038494592672,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_sd,0.037409132871706094,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_fold_1,0.7754054254015266,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_fold_2,0.7496421706981089,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_fold_3,0.6885936193823252,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_fold_4,0.7352100739972965,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,pr_auc_fold_5,0.7821679578170788,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,search_score,0.7507517248203487,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,lr,nested development CV,final_fit_search_score,0.7405793450137548,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_mean,0.7114316929630007,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_sd,0.032479663844809374,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_fold_1,0.7290004547981689,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_fold_2,0.709443951364002,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_fold_3,0.703238864284814,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_fold_4,0.664075905646672,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,pr_auc_fold_5,0.7513992887213464,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,search_score,0.70135341621567,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,dt,nested development CV,final_fit_search_score,0.7060387469846502,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_mean,0.9387690337755771,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_sd,0.01052827027463108,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_fold_1,0.943297440340068,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_fold_2,0.9393979425141513,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_fold_3,0.9370255656455297,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_fold_4,0.9226814104441482,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,pr_auc_fold_5,0.9514428099339884,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,search_score,0.9237111385738721,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,rf,nested development CV,final_fit_search_score,0.9327198519273764,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_mean,0.9374210842766244,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_sd,0.020431170628260987,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_fold_1,0.955636564154518,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_fold_2,0.9401353416012815,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_fold_3,0.9236838795341381,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_fold_4,0.9102029745831098,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,pr_auc_fold_5,0.9574466615100745,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,search_score,0.9208859366176283,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,9,xgb,nested development CV,final_fit_search_score,0.9393392718053128,outputs/modelling/nested_cv.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,lr,nested OOF development,slope,0.9521482978367657,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,lr,nested OOF development,intercept,-0.040051600110169484,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,lr,nested OOF development,brier,0.07112573891606327,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,lr,nested OOF development,log_loss,0.2253495234340445,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,dt,nested OOF development,slope,0.7664887589768801,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,dt,nested OOF development,intercept,-0.19461285150877683,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,dt,nested OOF development,brier,0.06672811185924629,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,dt,nested OOF development,log_loss,0.23908409231646532,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,rf,nested OOF development,slope,1.6868849908560517,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,rf,nested OOF development,intercept,0.43105357286886853,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,rf,nested OOF development,brier,0.03445709038060231,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,rf,nested OOF development,log_loss,0.1216464467893315,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,xgb,nested OOF development,slope,0.9803885191699913,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,xgb,nested OOF development,intercept,0.15310025165681262,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,xgb,nested OOF development,brier,0.03222898598299139,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,11,xgb,nested OOF development,log_loss,0.11258780255655304,outputs/modelling/calibration.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,floor_value,0.8,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,threshold,0.2632735665445506,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,floor_attained,1.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,predicted_positive,553.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,precision,0.5732368896925859,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,recall,0.8005050505050505,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,tp,317.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,fp,236.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,tn,1888.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,fn,79.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,precision_at_050,0.7729257641921398,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,recall_at_050,0.44696969696969696,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,predicted_positive_at_050,229.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,lr,nested OOF development,selection_input_rows,2520.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,floor_value,0.8,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,threshold,0.3150684931506849,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,floor_attained,1.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,predicted_positive,573.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,precision,0.5759162303664922,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,recall,0.8333333333333334,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,tp,330.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,fp,243.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,tn,1881.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,fn,66.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,precision_at_050,0.7131367292225201,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,recall_at_050,0.6717171717171717,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,predicted_positive_at_050,373.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,dt,nested OOF development,selection_input_rows,2520.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,floor_value,0.8,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,threshold,0.5090332619760031,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,floor_attained,1.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,predicted_positive,357.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,precision,0.8879551820728291,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,recall,0.8005050505050505,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,tp,317.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,fp,40.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,tn,2084.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,fn,79.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,precision_at_050,0.8842975206611571,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,recall_at_050,0.8106060606060606,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,predicted_positive_at_050,363.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,rf,nested OOF development,selection_input_rows,2520.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,floor_value,0.8,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,threshold,0.5466474294662476,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,floor_attained,1.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,predicted_positive,355.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,precision,0.8929577464788733,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,recall,0.8005050505050505,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,tp,317.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,fp,38.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,tn,2086.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,fn,79.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,precision_at_050,0.8829787234042553,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,recall_at_050,0.8383838383838383,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,predicted_positive_at_050,376.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,12,xgb,nested OOF development,selection_input_rows,2520.0,outputs/modelling/thresholds_selected.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,pr_auc,0.7668851606336898,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,pr_auc_ci_low,0.7009257600596585,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,pr_auc_ci_high,0.8321270810453173,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,roc_auc,0.9243660712587266,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,calibration_slope,0.9967105219820477,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,precision,0.5714285714285714,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,recall,0.8080808080808081,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,threshold,0.2632735665445506,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,pr_auc,0.722539187737884,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,pr_auc_ci_low,0.6484235916658874,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,pr_auc_ci_high,0.7955470129651026,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,roc_auc,0.885959405733417,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,calibration_slope,0.9867912439993085,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,precision,0.7901234567901234,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,recall,0.6464646464646465,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,threshold,0.3150684931506849,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,pr_auc,0.9500181975400045,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,pr_auc_ci_low,0.9179407011451702,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,pr_auc_ci_high,0.9771932335792971,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,roc_auc,0.987844547166581,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,calibration_slope,1.7443328801432025,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,precision,0.8924731182795699,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,recall,0.8383838383838383,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,threshold,0.5090332619760031,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,pr_auc,0.9607555363962269,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,pr_auc_ci_low,0.935866014761956,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,pr_auc_ci_high,0.9809760507295271,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,roc_auc,0.991002301736765,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,calibration_slope,0.8529020265665468,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,precision,0.9042553191489362,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,recall,0.8585858585858586,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,threshold,0.5466474294662476,outputs/modelling/test_results.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,tp,80.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,fp,60.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,tn,471.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,lr,locked holdout test,fn,19.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,tp,64.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,fp,17.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,tn,514.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,dt,locked holdout test,fn,35.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,tp,83.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,fp,10.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,tn,521.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,rf,locked holdout test,fn,16.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,tp,85.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,fp,9.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,tn,522.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,13,xgb,locked holdout test,fn,14.0,outputs/modelling/confusion_matrices.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_dt,paired outer folds,mean_diff,0.03477215649626657,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_dt,paired outer folds,sd_diff,0.031404887758272375,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_dt,paired outer folds,folds_agreeing_in_sign,4.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_dt,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_rf,paired outer folds,mean_diff,-0.19256518431630992,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_rf,paired outer folds,sd_diff,0.032810592939808744,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_xgb,paired outer folds,mean_diff,-0.1912172348173572,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_xgb,paired outer folds,sd_diff,0.025314653478490354,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,lr_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_rf,paired outer folds,mean_diff,-0.2273373408125765,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_rf,paired outer folds,sd_diff,0.02202920018631434,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_rf,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_rf,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_xgb,paired outer folds,mean_diff,-0.22598939131362378,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_xgb,paired outer folds,sd_diff,0.014632816773735808,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_xgb,paired outer folds,folds_agreeing_in_sign,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,dt_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,rf_vs_xgb,paired outer folds,mean_diff,0.0013479494989527385,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,rf_vs_xgb,paired outer folds,sd_diff,0.011329950112908852,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,rf_vs_xgb,paired outer folds,folds_agreeing_in_sign,2.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,14,rf_vs_xgb,paired outer folds,n_folds,5.0,outputs/analysis/paired_fold_differences.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::complains,0.305298183368668,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::complains,0.3514518936087307,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::complains,0.28431551019179685,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::complains,0.280539997348666,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::complains,0.2895030628833263,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::complains,0.3206804528108201,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::frequency_of_use,0.16702695336276124,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::frequency_of_use,0.18780289582190057,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::frequency_of_use,0.1250410017391535,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::frequency_of_use,0.21209128527911117,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::frequency_of_use,0.19645883080140836,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::frequency_of_use,0.11374075317223259,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::frequency_of_sms,0.07056625620055498,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::frequency_of_sms,0.06523976629513424,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::frequency_of_sms,0.07374663050939943,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::frequency_of_sms,0.05472243334436953,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::frequency_of_sms,0.084422971152923,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::frequency_of_sms,0.07469947970094877,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::call_failure,0.05691849102719576,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::call_failure,0.03013813505655422,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::call_failure,0.051432567199716374,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::call_failure,0.0686123615667087,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::call_failure,0.06424090326660871,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::call_failure,0.07016848804639082,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::age_group,0.02596058387186741,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::age_group,0.024210613370593402,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::age_group,0.014345094828212257,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::age_group,0.036224505764931164,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::age_group,0.04420186141783666,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::age_group,0.010820843977763568,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::status,0.022591409083040387,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::status,0.005235321536692542,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::status,0.033156143353631824,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::status,0.02653067618431176,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::status,0.013988056419439666,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::status,0.034046847921126146,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::charge_amount,0.004139297850290477,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::charge_amount,0.0034423327173446947,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::charge_amount,-0.0010341283452458847,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::charge_amount,0.011019954499420788,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::charge_amount,0.006251638081146193,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::charge_amount,0.0010166922987865923,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::distinct_called_numbers,0.0037356294197426277,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::distinct_called_numbers,0.005067979207396626,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::distinct_called_numbers,0.008855832981213308,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::distinct_called_numbers,0.00023803711624401276,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::distinct_called_numbers,0.0034795466950872916,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::distinct_called_numbers,0.0010367510987719004,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::tariff_plan,0.0028597589939067395,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::tariff_plan,0.0023123503180865717,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::tariff_plan,0.0032180741229581073,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::tariff_plan,0.0027784500198322977,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::tariff_plan,0.007300643924358722,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::tariff_plan,-0.0013107234157020012,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::subscription_length,0.0017492996599218472,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::subscription_length,0.014866480454139389,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::subscription_length,-0.003266865661290097,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::subscription_length,-0.00258127883546105,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::subscription_length,0.005902200752575689,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::subscription_length,-0.006174038410354695,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development,permutation::mean_call_duration,-0.0022997851946041205,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 1,permutation::mean_call_duration,0.0018738980472755536,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 2,permutation::mean_call_duration,-0.0002055295151613105,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 3,permutation::mean_call_duration,-0.0034054610490394264,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 4,permutation::mean_call_duration,0.0006854196171555989,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,cross-fitted development fold 5,permutation::mean_call_duration,-0.010447253073251016,outputs/interpretability/permutation_importance_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::frequency_of_use,1.2972962403601422,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::frequency_of_sms,1.1636309804985991,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::call_failure,0.5833884926354002,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::complains,0.4929936511735722,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::age_group,0.46723985577163457,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::status,0.38893374599730063,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::charge_amount,0.2411902356523178,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::distinct_called_numbers,0.16990242612909282,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::subscription_length,0.15984094968500404,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::tariff_plan,0.0893697597207059,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,lr,final-refit development,shap::mean_call_duration,0.022032158827701202,outputs/interpretability/shap_summary_lr.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::complains,0.325857708857992,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::complains,0.3917106882284473,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::complains,0.3068727342753117,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::complains,0.29243765903994395,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::complains,0.2844704058114418,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::complains,0.3537970569348152,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::status,0.17097501769009796,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::status,0.12915975350721828,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::status,0.14608793971959214,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::status,0.23992342410849904,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::status,0.1597930145565085,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::status,0.1799109565586719,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::subscription_length,0.06613874076972286,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::subscription_length,0.0255594684614238,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::subscription_length,0.06996630800224092,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::subscription_length,0.07283808466056738,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::subscription_length,0.0790954407705743,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::subscription_length,0.08323440195380796,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::frequency_of_use,0.045451065026355014,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::frequency_of_use,0.03536213276533454,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::frequency_of_use,0.04825405616158102,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::frequency_of_use,0.014664209137707048,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::frequency_of_use,0.03769224388616291,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::frequency_of_use,0.09128268318098959,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::distinct_called_numbers,0.03026490136391016,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::distinct_called_numbers,0.04550414553285418,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::distinct_called_numbers,0.03418842851735433,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::distinct_called_numbers,0.04884634677668854,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::distinct_called_numbers,0.02278558599265377,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::distinct_called_numbers,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::frequency_of_sms,0.02001137521671133,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::frequency_of_sms,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::frequency_of_sms,0.0023206674544943963,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::frequency_of_sms,0.003002672443677919,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::frequency_of_sms,0.04738914305434608,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::frequency_of_sms,0.04734439313103828,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::age_group,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::call_failure,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::charge_amount,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::tariff_plan,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development,permutation::seconds_of_use,-0.00037942997855152353,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 1,permutation::seconds_of_use,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 2,permutation::seconds_of_use,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 3,permutation::seconds_of_use,-0.0018971498927576177,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 4,permutation::seconds_of_use,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,cross-fitted development fold 5,permutation::seconds_of_use,0.0,outputs/interpretability/permutation_importance_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::status,0.13036252533048395,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::complains,0.06386374521493912,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::distinct_called_numbers,0.04378829124759884,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::subscription_length,0.03128971461270005,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::seconds_of_use,0.017592293306589128,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::age_group,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::call_failure,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::charge_amount,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::frequency_of_sms,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::frequency_of_use,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,dt,final-refit development,shap::tariff_plan,0.0,outputs/interpretability/shap_summary_dt.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::complains,0.25551291734748516,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::complains,0.27311224017531405,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::complains,0.22453625404787692,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::complains,0.2597115150609265,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::complains,0.2726999575535921,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::complains,0.24750461989971625,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::status,0.21048840319779866,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::status,0.16057048458304782,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::status,0.2293122035807593,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::status,0.22528522879663057,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::status,0.22551519736161552,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::status,0.21175890166694003,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::seconds_of_use,0.09199651913805686,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::seconds_of_use,0.0938228721037391,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::seconds_of_use,0.08363315407882117,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::seconds_of_use,0.09034684711700845,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::seconds_of_use,0.09972921145958974,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::seconds_of_use,0.0924505109311259,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::subscription_length,0.0853077862468775,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::subscription_length,0.05648635449854035,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::subscription_length,0.0876390389535647,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::subscription_length,0.090888571199126,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::subscription_length,0.11585315250781991,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::subscription_length,0.07567181407533653,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::distinct_called_numbers,0.06834498485296524,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::distinct_called_numbers,0.061363696365140545,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::distinct_called_numbers,0.0590165372039808,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::distinct_called_numbers,0.07330043657578837,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::distinct_called_numbers,0.07991326973066158,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::distinct_called_numbers,0.06813098438925488,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::frequency_of_use,0.06357793399988904,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::frequency_of_use,0.07351840682050934,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::frequency_of_use,0.04691333193711943,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::frequency_of_use,0.060449300695204995,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::frequency_of_use,0.07376465570586838,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::frequency_of_use,0.06324397484074298,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::age_group,0.04673764751231725,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::age_group,0.04163861581523184,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::age_group,0.05022258124558667,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::age_group,0.04693588050730038,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::age_group,0.05165970618517722,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::age_group,0.04323145380829017,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::call_failure,0.03390925938949076,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::call_failure,0.021905615579830513,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::call_failure,0.031263752631771946,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::call_failure,0.03699040772467719,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::call_failure,0.03958238454468734,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::call_failure,0.0398041364664868,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::frequency_of_sms,0.018713800850540804,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::frequency_of_sms,0.014390473918196155,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::frequency_of_sms,0.023628765077067182,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::frequency_of_sms,0.01198972828174792,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::frequency_of_sms,0.025517076509623877,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::frequency_of_sms,0.01804296046606886,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::charge_amount,0.003304476723057892,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::charge_amount,0.0023275788030587274,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::charge_amount,0.0007756694278697889,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::charge_amount,0.003500988900286787,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::charge_amount,0.004478069825615905,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::charge_amount,0.005440076658458252,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development,permutation::tariff_plan,-0.0005586011916993986,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 1,permutation::tariff_plan,0.000251856364309296,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 2,permutation::tariff_plan,-0.0011805216931868128,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 3,permutation::tariff_plan,-0.0005311444097278129,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 4,permutation::tariff_plan,0.00015781765168519182,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,cross-fitted development fold 5,permutation::tariff_plan,-0.0014910138715768554,outputs/interpretability/permutation_importance_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::status,0.10853348575525856,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::complains,0.054254106141997945,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::frequency_of_use,0.03519854417015458,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::seconds_of_use,0.03213958500340548,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::subscription_length,0.02250009533380734,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::call_failure,0.021963304917358473,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::distinct_called_numbers,0.01893133400134812,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::frequency_of_sms,0.017122002493755124,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::age_group,0.010579791432404447,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::charge_amount,0.008529161680025679,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,rf,final-refit development,shap::tariff_plan,0.0004638053206416565,outputs/interpretability/shap_summary_rf.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::complains,0.17058986954646588,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::complains,0.1719078110726427,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::complains,0.12456884368956746,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::complains,0.19059236799647772,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::complains,0.15031716591941105,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::complains,0.2155631590542305,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::frequency_of_use,0.15539353465415437,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::frequency_of_use,0.15929091986261876,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::frequency_of_use,0.1477247673385211,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::frequency_of_use,0.16647722227862402,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::frequency_of_use,0.1660457173180641,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::frequency_of_use,0.1374290464729437,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::status,0.133893083200829,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::status,0.090678931713892,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::status,0.1222783645044003,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::status,0.17339009766395003,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::status,0.14172210320261028,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::status,0.14139591891929235,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::subscription_length,0.13001563654497203,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::subscription_length,0.09925087074513814,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::subscription_length,0.11932317815253407,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::subscription_length,0.15858369995512206,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::subscription_length,0.1679875734377607,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::subscription_length,0.10493286043430514,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::call_failure,0.1078057705972067,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::call_failure,0.07455257081565951,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::call_failure,0.11849497246468269,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::call_failure,0.13019667402537843,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::call_failure,0.13949603502388427,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::call_failure,0.07628860065642867,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::seconds_of_use,0.07486193274654183,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::seconds_of_use,0.09036852587231527,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::seconds_of_use,0.053067370707313176,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::seconds_of_use,0.08293409190277086,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::seconds_of_use,0.07767410501202329,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::seconds_of_use,0.07026557023828661,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::age_group,0.05885955217785733,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::age_group,0.05206177738143636,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::age_group,0.06602683475066383,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::age_group,0.0598729892998264,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::age_group,0.08730549984008393,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::age_group,0.029030659617276192,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::distinct_called_numbers,0.0470774362331695,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::distinct_called_numbers,0.054858875778274106,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::distinct_called_numbers,0.04581154232296442,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::distinct_called_numbers,0.07792372543020827,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::distinct_called_numbers,0.01812541067433738,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::distinct_called_numbers,0.038667626960063275,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::frequency_of_sms,0.04430987944319983,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::frequency_of_sms,0.029429389547481845,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::frequency_of_sms,0.03664983459746562,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::frequency_of_sms,0.050468890333199866,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::frequency_of_sms,0.07277064744507049,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::frequency_of_sms,0.03223063529278139,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::charge_amount,0.001551991290563562,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::charge_amount,-0.0007445954605473001,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::charge_amount,0.0029038752379120978,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::charge_amount,0.0017289187196815456,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::charge_amount,0.0026076743140126682,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::charge_amount,0.001264083641758799,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development,permutation::tariff_plan,8.185162692759744e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 1,permutation::tariff_plan,0.00011962022166847422,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 2,permutation::tariff_plan,0.00010768717329131168,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 3,permutation::tariff_plan,0.00016000765560845916,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 4,permutation::tariff_plan,3.9837794118317374e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,cross-fitted development fold 5,permutation::tariff_plan,-1.7894710048575273e-05,outputs/interpretability/permutation_importance_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::frequency_of_use,1.4655484340002283,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::status,1.422885154774727,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::call_failure,1.3239805824175164,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::subscription_length,0.9030953799626873,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::seconds_of_use,0.8227697813640443,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::complains,0.665739705065587,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::frequency_of_sms,0.6657045768095627,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::age_group,0.5911511440927837,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::distinct_called_numbers,0.4922016687179482,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::charge_amount,0.3431873135025932,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718
+Iranian Churn,16,xgb,final-refit development,shap::tariff_plan,0.0028319900988019067,outputs/interpretability/shap_summary_xgb.csv,True,42,iranian-churn-workflow-2026-08-25-v1:5a56e73ff4c0b718

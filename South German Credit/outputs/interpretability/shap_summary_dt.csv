@@ -1,0 +1,21 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+laufkont,Checking account status,0.13465861164568924,-0.007993728052126243,-0.8697949369026495,negative,800,200,raw class-1 probability output,1
+sparkont,Savings,0.04460023854221218,0.0025968692511785796,-0.6803776547293485,negative,800,200,raw class-1 probability output,2
+laufzeit,Credit duration (months),0.037163448774069546,-0.004893414850346742,0.4626327046655947,positive,800,200,raw class-1 probability output,3
+beszeit,Employment duration,0.02563750212471932,0.0008431517027784138,-0.7426223936186087,negative,800,200,raw class-1 probability output,4
+verw,Purpose,0.024301699041575194,0.004948358207009732,,category-dependent,800,200,raw class-1 probability output,5
+hoehe,Credit amount (DM),0.022104258283879612,-0.0006807087162509561,0.5180432301004537,positive,800,200,raw class-1 probability output,6
+verm,Most valuable property,0.021505259159766137,-0.00022035668008029468,0.7964446929385763,positive,800,200,raw class-1 probability output,7
+moral,Credit history,0.010713213116512632,-0.00027084248731844133,-0.7600652564567489,negative,800,200,raw class-1 probability output,8
+rate,Instalment rate (% of income),0.009086497874150518,0.0017295446618809367,0.4154557565645964,positive,800,200,raw class-1 probability output,9
+alter,Age (years),0.00831503067180747,-0.0012846577425836587,-0.7368685354006907,negative,800,200,raw class-1 probability output,10
+gastarb,Foreign worker,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,11
+weitkred,Other instalment plans,0.0,0.0,,category-dependent,800,200,raw class-1 probability output,12
+buerge,Other debtors or guarantor,0.0,0.0,,category-dependent,800,200,raw class-1 probability output,13
+famges,Personal status and sex,0.0,0.0,,category-dependent,800,200,raw class-1 probability output,14
+bishkred,Number of credits at this bank,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,15
+telef,Telephone registered,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,16
+pers,Three or more dependants,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,17
+beruf,Job quality,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,18
+wohnzeit,Time at present residence,0.0,0.0,,mixed/weak,800,200,raw class-1 probability output,19
+wohn,Housing,0.0,0.0,,category-dependent,800,200,raw class-1 probability output,20

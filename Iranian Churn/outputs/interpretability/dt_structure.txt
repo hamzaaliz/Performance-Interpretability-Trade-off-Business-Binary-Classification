@@ -1,0 +1,19 @@
+|--- Complaint registered <= 0.5000
+|   |--- Account inactive <= 0.5000
+|   |   |--- class: 0
+|   |--- Account inactive >  0.5000
+|   |   |--- Subscription length (months) <= 27.5000
+|   |   |   |--- class: 0
+|   |   |--- Subscription length (months) >  27.5000
+|   |   |   |--- Distinct called numbers <= 4.5000
+|   |   |   |   |--- class: 1
+|   |   |   |--- Distinct called numbers >  4.5000
+|   |   |   |   |--- Distinct called numbers <= 26.5000
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Distinct called numbers >  26.5000
+|   |   |   |   |   |--- class: 1
+|--- Complaint registered >  0.5000
+|   |--- Seconds of use <= 5983.0000
+|   |   |--- class: 1
+|   |--- Seconds of use >  5983.0000
+|   |   |--- class: 0

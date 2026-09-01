@@ -1,0 +1,16 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+poutcome,Previous campaign outcome,0.0430942016514946,-0.023295038107205648,,category-dependent,2000,200,raw class-1 probability output,1
+month,Month of planned contact,0.03788311151531177,-0.0035557554474577435,,category-dependent,2000,200,raw class-1 probability output,2
+contact,Contact channel,0.03619684350923046,0.00935058021461397,,category-dependent,2000,200,raw class-1 probability output,3
+pdays,Days since previous contact,0.01695704107013856,-0.006238540861226956,0.6094765980220261,positive,2000,200,raw class-1 probability output,4
+housing,Housing loan,0.0146738173569453,0.0007867777011018055,-0.8604786081628403,negative,2000,200,raw class-1 probability output,5
+age,Age (years),0.010863553386025482,0.0009347024767680305,-0.43765033124877645,negative,2000,200,raw class-1 probability output,6
+balance,Average yearly balance (EUR),0.008279301766270696,-0.0017124392584747048,0.9043949945722575,positive,2000,200,raw class-1 probability output,7
+marital,Marital status,0.006688893225390226,-0.00013240845668296514,,category-dependent,2000,200,raw class-1 probability output,8
+previous,Contacts before this campaign,0.0061827944300013385,-0.0016887095717074447,0.6480280473645583,positive,2000,200,raw class-1 probability output,9
+day,Day of month of planned contact,0.0041077234021206785,0.00034286066820947945,0.3584968227125704,positive,2000,200,raw class-1 probability output,10
+campaign,Contacts this campaign,0.0027482282146513637,-0.0006035996725597906,-0.9059130289934368,negative,2000,200,raw class-1 probability output,11
+job,Occupation,0.0017286872831377665,-0.0006822389089331565,,category-dependent,2000,200,raw class-1 probability output,12
+education,Education level,0.001148428337369103,-5.867231223626075e-05,,category-dependent,2000,200,raw class-1 probability output,13
+loan,Personal loan,0.0006336542129386788,-0.00024323089810280693,-0.6373800683762695,negative,2000,200,raw class-1 probability output,14
+default,Credit in default,2.3469300841675998e-05,1.3337098237190792e-05,0.2305696795588554,positive,2000,200,raw class-1 probability output,15

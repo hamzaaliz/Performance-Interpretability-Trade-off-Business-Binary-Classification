@@ -1,0 +1,16 @@
+feature,display_name,mean_absolute_shap,mean_signed_shap,direction_rho,direction,n_rows,background_n,output_scale,rank
+contact,Contact channel,0.5679988072568356,0.14042462450567014,,category-dependent,2000,200,log-odds (linear model raw output),1
+month,Month of planned contact,0.3067637981769414,-0.04675840104364441,,category-dependent,2000,200,log-odds (linear model raw output),2
+housing,Housing loan,0.26214680374902927,-0.013988623465796633,-1.0,negative,2000,200,log-odds (linear model raw output),3
+poutcome,Previous campaign outcome,0.2227117063364854,-0.1311202487728885,,category-dependent,2000,200,log-odds (linear model raw output),4
+campaign,Contacts this campaign,0.1494979328286813,0.018240517810901507,-0.9999999999999998,negative,2000,200,log-odds (linear model raw output),5
+marital,Marital status,0.14223703502739218,-0.004131396101197046,,category-dependent,2000,200,log-odds (linear model raw output),6
+balance,Average yearly balance (EUR),0.1228801300223417,-0.03677793456406945,1.0,positive,2000,200,log-odds (linear model raw output),7
+pdays,Days since previous contact,0.10662632331027308,-0.011403438093460448,1.0,positive,2000,200,log-odds (linear model raw output),8
+previous,Contacts before this campaign,0.09861022040829145,-0.013213884155684898,0.9999999999999999,positive,2000,200,log-odds (linear model raw output),9
+job,Occupation,0.08232204330038519,-0.012239704616973242,,category-dependent,2000,200,log-odds (linear model raw output),10
+education,Education level,0.07869819492277981,-0.008866201688016094,,category-dependent,2000,200,log-odds (linear model raw output),11
+loan,Personal loan,0.07304532899846844,-0.02760453636916989,-1.0,negative,2000,200,log-odds (linear model raw output),12
+day,Day of month of planned contact,0.027064041765087157,-0.0032544743226208634,1.0,positive,2000,200,log-odds (linear model raw output),13
+age,Age (years),0.007305496021172543,-7.519332314290192e-05,0.9999999999999998,positive,2000,200,log-odds (linear model raw output),14
+default,Credit in default,0.0008632940163089752,0.00024986802208653414,1.0,positive,2000,200,log-odds (linear model raw output),15

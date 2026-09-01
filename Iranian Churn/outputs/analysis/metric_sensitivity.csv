@@ -1,0 +1,6 @@
+metric,rank_1,rank_2,rank_3,rank_4,values_json,evidence_scope
+PR-AUC,rf,xgb,lr,dt,"{""dt"": 0.7435268720146377, ""lr"": 0.7444082289543245, ""rf"": 0.9396619548466169, ""xgb"": 0.9345879703036833}",pooled nested OOF development predictions
+ROC-AUC,rf,xgb,lr,dt,"{""dt"": 0.9284119443017749, ""lr"": 0.9324150164545645, ""rf"": 0.9862133576822842, ""xgb"": 0.983140015978999}",pooled nested OOF development predictions
+Precision at operating threshold,xgb,rf,dt,lr,"{""dt"": 0.5759162303664922, ""lr"": 0.5732368896925859, ""rf"": 0.8879551820728291, ""xgb"": 0.8929577464788733}",pooled nested OOF development predictions
+Recall at operating threshold,dt,xgb,rf,lr,"{""dt"": 0.8333333333333334, ""lr"": 0.8005050505050505, ""rf"": 0.8005050505050505, ""xgb"": 0.8005050505050505}",pooled nested OOF development predictions
+Calibration slope proximity to one,xgb,lr,dt,rf,"{""dt"": 0.23351124102311993, ""lr"": 0.04785170216323431, ""rf"": 0.6868849908560517, ""xgb"": 0.019611480830008743}",pooled nested OOF development predictions

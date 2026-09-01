@@ -1,0 +1,17 @@
+ruling,display_name,issue,action,verified
+R1,Default next month,Target polarity,Retain source polarity; positive equals default,True
+R2,All variables,Missing values,Assert zero; no imputation,True
+R3,All variables,Conventional missing tokens,No replacement; undocumented codes handled explicitly,True
+R4,Identifier,Identifier column,Drop before every model,True
+R5,Repeated profiles,Duplicate scopes,Retain all rows; do not deduplicate,True
+R6,Education level,Undocumented levels,"Fold source levels 0, 5 and 6 into other or undocumented",True
+R7,Marital status,Undocumented level,Fold source level 0 into other or undocumented,True
+R8,Repayment status,Undocumented codes,Retain raw codes for trees and apply locked LR buckets,True
+R9,Bill amounts,Negative balances,Retain without clipping or flooring,True
+R10,Bill amounts,Collinear block,LR retains latest bill and prunes five older bills; trees retain all six,True
+R11,Payment amounts,Right skew,Fold-contained log1p and robust scaling for LR only,True
+R12,Payment amounts,Low mutual dependence,Retain all six in every model,True
+R13,Row position,Possible ordering,Never use position; shuffle and stratify,True
+R14,All variables,Extreme observations,Remove no rows,True
+R15,Credit limit,Three off-grid values,Retain unchanged,True
+R16,Sex,Sensitive demographic attribute,Retain as explicit binary indicator; make no fairness or legal claim,True
